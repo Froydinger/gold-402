@@ -538,6 +538,10 @@ Security resources and best practices for x402 implementations.
 
 - [Rate Limiting Tools](https://docs.cdp.coinbase.com/x402/security/rate-limiting) - Prevent abuse and ensure service availability.
 
+### Spending Controls & Policy Enforcement
+
+- [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. As AI agents increasingly need to make on-chain payments (buying APIs, paying for services, executing trades), they need financial guardrails. PolicyLayer enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting — all without holding private keys. Prevents wallet drains from bugs, prompt injection attacks, or infinite loops. [GitHub](https://github.com/PolicyLayer/PolicyLayer) | [npm](https://www.npmjs.com/package/@policylayer/sdk)
+
 ## 🔗 Related Protocols
 
 Adjacent protocols and standards.
