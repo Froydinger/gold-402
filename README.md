@@ -220,6 +220,7 @@ Full working examples and templates.
 - [Video Paywall](https://www.quicknode.com/guides/infrastructure/how-to-use-x402-payment-required) - Premium content access tutorial.
 - Browser Wallet Template - React + Hono + Session management.
 - [Farcaster Mini App](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/farcaster-miniapp) - Social app integration.
+- [x402 Boilerplate — Conflux eSpace](https://github.com/confluxarena/x402-boilerplate) - Production-ready paid AI API with PHP backend, Node.js facilitator, CLI agent, Docker, 87 tests, and multi-wallet demo. EIP-3009 USDT0 settlement. [Live Demo](https://confluxarena.org/x402-demo).
 
 ### API Examples
 
