@@ -303,6 +303,10 @@ Enable AI agents to make autonomous payments.
   - Python and TypeScript implementations
   - Payment-required, payment-submitted, payment-completed flow
   - Multi-agent payment orchestration
+- [OpSpawn A2A x402 Gateway](https://a2a.opspawn.com) - Multi-chain A2A gateway with x402 payments.
+  - Google A2A protocol with x402 payment integration
+  - Multi-chain support (Base, SKALE, Arbitrum)
+  - 11,800+ tasks processed, 52 tests
 
 
 ## 🔨 Tools & Utilities
