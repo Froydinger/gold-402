@@ -296,6 +296,7 @@ Enable AI agents to make autonomous payments.
 
 - [NEAR AI](https://near.ai) - Cross-chain agent settlements.
 - [Phidata Agents](https://github.com/phidatahq/phidata) - Multi-modal agents with x402.
+- [Vault-0](https://github.com/0-Vault/Vault-0) - Encrypted secret vault, agent monitor, and x402 wallet for OpenClaw. Handles 402 detection, EIP-3009 signing, and policy-gated auto-settlement.
 
 ### Agent-to-Agent (A2A)
 
