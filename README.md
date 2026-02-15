@@ -440,6 +440,7 @@ Projects building with or extending x402.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
+- [Einstein AI](https://emc2ai.io) - AI blockchain intelligence with 23 x402 endpoints. Whale tracking, smart money, launchpad monitoring, security audits.
 
 ### DeFi & Finance
 
