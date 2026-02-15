@@ -434,6 +434,7 @@ Projects building with or extending x402.
 
 ### Tools & Services
 
+- [BlockRun](https://blockrun.ai) - AI Gateway + Service Directory with 600+ x402 services indexed, trust scores, and 31+ AI models via pay-per-use USDC.
 - [Apexti Toolbelt](https://apexti.io) - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
