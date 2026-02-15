@@ -540,6 +540,7 @@ Security resources and best practices for x402 implementations.
 ### Security Monitoring
 
 - [Rate Limiting Tools](https://docs.cdp.coinbase.com/x402/security/rate-limiting) - Prevent abuse and ensure service availability.
+- [PaySentry](https://github.com/mkmkkkkk/paysentry) - Control plane for AI agent payments. Spending limits, circuit breakers, anomaly detection, and audit trails for x402 integrations. npm: `@paysentry/x402`.
 
 ### Spending Controls & Policy Enforcement
 
