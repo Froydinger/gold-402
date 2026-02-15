@@ -200,7 +200,7 @@ Payment verification and settlement services.
 - Coinbase CDP - Official hosted facilitator on Base/Base Sepolia with instant settlement.
 - [Cloudflare x402](https://blog.cloudflare.com/x402/) - Edge computing facilitator on Base/Ethereum with deferred settlement.
 - [BNB Chain Pieverse](https://twitter.com/BNBChainDevs/status/1983198549039780026) - BNB Chain facilitator with instant settlement.
-
+- [AsterPay](https://asterpay.io) - European x402 Facilitator with EUR off-ramp via SEPA Instant. MiCA compliant, ERC-8004 ready, ElizaOS plugin. First European-focused x402 infrastructure.
 ### Self-Hosted Facilitators
 
 - x402-rs Facilitator - Production-grade Rust facilitator.
