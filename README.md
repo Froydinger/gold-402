@@ -3,8 +3,6 @@
 > ⚡ **The Ultimate x402 Resource Hub** - Everything you need to build internet-native payments using HTTP 402. Perfect for AI agents, APIs, and micropayments. Build paywalls, monetize services, and enable autonomous agent payments with crypto/USDC. Zero fees, 2-second settlement.
 
 [![GitHub stars](https://img.shields.io/github/stars/xpaysh/awesome-x402?style=social)](https://github.com/xpaysh/awesome-x402)
-![Weekly transactions](https://img.shields.io/badge/transactions-500K%2Fweek-brightgreen)
-![Settlement time](https://img.shields.io/badge/settlement-2%20seconds-blue)
 
 ## Contents
 
@@ -36,7 +34,7 @@
 
 The x402 protocol enables instant Blockchain payments over HTTP using the 402 "Payment Required" status code. This is your complete guide to mastering x402 and building the future of agent payments.
 
-🚀 **Start building in 5 minutes** | 📈 **500K+ transactions/week** | 💰 **$180M+ ecosystem** | ⚡ **2-second settlement**
+🚀 **Start building in 5 minutes** | ⚡ **2-second settlement** | 💰 **USDC on Base**
 
 ---
 
@@ -402,6 +400,9 @@ Written content about x402.
 
 ### Use Case Articles
 
+- [The Agentic Economy](https://www.xpay.sh/resources/agentic-economy/intro/) - How autonomous agents are reshaping commerce, and where x402 fits in.
+- [Agentic Commerce](https://www.xpay.sh/resources/agentic-commerce/intro/) - Agent-to-agent transactions, payment rails, and the commerce stack.
+- [Agentic Economy Timeline](https://www.xpay.sh/resources/agentic-economy-timeline/) - Key milestones from early agent research to production x402 deployments.
 - AI Agents Need x402 - Future of autonomous payments.
 
 ### News Coverage
@@ -652,9 +653,9 @@ Looking for more awesome lists?
 ---
 
 <p align="center">
-  <b>🚀 Built with ❤️ by xPay</b><br>
+  <b>🚀 Built with ❤️ by <a href="https://www.xpay.sh">xpay✦</a></b><br>
   <sub>Helping the agentic community get paid and pay safely!</sub><br>
-  <sub>If this helped you become an x402 champion, please ⭐ star the repo and share it!</sub><br><br>
+  <sub>If this helped you, please ⭐ star the repo and share it!</sub><br><br>
   <a href="https://x402.org">Official x402 Website</a> •
   <a href="https://github.com/coinbase/x402">Protocol Repo</a> •
   <a href="https://docs.cdp.coinbase.com/x402">Documentation</a> •
