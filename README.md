@@ -84,7 +84,7 @@ Get started with x402 in minutes.
 - [Buyer/Client Setup](https://docs.cdp.coinbase.com/x402/quickstart-buyers) - Make automated payments.
 - [One-Line Integration](https://github.com/coinbase/x402/tree/main/examples) - Add payment middleware in a single line of code.
 - [Base Sepolia Testnet Setup](https://docs.cdp.coinbase.com/x402/network-support) - Get test USDC and start testing.
-- [Production Deployment Checklist](https://github.com/coinbase/x402/blob/main/DEPLOYMENT.md) - Go live on Base mainnet.
+- Production Deployment Checklist - Go live on Base mainnet.
 
 ## ⚙️ Protocol Implementations
 
@@ -119,8 +119,8 @@ Official and community implementations of the x402 protocol.
   - Reqwest client wrapper
   - Self-hostable facilitator
   - Multi-chain support
-- [x402-axum](https://github.com/x402-rs/x402-rs/tree/main/x402-axum) - Axum web framework integration.
-- [x402-reqwest](https://github.com/x402-rs/x402-rs/tree/main/x402-reqwest) - Reqwest HTTP client wrapper.
+- x402-axum - Axum web framework integration.
+- x402-reqwest - Reqwest HTTP client wrapper.
 
 
 ## 🏭 Production Implementations
@@ -183,10 +183,10 @@ Server-side integrations for accepting x402 payments.
 **Next.js**
 - [x402-next](https://www.npmjs.com/package/x402-next) - App Router middleware.
 - [Next.js route protection](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) - Complete app example.
-- [Mainnet production example](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/mainnet) - Base mainnet ready.
+- Mainnet production example - Base mainnet ready.
 
 **Hono**
-- [Browser wallet example](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/browser-wallet-example) - React + Hono full-stack.
+- Browser wallet example - React + Hono full-stack.
 
 ### Python
 
@@ -196,7 +196,7 @@ Server-side integrations for accepting x402 payments.
 ### Rust
 
 **Axum**
-- [Axum server example](https://github.com/x402-rs/x402-rs/tree/main/x402-axum-example) - Full implementation.
+- Axum server example - Full implementation.
 
 ## 🏗️ Facilitators
 
@@ -228,19 +228,18 @@ Full working examples and templates.
 - Next.js App - Complete web application.
 - [Video Paywall](https://www.quicknode.com/guides/infrastructure/how-to-use-x402-payment-required) - Premium content access tutorial.
 - Browser Wallet Template - React + Hono + Session management.
-- [Farcaster Mini App](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/farcaster-miniapp) - Social app integration.
 - [x402 Boilerplate — Conflux eSpace](https://github.com/confluxarena/x402-boilerplate) - Production-ready paid AI API with PHP backend, Node.js facilitator, CLI agent, Docker, 87 tests, and multi-wallet demo. EIP-3009 USDT0 settlement. [Live Demo](https://confluxarena.org/x402-demo).
 
 ### API Examples
 
 - [Alfred's Digital Bazaar](https://httpay.xyz) - ~100 x402-paywalled API endpoints built by an AI agent. Fortune cookies, wallet roasts, crypto pickup lines, token analysis & more. $0.10–$1.00 USDC per call on Base. No signup required. [Source](https://github.com/Alfredz0x/alfreds-digital-bazaar)
-- [REST API with Auth Pricing](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/auth_based_pricing) - SIWE + dynamic pricing.
+- REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
 
 - [Axios Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) - Automatic payment handling.
 - [Fetch Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) - Fetch API wrapper demo.
-- [Python Requests](https://github.com/coinbase/x402/tree/main/examples/python/client) - Python client example.
+- Python Requests - Python client example.
 
 ## 🎨 Use Cases & Patterns
 
@@ -317,10 +316,9 @@ Enable AI agents to make autonomous payments.
   - Python and TypeScript implementations
   - Payment-required, payment-submitted, payment-completed flow
   - Multi-agent payment orchestration
-- [OpSpawn A2A x402 Gateway](https://a2a.opspawn.com) - Multi-chain A2A gateway with x402 payments.
+- OpSpawn A2A x402 Gateway - Multi-chain A2A gateway with x402 payments.
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
-  - 11,800+ tasks processed, 52 tests
 
 
 ## 🔨 Tools & Utilities
@@ -353,7 +351,7 @@ Guides and tutorials for learning x402.
 ### Beginner Tutorials
 
 - Your First x402 API (5 min) - Official quickstart.
-- [Understanding Payment Flows](https://blog.thirdweb.com/what-is-x402-protocol) - Visual explanation.
+- Understanding Payment Flows - Visual explanation.
 - Building a Paid Weather API - Step-by-step tutorial.
 - Client Setup Guide - Making payments.
 
@@ -377,7 +375,7 @@ Video content about x402.
 
 ### Conference Talks
 
-- [a16z State of Crypto 2025](https://a16z.com/state-of-crypto-2025/) - Future of agent payments.
+- a16z State of Crypto 2025 - Future of agent payments.
 - [ETHDenver 2025 - x402 Workshop](https://www.youtube.com/watch?v=ethdenver-x402) - Hands-on workshop.
 - [DevCon Bangkok - HTTP 402](https://www.youtube.com/watch?v=devcon-402) - Protocol evolution.
 
@@ -404,13 +402,13 @@ Written content about x402.
 
 ### Use Case Articles
 
-- [AI Agents Need x402](https://a16z.com/ai-agent-payments/) - Future of autonomous payments.
+- AI Agents Need x402 - Future of autonomous payments.
 
 ### News Coverage
 
 - [x402 Sees 10,000% Growth](https://finance.yahoo.com/news/coinbase-x402-ai-payments-protocol-130700006.html) - Yahoo Finance.
-- [Cloudflare Joins x402](https://techcrunch.com/cloudflare-x402) - TechCrunch coverage.
-- [The HTTP 402 Awakens](https://arstechnica.com/http-402) - Ars Technica feature.
+- Cloudflare Joins x402 - TechCrunch coverage.
+- The HTTP 402 Awakens - Ars Technica feature.
 
 ## 👥 Community
 
@@ -419,7 +417,7 @@ Connect with the x402 community.
 ### Official Channels
 
 - [x402 Foundation Discord](https://discord.gg/x402) - Official community server.
-- [GitHub Discussions](https://github.com/coinbase/x402/discussions) - Technical Q&A and RFCs.
+- [GitHub Issues](https://github.com/coinbase/x402/issues) - Technical Q&A and bug reports.
 - [Twitter @x402org](https://twitter.com/x402org) - Official updates and announcements.
 
 ### Developer Communities
@@ -431,13 +429,12 @@ Connect with the x402 community.
 
 ### Events & Meetups
 
-- [x402 Hackathons](https://x402.org/hackathons) - Upcoming hackathons and prizes.
-- [Weekly Office Hours](https://calendar.x402.org) - Live Q&A with core team.
+- x402 Hackathons - Upcoming hackathons and prizes.
 - [Local Meetups](https://meetup.com/x402) - In-person gatherings.
 
 ### Newsletters
 
-- [x402 Weekly](https://x402.org/newsletter) - Weekly protocol updates.
+- x402 Weekly - Weekly protocol updates.
 - [Agent Economy Digest](https://agenteconomy.substack.com) - AI agent payments news.
 
 ## 🌟 Ecosystem Projects
@@ -456,9 +453,9 @@ Projects building with or extending x402.
 - [x402 API Network](https://x402.fatihai.app) - 16 micropayment-powered APIs for AI agents: email verification, domain health, web scraping, AI content generation (Llama 3.3 70B), DNS, WHOIS, SSL check, and more. Includes MCP server, Bazaar discovery, and .well-known/x402 manifest. ([GitHub](https://github.com/fatihdagustu20-hub/x402-api-network))
 - [dTelecom STT](https://x402stt.dtelecom.org) - Real-time speech-to-text API with dual-engine architecture (Parakeet-TDT + Whisper), 99+ languages, hallucination filtering, $0.005/min. Built on dTelecom DePIN. [Python SDK](https://github.com/dTelecom/stt-client-python) | [TypeScript SDK](https://github.com/dTelecom/stt-client-ts)
 - [BlockRun](https://blockrun.ai) - AI Gateway + Service Directory with 600+ x402 services indexed, trust scores, and 31+ AI models via pay-per-use USDC.
-- [Apexti Toolbelt](https://apexti.io) - 1,500+ Web3 APIs via x402 MCP servers.
+- Apexti Toolbelt - 1,500+ Web3 APIs via x402 MCP servers.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
-- [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
+- BuffetPay - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
 - [AgentStore](https://agentstore.tools) - Open-source marketplace for Claude Code plugins with x402 USDC payments, 80/20 publisher revenue split, and permissionless publishing via CLI.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
@@ -531,8 +528,7 @@ Security resources and best practices for x402 implementations.
 
 ### Smart Contract Audits
 
-- [Coinbase x402 Security Audit](https://github.com/coinbase/x402/blob/main/audits/coinbase-audit-2024.pdf) - Official security audit of x402 protocol smart contracts.
-- [Circle USDC Audits](https://www.circle.com/en/usdc/security-audits) - Comprehensive audits of USDC contracts used in x402 settlements.
+- Coinbase x402 Security Audit - Official security audit of x402 protocol smart contracts.
 - [EIP-3009 Security Analysis](https://eips.ethereum.org/EIPS/eip-3009#security-considerations) - Security considerations for TransferWithAuthorization.
 
 ### Security Best Practices
@@ -557,7 +553,7 @@ Security resources and best practices for x402 implementations.
 
 - [CVE Database](https://github.com/coinbase/x402/security/advisories) - Known vulnerabilities and patches.
 - [Replay Attack Prevention](https://docs.cdp.coinbase.com/x402/security/replay) - Nonce and deadline handling.
-- [Front-Running Mitigation](https://github.com/coinbase/x402/blob/main/docs/frontrunning.md) - MEV protection strategies.
+- Front-Running Mitigation - MEV protection strategies.
 
 ### Bug Bounty Programs
 
@@ -571,7 +567,7 @@ Security resources and best practices for x402 implementations.
 
 ### Spending Controls & Policy Enforcement
 
-- [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. As AI agents increasingly need to make on-chain payments (buying APIs, paying for services, executing trades), they need financial guardrails. PolicyLayer enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting — all without holding private keys. Prevents wallet drains from bugs, prompt injection attacks, or infinite loops. [GitHub](https://github.com/PolicyLayer/PolicyLayer) | [npm](https://www.npmjs.com/package/@policylayer/sdk)
+- [PolicyLayer](https://policylayer.com) - Non-custodial spending controls for AI agents with crypto wallets. Enforces daily spending limits, per-transaction caps, recipient whitelists, and rate limiting without holding private keys.
 
 ## 🔗 Related Protocols
 
@@ -580,7 +576,7 @@ Adjacent protocols and standards.
 ### Payment Protocols
 
 - [Lightning Network](https://lightning.network/) - Bitcoin Layer 2 micropayments.
-- [Stellar Anchors](https://www.stellar.org/learn/anchors) - Cross-border payments.
+- [Stellar](https://www.stellar.org) - Cross-border payments.
 - [Request Network](https://request.network/) - Payment request protocol.
 
 ### Web Standards
@@ -597,7 +593,7 @@ Adjacent protocols and standards.
 
 ### Historical Reference
 
-- [21.co Micropayments](https://21.co) - Early Bitcoin micropayment attempt (2015).
+- 21.co Micropayments - Early Bitcoin micropayment attempt (2015).
 - [HTTP 402 Proposal](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) - Original RFC (1999).
 
 ## 🤝 Contributing
