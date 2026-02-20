@@ -231,6 +231,8 @@ Full working examples and templates.
 ### API Examples
 
 - [Alfred's Digital Bazaar](https://httpay.xyz) - ~100 x402-paywalled API endpoints built by an AI agent. Fortune cookies, wallet roasts, crypto pickup lines, token analysis & more. $0.10–$1.00 USDC per call on Base. No signup required. [Source](https://github.com/Alfredz0x/alfreds-digital-bazaar)
+- [Gotobi Calendar API](https://gotobi.hugen.tokyo) - Japanese FX gotobi date intelligence for AI trading agents. Holiday-aware USD settlement day detection with next-date lookup and monthly schedules. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-gotobi-api)
+- [Weather API](https://weather.hugen.tokyo) - Global weather data for AI agents. Real-time conditions and 7-day forecasts for any city worldwide. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-weather-api)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
