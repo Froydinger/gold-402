@@ -234,6 +234,8 @@ Full working examples and templates.
 - [Alfred's Digital Bazaar](https://httpay.xyz) - ~100 x402-paywalled API endpoints built by an AI agent. Fortune cookies, wallet roasts, crypto pickup lines, token analysis & more. $0.10–$1.00 USDC per call on Base. No signup required. [Source](https://github.com/Alfredz0x/alfreds-digital-bazaar)
 - [Gotobi Calendar API](https://gotobi.hugen.tokyo) - Japanese FX gotobi date intelligence for AI trading agents. Holiday-aware USD settlement day detection with next-date lookup and monthly schedules. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-gotobi-api)
 - [Weather API](https://weather.hugen.tokyo) - Global weather data for AI agents. Real-time conditions and 7-day forecasts for any city worldwide. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-weather-api)
+- [Scout MCP](https://scout.hugen.tokyo) - Multi-source intelligence API for AI agents. Search across Hacker News, GitHub, npm, PyPI, Product Hunt, X/Twitter, and x402 Bazaar in one call. 10 endpoints from $0.001 USDC on Base. [Source](https://github.com/bartonguestier1725-collab/scout-mcp)
+- [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto data API with x402 pay-per-call. 11 endpoints: signals, market context, DeFi regime, institutions, ETF flows, DeFi yields, DEX alpha. $0.02–$0.10/call USDC on Base. No signup. [llms.txt](https://api.moonmaker.cc/llms.txt)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
@@ -305,6 +307,7 @@ Enable AI agents to make autonomous payments.
 - [MaximumSats MCP](https://github.com/joelklabo/maximumsats-mcp) - Lightning-native MCP tools with L402 micropayments and Nostr Web-of-Trust scoring APIs.
 - [Apollo Intelligence MCP Server](https://www.npmjs.com/package/@apollo_ai/mcp-proxy) - 26-tool MCP server covering intelligence feeds, crypto, OSINT, DeFi, proxy, and search. `npx @apollo_ai/mcp-proxy`. ([GitHub](https://github.com/bnmbnmai/mcp-proxy))
 - [Pylon MCP Server](https://www.npmjs.com/package/@pylonapi/mcp) - 20-tool MCP server for utility APIs: web extraction, search, translation, code execution, image generation, email, and more. `npx @pylonapi/mcp`. ([GitHub](https://github.com/pylon-apis/pylon-mcp))
+- [Scout MCP](https://scout.hugen.tokyo) - 10-tool MCP server for multi-source intelligence: HN, GitHub, npm, PyPI, Product Hunt, X/Twitter, x402 Bazaar search, and composite reports. $0.001–$0.25 USDC on Base. ([Source](https://github.com/bartonguestier1725-collab/scout-mcp))
 
 ### Agent Frameworks
 
@@ -472,6 +475,9 @@ Projects building with or extending x402.
 - [OpSpawn Screenshot API](https://github.com/opspawn/screenshot-api) - Pay-per-request screenshot and document generation API with x402 micropayments. $0.01/screenshot, $0.005/markdown conversion. USDC on Base.
 - [Crysha Price Oracle](https://api.crysha.com) - Aggregated crypto prices (multi-source BTC/others), $0.001/call on Base USDC. Manifest: [/.well-known/x402](https://api.crysha.com/.well-known/x402)
 - [MOSS Agent](https://moss.chobon.top) - AI-powered coding services: code review ($0.005), translation ($0.003), and code explanation ($0.003) via x402 micropayments on Base. A2A protocol compatible with agent discovery at [/.well-known/agent.json](https://moss.chobon.top/.well-known/agent.json). Built with Lucid Agents + Hono.
+- [Automaton Oracle](https://automaton-oracle.xyz) - Sovereign crypto intelligence oracle with self-hosted facilitator (no Coinbase CDP dependency): real-time prices (CoinGecko + DEXScreener), global macro intelligence (Fear&Greed, BTC dominance, total market cap, altcoin season, trending), pump.fun graduation radar, trading signals, and meme generation. **Only dedicated macro + pump.fun oracle on x402.** \$0.005–\$0.05 USDC on Base. Discovery: [/.well-known/x402.json](https://automaton-oracle.xyz/.well-known/x402.json) | [llms.txt](https://automaton-oracle.xyz/llms.txt)
+- [AnyBrowse](https://anybrowse.dev) - Autonomous web browsing agent with x402 micropayments. Converts URLs to LLM-ready Markdown via real Chrome browsers. USDC on Base.
+- [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto intelligence API. Real-time signals, market regime, institutional flows, DeFi yields & DEX alpha — pay per call via x402 USDC on Base. Built for AI agents.
 
 ### DeFi & Finance
 
