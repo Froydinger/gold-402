@@ -484,6 +484,7 @@ Projects building with or extending x402.
 - [Cred Protocol](https://credprotocol.com) - Decentralized credit scoring.
 - [Chainlink VRF](https://chain.link) - Random NFT minting with payment demo.
 - [Signet](https://signet.sebayaki.com) - Onchain spotlight ads on Base — AI agents pay USDC via x402 to post ads. First mainnet x402 transaction on Base. [CLI](https://github.com/h1-hunt/signet-client)
+- **[x402-api](https://x402-api.fly.dev)** — Pay-per-call DeFi & crypto data API. 8 endpoints: price feeds, whale tracking, gas tracker, DEX quotes, token scanner, yield scanner, funding rates, wallet profiler. USDC micropayments on Base. ERC-8004 Agent #18763.
 
 ### Developer Tools
 
