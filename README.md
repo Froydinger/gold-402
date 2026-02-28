@@ -164,6 +164,9 @@ Client libraries for making x402 payments.
 **HTTP Clients**
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
+**AI Agent SDKs**
+- [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
+
 **Wallet Integration**
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
@@ -313,6 +316,7 @@ Enable AI agents to make autonomous payments.
 - [Scout MCP](https://scout.hugen.tokyo) - 10-tool MCP server for multi-source intelligence: HN, GitHub, npm, PyPI, Product Hunt, X/Twitter, x402 Bazaar search, and composite reports. $0.001–$0.25 USDC on Base. ([Source](https://github.com/bartonguestier1725-collab/scout-mcp))
 - [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
 - [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
+- [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
 
 ### Agent Frameworks
 
