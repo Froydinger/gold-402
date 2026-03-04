@@ -317,6 +317,7 @@ Enable AI agents to make autonomous payments.
 - [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
 - [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
 - [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
+- [Cerebrus Pulse MCP](https://github.com/0xsl1m/cerebrus-pulse-mcp) - Real-time crypto intelligence MCP server with technical analysis (RSI, EMAs, Bollinger Bands), sentiment, and funding rates for 30+ Hyperliquid perpetuals. x402 USDC micropayments on Base.
 
 ### Agent Frameworks
 
