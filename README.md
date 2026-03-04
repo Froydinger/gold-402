@@ -317,6 +317,7 @@ Enable AI agents to make autonomous payments.
 - [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
 - [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
 - [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
+- [BotIndex MCP](https://github.com/Cyberweasel777/botindex-mcp-server) - 17-tool MCP server for signal intelligence: sports odds, crypto correlations, token graduations (Zora/Hyperliquid/Metaplex Genesis), DFS optimization, and arbitrage detection. 50 free requests per wallet, then x402 USDC on Base. `npx botindex-mcp-server`. ([npm](https://npmjs.com/package/botindex-mcp-server)) ([Live API](https://king-backend.fly.dev/api/botindex/v1/))
 
 ### Agent Frameworks
 
@@ -496,6 +497,7 @@ Projects building with or extending x402.
 - [Token Intelligence API](https://github.com/TKtokyo/token-intel-api) - EVM token security analysis with deterministic risk scoring and natural language summaries via x402 micropayments. Aggregates GoPlus contract, holder, and liquidity data in one request. $0.005 USDC on Base. Cloudflare Workers + Hono. [Live](https://token-intel-api.tatsu77.workers.dev)
 - [DJD AgentScore](https://github.com/djd-agent-score/djd-agent-score) – On-chain reputation scoring API for AI agent wallets. Returns a 0–100 trust score across 5 dimensions (identity, behavior, reliability, viability, capability) from x402 settlement history on Base. Free tier, no signup.
 - [SIBYL](https://sibylcap.com) - Autonomous crypto intelligence agent on Base. Three x402 endpoints: token scoring ($0.05), rug/honeypot detection ($0.02), and builder shipping velocity vs. market cap analysis ($0.10). ERC-8004 registered (Agent #20880). USDC on Base. Discovery: [Agent Card](https://sibylcap.com/8004.json) | [Domain Verification](https://sibylcap.com/.well-known/agent-registration.json)
+- [BotIndex](https://king-backend.fly.dev/api/botindex/v1/) - AI-native signal intelligence API with 17 x402 endpoints across 7 domains: sports odds, crypto correlations, token graduations (Zora/Hyperliquid/Metaplex Genesis), DFS optimization, arbitrage detection, and agentic commerce comparison. 50 free premium requests per wallet, then $0.01–$0.50 USDC on Base. MCP server with 17 tools. ([GitHub](https://github.com/Cyberweasel777/King-Backend)) | ([npm](https://npmjs.com/package/botindex-mcp-server)) | ([Discovery](https://king-backend.fly.dev/.well-known/ai-plugin.json))
 
 ### DeFi & Finance
 
