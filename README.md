@@ -166,6 +166,7 @@ Client libraries for making x402 payments.
 
 **AI Agent SDKs**
 - [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
+- [Azeth SDK](https://github.com/azeth-protocol/sdk) - TypeScript SDK with x402 client (`fetch402`), ERC-4337 smart accounts, on-chain reputation feedback after every x402 call, and ERC-8004 service discovery. USDC on Base. ([npm](https://www.npmjs.com/package/@azeth/sdk))
 
 **Wallet Integration**
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
@@ -188,6 +189,7 @@ Server-side integrations for accepting x402 payments.
 
 **Hono**
 - Browser wallet example - React + Hono full-stack.
+- [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
 
 ### Python
 
@@ -317,6 +319,7 @@ Enable AI agents to make autonomous payments.
 - [Intelligence Aeternum](https://github.com/codex-curator/intelligence-aeternum-mcp) - First monetized MCP server marketplace. 2M+ museum artworks with x402 USDC micropayments on Base L2. 16 MCP tools for search, enrichment, and delivery. [Live](https://data-portal-172867820131.us-west1.run.app/mcp)
 - [x402 Service Discovery MCP](https://github.com/rplryan/x402-discovery-mcp) - MCP server enabling agents to discover x402-payable APIs at runtime with quality signals (uptime, latency, health scores). 4 tools: discover, browse, health check, register. Live demo at https://rplryan.github.io/ouroboros/demo.html
 - [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
+- [Azeth MCP Server](https://github.com/azeth-protocol/mcp-server) - MCP server with x402 payment tool (`azeth_pay`), ERC-8004 trust registry discovery, on-chain reputation scoring, and payment agreements for recurring x402 billing. USDC on Base. ([npm](https://www.npmjs.com/package/@azeth/mcp-server))
 
 ### Agent Frameworks
 
