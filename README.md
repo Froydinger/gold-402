@@ -695,3 +695,5 @@ Looking for more awesome lists?
   <a href="https://discord.gg/x402">Discord</a> •
   <a href="https://twitter.com/x402org">Twitter</a>
 </p>
+
+- Agentic Signal — paid BTC/ETH DCA signal API (x402 USDC on Base) + signed responses + proof/backtests. Docs: https://signal.agenticsignal.dev/docs
