@@ -510,6 +510,10 @@ Projects building with or extending x402.
 - [SIBYL](https://sibylcap.com) - Autonomous crypto intelligence agent on Base. Three x402 endpoints: token scoring ($0.05), rug/honeypot detection ($0.02), and builder shipping velocity vs. market cap analysis ($0.10). ERC-8004 registered (Agent #20880). USDC on Base. Discovery: [Agent Card](https://sibylcap.com/8004.json) | [Domain Verification](https://sibylcap.com/.well-known/agent-registration.json)
 - [KevinBot API](https://3000-4cc0720d75b8344a09384cd6f9240c66.life.conway.tech) - 20 AI-powered utility APIs + live NostalgiaForInfinityX7 crypto trading signals via x402 micropayments. Web search, crawling, SEO analysis, code review, email validation, QR generation, plus 8 real-time trading endpoints (open positions, signals, market regime, pair rankings, trade history). First x402 service exposing live algorithmic trading bot data. $0.001–$0.02 USDC on Base. MCP server with 20 tools. [GitHub](https://github.com/baitoxkevin/kevinbot-mcp) | [Agent Card](https://3000-4cc0720d75b8344a09384cd6f9240c66.life.conway.tech/.well-known/agent-card.json)
 
+### Charity & Social Impact
+
+- [x402 Charity](https://allscale-io.github.io/x402charity/) - Open-source middleware for automatic micro-donations via x402. Embed charitable giving into any payment flow — trades, API calls, subscriptions. $0.0001 USDC per event on Base. CLI + web widget. Built by [AllScale Lab](https://allscale.io). ([GitHub](https://github.com/allscale-io/x402charity))
+
 ### DeFi & Finance
 
 - [Cred Protocol](https://credprotocol.com) - Decentralized credit scoring.
