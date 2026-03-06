@@ -480,6 +480,7 @@ Projects building with or extending x402.
 
 - [Coinbase Developer Platform](https://coinbase.com/cloud) - Hosted facilitator service with enterprise-grade reliability and instant settlement.
 - Cloudflare x402 - Edge payment processing.
+- [Finance District Prism](https://developers.fd.xyz/prism/concepts/x402) - Payment gateway for agentic commerce with x402 support. SDKs for TypeScript, Python, and Java. Two-layer architecture: Prism (orchestration — API, SDKs, middleware) and Spectrum (on-chain stablecoin settlement across Base, Ethereum, Arbitrum, and BSC). ([Docs](https://developers.fd.xyz))
 - [thirdweb Nebula](https://thirdweb.com/nebula) - AI agent transaction framework.
 
 ### Tools & Services
