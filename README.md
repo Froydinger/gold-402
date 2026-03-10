@@ -242,6 +242,7 @@ Full working examples and templates.
 - [Mailcheck API](https://mailcheck.hugen.tokyo) - Email validation for AI agents. Syntax, MX records, disposable domain detection, free provider check, role-based address detection, and typo suggestion. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-mailcheck-api)
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto data API with x402 pay-per-call. 11 endpoints: signals, market context, DeFi regime, institutions, ETF flows, DeFi yields, DEX alpha. $0.02–$0.10/call USDC on Base. No signup. [llms.txt](https://api.moonmaker.cc/llms.txt)
 - [x402 AI API — zeroreader](https://api.zeroreader.com) - 29 Cloudflare Workers AI models (LLM, Embeddings, Image Generation, Audio, Translation) via x402 micropayments. $0.001–$0.015 per request, USDC on Base. Supports streaming, batch processing, OpenAI-compatible format. [llms.txt](https://api.zeroreader.com/llms.txt) | [OpenAPI](https://api.zeroreader.com/openapi.json)
+- [Tick Aggregator API](https://tick.hugen.tokyo) - Multi-source aggregated FX Best Bid/Ask from 3 institutional liquidity providers. 62-88% tighter spreads than any single source. 15 pairs including EURUSD, USDJPY, GBPUSD, XAUUSD. Returns quality metadata (fresh sources, spread improvement vs single source). Commercial use permitted. $0.005 USDC per call on Base and Solana. [llms.txt](https://tick.hugen.tokyo/llms.txt)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
 
 ### Client Examples
@@ -270,7 +271,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 
 **Data & APIs**
 - Weather data services
-- Financial market data
+- Financial market data ([Tick Aggregator API](https://tick.hugen.tokyo) — multi-source FX Best Bid/Ask)
 - Geolocation services
 - Real-time sports scores
 
