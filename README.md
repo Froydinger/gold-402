@@ -538,6 +538,7 @@ Projects building with or extending x402.
 
 - [x402 Charity](https://allscale-io.github.io/x402charity/) - Open-source middleware for automatic micro-donations via x402. Embed charitable giving into any payment flow — trades, API calls, subscriptions. $0.0001 USDC per event on Base. CLI + web widget. Built by [AllScale Lab](https://allscale.io). ([GitHub](https://github.com/allscale-io/x402charity))
 
+- [x402charity](https://x402charity.com) — Open-source micro-donation server powered by x402. Drop-in Express/Next.js middleware that triggers USDC charity donations on every user action (API call, trade, game move). npm package, CLI, and Vercel-deployable server with built-in dashboard. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 ### DeFi & Finance
 
 - [Cred Protocol](https://credprotocol.com) - Decentralized credit scoring.
