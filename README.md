@@ -374,6 +374,7 @@ Development tools and utilities for x402.
 ### CLI Tools
 
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
+- [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. Auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents. `npx x402-proxy`. ([npm](https://www.npmjs.com/package/x402-proxy))
 
 ### Monitoring & Analytics
 
