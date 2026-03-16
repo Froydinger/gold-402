@@ -516,6 +516,7 @@ Projects building with or extending x402.
 - [Domain Intelligence API](https://domain.hugen.tokyo) - 8-endpoint domain analysis API: WHOIS, DNS (3-resolver parallel), SSL/TLS grading, Wappalyzer tech detection, security headers, CT log subdomains, redirect chains, and full reports. $0.001–$0.02 USDC on Base. ([llms.txt](https://domain.hugen.tokyo/llms.txt))
 - [AskClaude](https://askclaude.shop) - Pay-per-query Claude AI API with 9 endpoints: Haiku ($0.01), Sonnet ($0.03), Opus ($0.10), plus specialized tools for summarization, code review, translation, sentiment analysis, and crypto analysis. Streaming support. USDC on Base. ([MCP Server](https://www.npmjs.com/package/askclaude-mcp) | [GitHub](https://github.com/pvega23/askclaude-mcp))
 - Apexti Toolbelt - 1,500+ Web3 APIs via x402 MCP servers.
+- [Web3 Signals — AgentMarketSignal](https://web3-signals-api-production.up.railway.app) - AI-powered crypto signal intelligence for 20 assets with 6 scoring dimensions (whale, technical, derivatives, narrative, sentiment, market). Market regime detection, portfolio optimization, and accuracy tracking. $0.001 USDC per call on Base. 9 MCP tools (free) + REST API (x402 paid). ([GitHub](https://github.com/manavaga/web3-signals-mcp))
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - BuffetPay - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
