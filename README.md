@@ -630,6 +630,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 
 ## 🔒 Security & Audits
 
+- [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) - Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned. ([GitHub](https://github.com/razashariff/stripe-mcps))
 Security resources and best practices for x402 implementations.
 
 ### Smart Contract Audits
