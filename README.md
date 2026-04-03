@@ -394,6 +394,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - OpSpawn A2A x402 Gateway - Multi-chain A2A gateway with x402 payments.
   - Google A2A protocol with x402 payment integration
   - Multi-chain support (Base, SKALE, Arbitrum)
+- [Revettr](https://revettr.com) - Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
 
 
 ## 🔨 Tools & Utilities
