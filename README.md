@@ -191,6 +191,9 @@ Server-side integrations for accepting x402 payments.
 
 ### Node.js/TypeScript
 
+**Multi-Framework**
+- [monapi](https://monapi.dev) - One-line API monetization SDK. Wraps x402 setup into a single function call. Express, Next.js, and MCP support. Per-route pricing, Base/Arbitrum/Polygon, gas-free agent payments via EIP-3009. ([npm](https://www.npmjs.com/package/@monapi/sdk)) ([GitHub](https://github.com/DenisTheM/monapi))
+
 **Next.js**
 - [x402-next](https://www.npmjs.com/package/x402-next) - App Router middleware.
 - [Next.js route protection](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) - Complete app example.
