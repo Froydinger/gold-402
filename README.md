@@ -155,6 +155,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | Ethereum      | Production  | Cloudflare                 | Deferred        | Enterprise DApps          |
 | Solana        | Production  | Community                  | Instant (<1s)   | High-frequency trading    |
 | BNB Chain     | Production  | Pieverse                   | Instant (2s)    | Gaming, NFTs              |
+| Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
 
