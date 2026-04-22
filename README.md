@@ -912,3 +912,24 @@ Looking for more awesome lists?
 - Agentic Signal — paid BTC/ETH DCA signal API (x402 USDC on Base) + signed responses + proof/backtests. Docs: https://signal.agenticsignal.dev/docs
 
 - [HYDRA Regulatory Intelligence](https://hydra-api-nlnj.onrender.com) - Real-time regulatory risk scoring, FOMC signals, and prediction market data. 22 paid endpoints via x402. ([GitHub](https://github.com/OGCryptoKitty/hydra-arm3))
+
+
+### [AgentPay](https://www.x402-agent-pay.com) — Real-World Service Booking via x402 + Stripe
+**Category:** Services/Endpoints
+
+The missing real-world layer for x402. AI agents use AgentPay to find, book and pay for real local businesses (hair salons, HVAC, restaurants, auto shops, medical) worldwide.
+
+**Payment methods supported:**
+- x402/USDC on Base (bash.001/search call — already indexed on Bazaar)
+- Stripe off-session — agent charges human's saved card per booking (no human interaction)
+- 7 EVM chains + Solana
+
+**Key endpoints (OpenAPI: [openapi.json](https://www.x402-agent-pay.com/openapi.json)):**
+| Endpoint | Description |
+|---|---|
+|  | Find real businesses near lat/lon — OpenStreetMap |
+|  | Human saves card once (returns customer_id) |
+|  | Agent charges card autonomously per booking |
+|  | Product search — online + local stores |
+|  | All chain info — ETH, Base, Polygon, ARB, OP, AVAX, BNB, SOL |
+
