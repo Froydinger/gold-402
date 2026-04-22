@@ -562,6 +562,7 @@ Projects building with or extending x402.
 - [thirdweb Nebula](https://thirdweb.com/nebula) - AI agent transaction framework.
 - [RustChain](https://github.com/Scottcjn/Rustchain) - Decentralized proof-of-stake blockchain with x402 payment integration for AI agent micropayments. Features attestation-based consensus, hardware-bound validators, and RTC token economy with native x402 support for autonomous agent transactions. ([Docs](https://github.com/Scottcjn/rustchain-bounties))
 - [MoltsPay](https://moltspay.com) - Open payment protocol for AI agents. Add one JSON file to any skill to accept x402 payments. Gasless for both providers and clients. Multi-chain (Base, Polygon, Solana, BNB, Tempo). CLI, TypeScript/Python SDKs, testnet faucet. ([GitHub](https://github.com/Yaqing2023/moltspay)) | ([Docs](https://moltspay.com/docs))
+- [XyncPay](https://xyncpay.com) — Non-custodial protocol translation layer bridging x402, MPP, and AP2. One integration, every AI agent payment protocol. Atomic fee-split settlement via on-chain FeeSplit contract on Base. ([GitHub](https://github.com/xyncpay/xyncpay))
 
 ### Tools & Services
 - [PicoPayd](https://picopayd.codefission.co.uk) — Pay-per-call API marketplace for AI agents. Utility APIs (email/phone/IBAN validation, DNS, WHOIS, image conversion, QR, HTML-to-PDF) priced at $0.001–$0.01/call. Deployed on Cloudflare Workers with Base mainnet USDC.
