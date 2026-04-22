@@ -42,7 +42,7 @@ The x402 protocol enables instant Blockchain payments over HTTP using the 402 "P
 
 **New to x402?** Follow this path to mastery:
 
-1. [5-Minute Quickstart](https://docs.cdp.coinbase.com/x402/quickstart-sellers) - Accept your first payment.
+1. [5-Minute Quickstart](https://docs.cdp.coinbase.com/x402/quickstart-for-sellers) - Accept your first payment.
 2. Choose Your Stack - Find your language/framework.
 3. Copy an Example - Working code you can run immediately.
 4. Join the Community - Get help from other builders.
