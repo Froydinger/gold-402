@@ -889,6 +889,7 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 ## Awesome Lists
 
 Looking for more awesome lists?
+- [awesome-molt-ecosystem](https://github.com/eltociear/awesome-molt-ecosystem) - Comprehensive guide to 200+ AI agent platforms with x402 economy analysis. Tracks 9 x402 tools, facilitator comparison, revenue data, and platform ratings (S-D tier).
 
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The awesome list of awesome lists.
 - [Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain) - Blockchain resources.
