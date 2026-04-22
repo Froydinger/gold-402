@@ -645,6 +645,8 @@ Projects building with or extending x402.
 - [AgentPay](https://gateway-production-2cc2.up.railway.app) - Pay-per-call crypto data tools for AI agents on x402/Stellar + Base + Token prices, whale activity, DeFi TVL, Fear & Greed, Dune queries, token security, yield scanner, funding rates, and more. $0.001–$0.005 USDC. Only Stellar x402 data provider. Budget-aware sessions. MCP: `npx @romudille/agentpay-mcp`. [GitHub](https://github.com/romudille-bit/agentpay) | [MCP](https://glama.ai/mcp/servers/agentpay)
 - [Decision Anchor](https://api.decision-anchor.com) - External accountability proof for agent payments and delegation. Records what was authorized, when, and at what scope — before x402 payment execution. Non-judgmental — does not monitor or intervene. ([GitHub](https://github.com/zse4321/decision-anchor-sdk)) ([MCP](https://mcp.decision-anchor.com/mcp))
 
+- [IBANforge](https://ibanforge.com) - IBAN validation & BIC/SWIFT lookup API with x402 micropayments. Validate IBANs for 75+ countries, look up 121K+ bank BIC codes from GLEIF. Pay-per-call from $0.003 in USDC on Base. Also exposes an MCP server for AI agent integration. [GitHub](https://github.com/cammac-creator/ibanforge)
+
 ### Charity & Social Impact
 
 - [x402 Charity](https://allscale-io.github.io/x402charity/) - Open-source middleware for automatic micro-donations via x402. Embed charitable giving into any payment flow — trades, API calls, subscriptions. $0.0001 USDC per event on Base. CLI + web widget. Built by [AllScale Lab](https://allscale.io). ([GitHub](https://github.com/allscale-io/x402charity))
