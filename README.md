@@ -358,6 +358,10 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 Enable AI agents to make autonomous payments.
 - [Strale MCP Server](https://api.strale.io/mcp) - 250+ business data and compliance tools for AI agents via MCP. IBAN validation, VAT format checks, sanctions screening, company lookups, SSL certificate checks, domain reputation, and more. Each capability independently tested with quality scores. x402 USDC micropayments on Base. Also available as REST API.
 
+### Agent Verification & Security
+
+- [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
+
 ### GPU Inference APIs
 
 x402-native GPU inference APIs that let agents pay autonomously for compute.
