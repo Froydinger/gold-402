@@ -2,6 +2,16 @@
 
 Client and server-side libraries for building with x402. Start with the official Coinbase SDKs, then layer in community libraries as your stack demands.
 
+### Drop-In OpenAI Replacements
+- [x402-openai-python](https://github.com/qntx/x402-openai-python) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/qntx/x402-openai-python) — Drop-in OpenAI Python client with transparent x402 payment support. Swap in one line — your existing OpenAI code starts paying via x402 automatically. 260★
+- [x402-openai-typescript](https://github.com/qntx/x402-openai-typescript) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/qntx/x402-openai-typescript) — Drop-in OpenAI TypeScript client with transparent x402 payment support. TypeScript companion to the Python client. 151★
+
+### A2A + x402
+- [a2a-x402-typescript](https://github.com/dabit3/a2a-x402-typescript) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/dabit3/a2a-x402-typescript) — Complete TypeScript implementation combining Google's A2A protocol with x402 payments. Reference implementation for agent-to-agent payment flows. 102★
+
+### Routing
+- [use-agently](https://github.com/agentlyhq/use-agently) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/agentlyhq/use-agently) — Routing and settlement layer for AI agents. Pay x402 APIs from any agent framework. 69★
+
 ---
 
 ## TypeScript / JavaScript
@@ -53,6 +63,8 @@ Client and server-side libraries for building with x402. Start with the official
 
 ## Rust
 
+- [r402](https://github.com/qntx/r402) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/qntx/r402) — Rust SDK for the x402 payment protocol by qntx. High-performance, type-safe implementation. 147★
+- [ra2a](https://github.com/qntx/ra2a) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/qntx/ra2a) — Rust SDK for the Agent2Agent (A2A) Protocol with x402 integration. 165★
 - [x402-rs](https://github.com/x402-rs/x402-rs) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/x402-rs/x402-rs) — Production-grade Rust implementation. Axum middleware, reqwest client wrapper, self-hostable facilitator, multi-chain support.
 - [x402-kit](https://github.com/bitrouter/x402-kit) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/bitrouter/x402-kit) — Fully modular, framework-agnostic Rust SDK. Composable buyer (signer) and seller (server) primitives. ([crates.io](https://crates.io/crates/x402-paywall))
 - [alloy](https://github.com/alloy-rs/alloy) — High-performance Ethereum library used for Rust x402 signing.
@@ -73,8 +85,15 @@ Client and server-side libraries for building with x402. Start with the official
 
 ---
 
+## .NET
+
+- [x402-dotnet](https://github.com/michielpost/x402-dotnet) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/michielpost/x402-dotnet) — x402 Payment Protocol implementation for .NET. Fills the .NET language gap in the ecosystem. 11★
+
+---
+
 ## Other Languages
 
 - [genlayer-x402](https://github.com/habiiyt31/genlayer-x402) — x402 for GenLayer Intelligent Contracts. 4 production-ready on-chain contracts gating real-time web data and AI services behind trustless payments. No server, no API key, no middleman.
 - [Spillway](https://github.com/openledger-labs/Spillway) — Subscription payment channels on Stellar using x402.
 - [Solana Foundation Pay](https://github.com/solana-foundation/pay) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/solana-foundation/pay) — Official Solana Foundation library for handling x402 and MPP payment challenges with user-authorized stablecoin signing. Updated May 2026. Stream payments, not transactions — 1,000 requests = only 2 on-chain transactions.
+- [pay-kit](https://github.com/solana-foundation/pay-kit) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/solana-foundation/pay-kit) — Agentic commerce building blocks (x402, MPP, AP2) for TypeScript, Rust, Go, Python. Official Solana Foundation toolkit covering all major agent payment protocols. 63★
