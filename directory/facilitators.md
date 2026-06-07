@@ -28,6 +28,9 @@ Payment verification and settlement services for x402. A facilitator verifies pa
 
 ## Self-Hosted Facilitators
 
+- [x402-sovereign](https://github.com/dhaiwat10/x402-sovereign) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/dhaiwat10/x402-sovereign) — Self-hosted x402 facilitator. Full control over payment verification and settlement. 63★
+- [qntx/facilitator](https://github.com/qntx/facilitator) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/qntx/facilitator) — Production-ready x402 facilitator server by qntx. Docker-deployable, multi-chain. 148★
+- [OpenZeppelin Relayer x402 Plugin](https://github.com/openzeppelin/relayer-plugin-x402-facilitator) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/openzeppelin/relayer-plugin-x402-facilitator) — x402 facilitator plugin for OpenZeppelin Relayer. Enterprise-grade access control and gas management. 3★
 - [x402-rs Facilitator](https://github.com/x402-rs/x402-rs#facilitator) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/x402-rs/x402-rs) — Production-grade Rust self-hosted facilitator. Docker deployment, multi-chain config, REST API (`/verify`, `/settle`).
 - [@facilitator/eip7702](https://github.com/melonask/facilitator) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/melonask/facilitator) — Supports all EVM blockchains (BNB, Polygon, etc.), all tokens (USDT, DAI, WBTC, etc.), and native coins (POL, AVAX, etc.).
 

@@ -4,6 +4,14 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 
 ---
 
+## Foundation & Protocol
+
+- [x402](https://github.com/x402-foundation/x402) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/x402-foundation/x402) — The canonical x402 protocol repository maintained by the x402 Foundation under the Linux Foundation. Reference implementations, official SDKs, spec documentation. The source of truth for the protocol. 6,147★
+- [x402scan](https://x402scan.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/merit-systems/x402scan) — x402 Ecosystem Explorer by Merit Systems. Browse, search, and monitor the x402 service landscape. 346★
+- [Awesome Agentic Commerce](https://github.com/merit-systems/awesome-agentic-commerce) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/merit-systems/awesome-agentic-commerce) — Curated resources for the x402 ecosystem by Merit Systems. Comprehensive listing of protocols, SDKs, and projects. 127★
+
+---
+
 ## Infrastructure
 
 - [Coinbase Developer Platform](https://coinbase.com/cloud) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Hosted facilitator service with enterprise-grade reliability and instant settlement. The primary x402 infrastructure layer.
@@ -30,6 +38,14 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 
 ## Agent Frameworks
 
+- [Franklin](https://github.com/blockrunai/franklin) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/blockrunai/franklin) — The AI agent with a wallet — spends USDC autonomously to get real work done. Agentic payment-native framework by BlockRun. 636★
+- [Daydreams](https://daydreams.ai) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/daydreamsai/daydreams) — Tools for building agents for commerce. x402-native agent framework with built-in payment primitives. 606★
+- [Lucid Agents](https://github.com/daydreamsai/lucid-agents) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/daydreamsai/lucid-agents) — Commerce SDK by Daydreams. Bootstrap AI agents in 60 seconds that can pay, sell, and transact autonomously via x402. 188★
+- [Agenti](https://github.com/nirholas/agenti) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/nirholas/agenti) — Give any AI agent a crypto wallet. Agents pay x402 APIs with USDC on Base. Simple drop-in wallet integration. 68★
+- [Faremeter](https://faremeter.io) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/faremeter/faremeter) — Universal framework for transparent API cost integration into agent workflows. Agents discover, negotiate, and pay for services via x402. 66★
+- [mcpay](https://github.com/microchipgnu/mcpay) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/microchipgnu/mcpay) — Open-source infrastructure for MCP and x402. Payment primitives for building monetized MCP servers. 90★
+- [use-agently](https://github.com/agentlyhq/use-agently) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/agentlyhq/use-agently) — Routing and settlement layer for AI agents. x402-native payment coordination for multi-agent workflows. 69★
+- [ProwlFi](https://prowlfi.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/prowlfi/prowlfi) — Private rails for the agentic economy on Solana. Stealth addresses + x402 payments. 324★
 - [Vault-0](https://github.com/0-Vault/Vault-0) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/0-Vault/Vault-0) — Encrypted secret vault, agent monitor, and x402 wallet for OpenClaw. Handles 402 detection, EIP-3009 signing, policy-gated auto-settlement.
 - [Nevermined](https://nevermined.ai/blog/building-agentic-payments-with-nevermined-x402-a2a-and-ap2) [![Multi-Chain](https://img.shields.io/badge/Multi--Chain-multi-blue?style=flat-square)](https://nevermined.ai) — Integrated Visa Intelligent Commerce + x402 for autonomous AI agent commerce (April 9, 2026). Agents get delegated credit card spending authority with budget limits, per-purchase caps, merchant restrictions, time windows.
 - [Phidata Agents](https://github.com/phidatahq/phidata) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/phidatahq/phidata) — Multi-modal agents with x402 integration.
@@ -64,6 +80,10 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 - [x402 Bazaar](https://x402bazaar.org) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/Wintyx57/x402-backend) [![Multi-Chain](https://img.shields.io/badge/Multi--Chain-2+-0366D6?style=plastic)](https://x402bazaar.org) — Decentralized API marketplace with 69 native x402-payable endpoints. Multi-chain USDC on Base and SKALE. MCP server via `npx x402-bazaar init`. 505 passing tests.
 - [Orbis API Marketplace](https://orbisapi.com) — x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
 - [Satring](https://satring.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/toadlyBroodle/satring) [![Multi-Chain](https://img.shields.io/badge/Multi--Chain-2+-0366D6?style=plastic)](https://satring.com) — Curated L402 + x402 API directory with human ratings, health monitoring, MCP server. Dual-protocol (Lightning + USDC on Base).
+
+## Notable Implementations
+
+- [x402-audio-to-audio](https://github.com/eversmile12/x402-audio-to-audio) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/eversmile12/x402-audio-to-audio) — Transmits signed USDC payments over sound using a custom OOK audio modem with Goertzel DSP. A creative demonstration of x402's protocol flexibility. 35★
 
 ---
 

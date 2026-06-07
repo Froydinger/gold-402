@@ -8,6 +8,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 
 ## AI Services
 
+- [Venice AI](https://venice.ai) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/veniceai/x402-client) — Official Venice AI client for x402 micropayments. Pay-per-request AI inference with privacy-first LLMs. No account required — wallet is auth. 8★
 - [24K Labs](https://24klabs.ai) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/Haustorium12/24klabs-mcp) — 6 AI code analysis services: explain, debug, review, security audit, automation scripts, MCP blueprints. $0.50-$50.00 per request. USDC on Base. [Live API](https://api.24klabs.ai)
 - [tx402.ai](https://tx402.ai) — Agent-native LLM inference gateway. 20+ EU-hosted models (DeepSeek, Qwen, Llama, Mixtral) via x402 USDC on Base. OpenAI-compatible, SSE streaming, GDPR-compliant, zero data retention. No API keys — wallet is auth. [Models](https://tx402.ai/v1/models)
 - [AskClaude](https://askclaude.shop) — Pay-per-query Claude API. 9 endpoints: Haiku ($0.01), Sonnet ($0.03), Opus ($0.10), plus summarization, code review, translation, sentiment, crypto analysis. USDC on Base.
