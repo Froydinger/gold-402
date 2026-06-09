@@ -1,4 +1,14 @@
-﻿# Contributing to gold-402
+# Contributing to gold-402
+
+**Built something on x402? Submit it here.** gold-402 is the editorial authority for the x402 ecosystem — getting listed means builders and AI agents will find you.
+
+- **New entry?** Open a PR titled `Add [Name]` — takes 5 minutes, instructions below.
+- **Question or discussion?** Use [GitHub Discussions](https://github.com/Haustorium12/gold-402/discussions).
+- **Found a dead link or stale entry?** Open an issue — we fix them fast.
+
+Star the repo to stay current with the ecosystem. The What's New section updates monthly.
+
+---
 
 gold-402 is curated, not exhaustive. Every entry earns its place.
 
