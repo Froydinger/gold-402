@@ -35,6 +35,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 - [Harvey Verify](https://verify.rugslayer.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/meltingpixelsai/harvey-verify) — Post-transaction outcome verification using LLM-as-judge. Aggregated service quality scores. 5 tools on Solana.
 - [Harvey Budget](https://budget.rugslayer.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/meltingpixelsai/harvey-budget) — Agent spending management: budget tracking, ROI analysis, spend approval. 6 tools on Solana.
 - [SOLx402 MCP](https://github.com/0xMetatime/solx402-mcp-server) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/0xMetatime/solx402-mcp-server) — Interact with x402 on Solana. Discover/consume services, manage USDC, query protocol docs.
+- [SolSigs MCP](https://github.com/gra-kir/solsigs-py) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/gra-kir/solsigs-py) — 16-tool Solana blockchain intelligence MCP server: DEX prices, arbitrage, wallet scoring, token launches, NFT intel, whale tracking, smart money, staking, Polymarket predictions, social sentiment, RPC relay, price feeds, dev activity, alerts, on-chain summarizer, trending tokens. $0.001-$0.010 USDC on Solana.
 
 ---
 
