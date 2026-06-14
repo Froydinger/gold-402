@@ -1,0 +1,1 @@
+{"date": "2026-06-14", "captured_at": "2026-06-14T15:41:42+00:00", "total_services": 26133, "verified_live": 0, "inactive": 0, "verify_status": {"failed": 1366, "verified": 3603, "timeout": 31, "pending": 21133}, "sources": {"cdp-bazaar": 25933, "agentic-market": 200}, "services_generated_at": "2026-06-14T06:27:58Z"}
