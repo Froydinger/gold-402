@@ -26,16 +26,21 @@ jobs:
       - name: Run verification crawler
         run: python scripts/verify.py
 
+      - name: Record moat-clock snapshot
+        # Runs AFTER verify.py so it captures freshly-probed counts.
+        # Append-only: adds one dated row to directory/moat-history.jsonl.
+        run: python scripts/moat_clock.py
+
       - name: Commit and push results
         run: |
           git config user.name  "gold-402-bot"
           git config user.email "gold-402-bot@24klabs.ai"
-          git add directory/services.json
+          git add directory/services.json directory/moat-history.jsonl
           if git diff --cached --quiet; then
             echo "No changes after verification run"
           else
             SUMMARY=$(python scripts/verify_summary.py commit)
-            git commit -m "verify: monthly probe run -- ${SUMMARY}"
+            git commit -m "verify: monthly probe run + moat snapshot -- ${SUMMARY}"
             git push
           fi
 
