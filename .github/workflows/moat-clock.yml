@@ -1,0 +1,44 @@
+name: Moat Clock (daily)
+
+# Lightweight daily ecosystem snapshot. Decoupled from verify.yml on purpose:
+# verify.py is a ~120-min crawl meant to run monthly; moat_clock.py is pure
+# stdlib that just reads services.json and appends one dated, idempotent row.
+# Running the snapshot daily costs seconds; running the full crawl daily would
+# be wasteful. The monthly verify.yml still takes its own post-verify snapshot.
+
+on:
+  schedule:
+    # Daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  moat-clock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Record moat-clock snapshot
+        run: python scripts/moat_clock.py
+
+      - name: Commit and push history
+        run: |
+          git config user.name  "gold-402-bot"
+          git config user.email "gold-402-bot@24klabs.ai"
+          git add directory/moat-history.jsonl
+          if git diff --cached --quiet; then
+            echo "moat_clock: no new row today (idempotent skip)"
+          else
+            git commit -m "moat: daily ecosystem snapshot ($(date -u +%Y-%m-%d))"
+            git push
+          fi
