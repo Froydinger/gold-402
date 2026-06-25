@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T06:01:15Z",
+  "generated_at": "2026-06-25T04:19:17Z",
   "total_services": 24024,
   "active_count": 24024,
   "slice_count": 31,
-  "total_slice_size_bytes": 21652261,
+  "total_slice_size_bytes": 21653974,
   "slices": [
     {
       "filename": "directory-aggregator.json",
@@ -42,8 +42,8 @@
       "type": "MCP Server",
       "tag": null,
       "letter_range": null,
-      "count": 19,
-      "size_bytes": 15966
+      "count": 17,
+      "size_bytes": 14327
     },
     {
       "filename": "sdk-library.json",
@@ -162,8 +162,8 @@
       "type": "API / Service",
       "tag": "Developer Tools",
       "letter_range": "m-z",
-      "count": 4188,
-      "size_bytes": 3407345
+      "count": 4190,
+      "size_bytes": 3409021
     },
     {
       "filename": "api-service-finance-defi.json",
@@ -202,8 +202,8 @@
       "type": "API / Service",
       "tag": "Media",
       "letter_range": null,
-      "count": 620,
-      "size_bytes": 519324
+      "count": 622,
+      "size_bytes": 521000
     },
     {
       "filename": "api-service-nft.json",
