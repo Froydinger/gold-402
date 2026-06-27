@@ -35,7 +35,14 @@ jobs:
         run: |
           git config user.name  "gold-402-bot"
           git config user.email "gold-402-bot@24klabs.ai"
+          # Stage both the history row and the churn sidecar (Fix 4). The sidecar
+          # is the baseline tomorrow's new/churned diff reads from -- if it is
+          # not committed, every CI run starts from a fresh checkout with no
+          # baseline and churn never works. The sidecar add is tolerant: on an
+          # idempotent-skip run it may not exist yet, and a missing pathspec must
+          # not fail the job.
           git add directory/moat-history.jsonl
+          git add directory/moat-ids-latest.txt 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "moat_clock: no new row today (idempotent skip)"
           else

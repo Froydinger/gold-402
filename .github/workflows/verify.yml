@@ -35,7 +35,13 @@ jobs:
         run: |
           git config user.name  "gold-402-bot"
           git config user.email "gold-402-bot@24klabs.ai"
+          # moat_clock.py also runs in this job (step above) and refreshes the
+          # churn sidecar -- stage it here too, or the monthly verify run commits
+          # a history row whose baseline (the sidecar) is left behind, and the
+          # next daily moat-clock diffs against a stale baseline. Tolerant add:
+          # on an idempotent-skip the sidecar may be unchanged/absent.
           git add directory/services.json directory/moat-history.jsonl
+          git add directory/moat-ids-latest.txt 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes after verification run"
           else

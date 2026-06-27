@@ -8,6 +8,7 @@
 # No external deps -- pure stdlib.
 
 import json
+import os
 import re
 import sys
 import time
@@ -486,6 +487,70 @@ def normalize_service(item, now_iso):
 
 
 # ---------------------------------------------------------------------------
+# Carry-forward (Fix 2): preserve verification state across the overwrite
+# ---------------------------------------------------------------------------
+
+# Verify fields owned by verify.py, not by the harvest. Harvest rebuilds every
+# service as verify_status='pending' / verified=0; without carry-forward, every
+# nightly harvest erases the last verify.py probe and the catalog reads "we don't
+# know what's live" until the ~120-min monthly crawl runs again.
+VERIFY_CARRY_FIELDS = ("verify_status", "last_verified", "verified", "verify_failures")
+
+
+def carry_forward_verify(services, prev_path=OUTPUT_PATH):
+    """Carry prior verification state forward onto a freshly-harvested list.
+
+    For each service whose `id` already existed in the prior services.json,
+    copy VERIFY_CARRY_FIELDS forward. Genuinely-new ids keep their pending
+    defaults. Mutates `services` in place; returns (carried, new).
+
+    Note: `status` is intentionally NOT carried -- harvest owns catalog
+    membership (active = currently listed by CDP), verify.py owns liveness.
+    A service delisted by verify.py (status='inactive') that reappears in the
+    catalog will re-list as active and re-earn its verdict on the next probe.
+    Sticky tradeoff (verified-on-the-14th still reads verified weeks later until
+    re-probe) is accepted as the immediate fix; the rotating probe is the proper
+    freshness layer."""
+    if not os.path.exists(prev_path):
+        # No prior catalog (genuine first harvest) -- nothing to carry, silent.
+        return 0, len(services)
+    try:
+        with open(prev_path, "r", encoding="utf-8") as f:
+            prev = json.load(f)
+    except (OSError, ValueError) as e:
+        # Prior catalog EXISTS but will not parse (corrupt / truncated -- e.g. a
+        # harvest that died mid-write). Carrying nothing forward here silently
+        # reintroduces the exact nightly verify-wipe Fix 2 exists to prevent, so
+        # make it loud. The atomic write in main() should keep this unreachable.
+        print(
+            f"[harvest] WARNING: prior {prev_path} exists but failed to parse "
+            f"({e}) -- carrying NO verify state forward; all services reset to "
+            f"pending this run.",
+            file=sys.stderr,
+        )
+        return 0, len(services)
+
+    prev_by_id = {}
+    for s in prev.get("services", []):
+        sid = s.get("id")
+        if sid:
+            prev_by_id[sid] = s
+
+    carried = 0
+    new = 0
+    for svc in services:
+        old = prev_by_id.get(svc.get("id"))
+        if old is None:
+            new += 1
+            continue
+        for field in VERIFY_CARRY_FIELDS:
+            if field in old:
+                svc[field] = old[field]
+        carried += 1
+    return carried, new
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -548,6 +613,13 @@ def main():
     else:
         print("[harvest] Agentic.market: skipped (fetch failed)")
 
+    # Carry verification state forward across the overwrite (Fix 2). Read the
+    # prior services.json (still on disk) before we replace it, and preserve the
+    # verify fields for ids that already existed. Without this, every harvest
+    # resets all services to 'pending' and the last verify.py probe is lost.
+    carried, new_ids = carry_forward_verify(services)
+    print(f"[harvest] Carry-forward: {carried} kept prior verify state, {new_ids} new ids")
+
     # Sort by quality (payers desc, then calls desc) so best services bubble up
     # Agentic entries have None quality so they sort to the end, behind CDP entries
     services.sort(
@@ -565,8 +637,14 @@ def main():
         "services":     services,
     }
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    # Atomic write: a harvest that dies mid-write must never leave a half-written
+    # services.json on disk -- the next harvest's carry-forward (Fix 2) would
+    # fail to parse it and silently reset every service to pending. Write a temp
+    # file then os.replace (atomic on the same volume).
+    tmp_path = OUTPUT_PATH + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=True)
+    os.replace(tmp_path, OUTPUT_PATH)
 
     print(f"[harvest] Done. {len(services)} unique services written to {OUTPUT_PATH}")
     print(f"[harvest]   CDP Bazaar:      {cdp_count}")
