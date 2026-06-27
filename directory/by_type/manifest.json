@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-26T06:03:51Z",
-  "total_services": 24551,
-  "active_count": 24551,
+  "generated_at": "2026-06-27T05:48:31Z",
+  "total_services": 24583,
+  "active_count": 24583,
   "slice_count": 31,
-  "total_slice_size_bytes": 22108685,
+  "total_slice_size_bytes": 22177011,
   "slices": [
     {
       "filename": "directory-aggregator.json",
       "type": "Directory / Aggregator",
       "tag": null,
       "letter_range": null,
-      "count": 214,
-      "size_bytes": 186346
+      "count": 205,
+      "size_bytes": 178665
     },
     {
       "filename": "facilitator.json",
       "type": "Facilitator",
       "tag": null,
       "letter_range": null,
-      "count": 72,
-      "size_bytes": 62030
+      "count": 74,
+      "size_bytes": 63828
     },
     {
       "filename": "infrastructure.json",
@@ -34,8 +34,8 @@
       "type": "Learning Resource",
       "tag": null,
       "letter_range": null,
-      "count": 284,
-      "size_bytes": 243123
+      "count": 283,
+      "size_bytes": 242266
     },
     {
       "filename": "mcp-server.json",
@@ -50,72 +50,72 @@
       "type": "SDK / Library",
       "tag": null,
       "letter_range": null,
-      "count": 127,
-      "size_bytes": 107642
+      "count": 123,
+      "size_bytes": 104297
     },
     {
       "filename": "tool.json",
       "type": "Tool",
       "tag": null,
       "letter_range": null,
-      "count": 290,
-      "size_bytes": 248092
+      "count": 289,
+      "size_bytes": 247254
     },
     {
       "filename": "wallet.json",
       "type": "Wallet",
       "tag": null,
       "letter_range": null,
-      "count": 461,
-      "size_bytes": 388761
+      "count": 458,
+      "size_bytes": 385967
     },
     {
       "filename": "api-service-ai.json",
       "type": "API / Service",
       "tag": "AI",
       "letter_range": null,
-      "count": 527,
-      "size_bytes": 436308
+      "count": 546,
+      "size_bytes": 453205
     },
     {
       "filename": "api-service-agent-automation.json",
       "type": "API / Service",
       "tag": "Agent / Automation",
       "letter_range": null,
-      "count": 2825,
-      "size_bytes": 2425569
+      "count": 2811,
+      "size_bytes": 2414762
     },
     {
       "filename": "api-service-analytics-monitoring.json",
       "type": "API / Service",
       "tag": "Analytics / Monitoring",
       "letter_range": null,
-      "count": 1542,
-      "size_bytes": 1306743
+      "count": 1545,
+      "size_bytes": 1309393
     },
     {
       "filename": "api-service-compliance-legal.json",
       "type": "API / Service",
       "tag": "Compliance / Legal",
       "letter_range": null,
-      "count": 266,
-      "size_bytes": 231794
+      "count": 263,
+      "size_bytes": 229388
     },
     {
       "filename": "api-service-data.json",
       "type": "API / Service",
       "tag": "Data",
       "letter_range": null,
-      "count": 725,
-      "size_bytes": 604607
+      "count": 730,
+      "size_bytes": 608905
     },
     {
       "filename": "api-service-developer-tools-0-k.json",
       "type": "API / Service",
       "tag": "Developer Tools",
       "letter_range": "0-k",
-      "count": 2378,
-      "size_bytes": 1842988
+      "count": 2375,
+      "size_bytes": 1840708
     },
     {
       "filename": "api-service-developer-tools-la-li.json",
@@ -123,7 +123,7 @@
       "tag": "Developer Tools",
       "letter_range": "la-li",
       "count": 48,
-      "size_bytes": 37650
+      "size_bytes": 37649
     },
     {
       "filename": "api-service-developer-tools-lor.json",
@@ -162,16 +162,16 @@
       "type": "API / Service",
       "tag": "Developer Tools",
       "letter_range": "m-z",
-      "count": 3803,
-      "size_bytes": 3112052
+      "count": 3843,
+      "size_bytes": 3146427
     },
     {
       "filename": "api-service-finance-defi.json",
       "type": "API / Service",
       "tag": "Finance / DeFi",
       "letter_range": null,
-      "count": 1173,
-      "size_bytes": 994529
+      "count": 1199,
+      "size_bytes": 1018295
     },
     {
       "filename": "api-service-gaming.json",
@@ -179,55 +179,55 @@
       "tag": "Gaming",
       "letter_range": null,
       "count": 103,
-      "size_bytes": 85737
+      "size_bytes": 85733
     },
     {
       "filename": "api-service-identity.json",
       "type": "API / Service",
       "tag": "Identity",
       "letter_range": null,
-      "count": 326,
-      "size_bytes": 272571
+      "count": 325,
+      "size_bytes": 278459
     },
     {
       "filename": "api-service-infrastructure.json",
       "type": "API / Service",
       "tag": "Infrastructure",
       "letter_range": null,
-      "count": 524,
-      "size_bytes": 441378
+      "count": 526,
+      "size_bytes": 443304
     },
     {
       "filename": "api-service-media.json",
       "type": "API / Service",
       "tag": "Media",
       "letter_range": null,
-      "count": 629,
-      "size_bytes": 527828
+      "count": 626,
+      "size_bytes": 525552
     },
     {
       "filename": "api-service-nft.json",
       "type": "API / Service",
       "tag": "NFT",
       "letter_range": null,
-      "count": 105,
-      "size_bytes": 86332
+      "count": 106,
+      "size_bytes": 87196
     },
     {
       "filename": "api-service-payments-commerce.json",
       "type": "API / Service",
       "tag": "Payments / Commerce",
       "letter_range": null,
-      "count": 393,
-      "size_bytes": 337241
+      "count": 396,
+      "size_bytes": 339705
     },
     {
       "filename": "api-service-security.json",
       "type": "API / Service",
       "tag": "Security",
       "letter_range": null,
-      "count": 417,
-      "size_bytes": 355970
+      "count": 419,
+      "size_bytes": 357837
     },
     {
       "filename": "api-service-storage.json",
@@ -242,8 +242,8 @@
       "type": "API / Service",
       "tag": "Testing / Mocking",
       "letter_range": null,
-      "count": 569,
-      "size_bytes": 479074
+      "count": 567,
+      "size_bytes": 484300
     },
     {
       "filename": "featured.json",
@@ -251,7 +251,7 @@
       "tag": null,
       "letter_range": null,
       "count": 100,
-      "size_bytes": 81749,
+      "size_bytes": 81345,
       "kind": "featured"
     }
   ]
