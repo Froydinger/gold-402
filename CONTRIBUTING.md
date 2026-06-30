@@ -37,6 +37,8 @@ Five categories are in scope:
 - URL: direct link to service, GitHub repo, or docs page.
 - No trailing whitespace.
 
+**Facilitator entries exception:** Facilitator entries in `directory/facilitators.md` may use up to three sentences, where each sentence is factual and non-marketing. Facilitators have multiple meaningful dimensions — networks supported, settlement mechanism, production status, and key differentiators — that a single sentence often cannot carry. Adjectives without supporting data and claims without a cited source remain out of scope regardless of sentence count.
+
 ---
 
 ## Acceptance Criteria
