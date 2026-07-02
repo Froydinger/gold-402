@@ -8,14 +8,14 @@ Security tools, spending controls, audit resources, and best practices for x402 
 
 - [Coinbase x402 Security Audit](https://docs.cdp.coinbase.com/x402/security) — Official security audit of x402 protocol smart contracts.
 - [EIP-3009 Security Analysis](https://eips.ethereum.org/EIPS/eip-3009#security-considerations) — Security considerations for TransferWithAuthorization.
-- [CVE Database](https://github.com/coinbase/x402/security/advisories) — Known vulnerabilities and patches for the x402 protocol.
+- [CVE Database](https://github.com/x402-foundation/x402/security/advisories) — Known vulnerabilities and patches for the x402 protocol.
 
 ---
 
 ## Security Best Practices
 
 - [x402 Security Checklist](https://docs.cdp.coinbase.com/x402/security/checklist) — Production deployment security requirements: signature verification, replay attack prevention, nonce management, rate limiting.
-- [Payment Verification Guide](https://github.com/coinbase/x402/blob/main/SECURITY.md) — Proper payment verification: facilitator trust models, on-chain verification fallbacks, amount and recipient validation.
+- [Payment Verification Guide](https://github.com/x402-foundation/x402/blob/main/SECURITY.md) — Proper payment verification: facilitator trust models, on-chain verification fallbacks, amount and recipient validation.
 - [Key Management](https://docs.cdp.coinbase.com/x402/security/keys) — Secure private key handling for automated payments: hardware wallet integration, key rotation, multi-sig setups.
 - [Replay Attack Prevention](https://docs.cdp.coinbase.com/x402/security/replay) — Nonce and deadline handling.
 

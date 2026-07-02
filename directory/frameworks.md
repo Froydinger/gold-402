@@ -18,7 +18,7 @@ Server-side integrations for accepting x402 payments. Drop into your existing st
 
 ### Next.js
 - [x402-next](https://www.npmjs.com/package/x402-next) — App Router middleware for Next.js.
-- [Next.js route protection](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/coinbase/x402) — Official complete Next.js app example with x402 payment gates.
+- [Next.js route protection](https://github.com/x402-foundation/x402/tree/main/examples/typescript/fullstack/next) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/x402-foundation/x402) — Official complete Next.js app example with x402 payment gates.
 
 ### API Gateways
 - [Zuplo x402](https://zuplo.com/blog/mcp-api-payments-with-x402) — API gateway with x402 paywalls. Add pay-per-request monetization to any API or MCP server. Sub-cent transaction fees on Base and Solana. ([Docs](https://zuplo.com/docs/articles/monetization))
@@ -28,7 +28,7 @@ Server-side integrations for accepting x402 payments. Drop into your existing st
 ## Python
 
 ### FastAPI
-- [FastAPI example](https://github.com/coinbase/x402/tree/main/examples/python) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/coinbase/x402) — Official complete FastAPI implementation with x402 payment middleware.
+- [FastAPI example](https://github.com/x402-foundation/x402/tree/main/examples/python) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/x402-foundation/x402) — Official complete FastAPI implementation with x402 payment middleware.
 
 ---
 

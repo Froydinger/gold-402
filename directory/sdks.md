@@ -17,7 +17,7 @@ Client and server-side libraries for building with x402. Start with the official
 ## TypeScript / JavaScript
 
 ### Official
-- [x402-typescript](https://github.com/coinbase/x402/tree/main/typescript) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Official TypeScript implementation. Core protocol types, payment verification and settlement logic, multi-chain support (Base, Base Sepolia, Ethereum, Solana).
+- [x402-typescript](https://github.com/x402-foundation/x402/tree/main/typescript) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Official TypeScript implementation. Core protocol types, payment verification and settlement logic, multi-chain support (Base, Base Sepolia, Ethereum, Solana).
 
 ### HTTP Clients
 - [cipher-x402-client](https://github.com/cryptomotifs/cipher-x402-client) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/cryptomotifs/cipher-x402-client) — Lightweight TS/JS x402 v2 client. Zero runtime deps, native fetch, ESM + CJS dual build. 34 tests, 89% coverage. Node 18+ / browsers. Optional `ethers` peer dep for signing.
@@ -73,7 +73,7 @@ Client and server-side libraries for building with x402. Start with the official
 
 ## Go
 
-- [coinbase/x402 (Go)](https://github.com/coinbase/x402/tree/main/go) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Official Go implementation. Core protocol types, multi-chain support.
+- [x402-foundation/x402 (Go)](https://github.com/x402-foundation/x402/tree/main/go) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Official Go implementation. Core protocol types, multi-chain support.
 - [x402-go](https://github.com/mark3labs/x402-go) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/mark3labs/x402-go) — Community Go implementation by Mark III Labs.
 - [mcp-go-x402](https://github.com/mark3labs/mcp-go-x402) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/mark3labs/mcp-go-x402) — x402 payment transport for MCP-Go clients and servers. Drop-in replacement compatible with mcp-go transport interface. Automatic 402 handling, multi-chain (EVM + Solana), mock signers for testing. ([Go Package](https://pkg.go.dev/github.com/mark3labs/mcp-go-x402))
 
