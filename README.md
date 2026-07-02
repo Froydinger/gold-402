@@ -18,15 +18,15 @@ This is the editorial layer: curated picks with context and badges, backed by an
 
 ## Featured This Month
 
-> ★ **June 2026** — [**Fireblocks Agentic Payments Suite**](https://www.fireblocks.com/products/agentic-payments) by [Fireblocks](https://www.fireblocks.com)
+> ★ **July 2026** — [**24K Labs Verification Report: Three-Quarters of the x402 Bazaar Is Dead**](articles/2026-07-verification-findings.md) by [24K Labs](https://24klabs.ai)
 
-[![24K Featured](https://img.shields.io/badge/24K_Featured-2026--06-C0C0C0?style=plastic)](FEATURED.md)
+[![24K Featured](https://img.shields.io/badge/24K_Featured-2026--07-C0C0C0?style=plastic)](FEATURED.md)
 
-Fireblocks — the platform behind $14T+ in secured digital asset transactions — launched its Agentic Payments Suite on May 20 and joined the x402 Foundation. The suite covers the full lifecycle of agent-initiated payments: MPC wallet custody with delegation rules, a merchant-side Gateway for stablecoin acceptance alongside existing payment rails, and a security extension contributed to the x402 protocol spec that adds request integrity and spend governance.
+We probed all 22,545 x402 services in the CDP Bazaar. 5,792 returned a valid 402 Payment Required response. The other 16,753 were gone, misconfigured, or unreachable — a 74% dead rate.
 
-This is the controls layer the protocol was missing. Facilitators verify that a payment is valid. Fireblocks verifies that the agent was authorized to make it. That distinction — and the compliance infrastructure (KYT, Travel Rule, audit trails) baked in by default — is what makes agentic payments deployable in regulated enterprise environments. The ecosystem has been developer-first for its first year. This is the moment it became enterprise-ready.
+That number is the whole argument for a verified catalog. The Bazaar reflects everything ever listed; it cannot tell you what is running right now. This report can: the headline finding, a reproducible methodology, and the verified services framed as "the ones that actually work" — including real payer counts that no listing can fake. It is the most direct statement of what gold-402 is for.
 
-[Read the full write-up →](articles/2026-06-fireblocks-agentic-payments.md) · [Past features →](FEATURED.md)
+[Read the full report →](articles/2026-07-verification-findings.md) · [Past features →](FEATURED.md)
 
 ---
 
@@ -34,7 +34,7 @@ This is the controls layer the protocol was missing. Facilitators verify that a 
 
 > **July 2026** — 22,545 x402 endpoints probed. 74% are dead. Here's what's actually live.
 
-- [**24K Labs Verification Report**](articles/2026-07-verification-findings.md) — We probed every x402 service in the CDP Bazaar. 5,793 verified live (25.7%). 16,686 failed (74%). The verified catalog is what makes the Bazaar usable. [→ Full report](articles/2026-07-verification-findings.md)
+- [**24K Labs Verification Report**](articles/2026-07-verification-findings.md) — We probed every x402 service in the CDP Bazaar. 5,792 verified live (25.7%). 16,686 failed (74%). The verified catalog is what makes the Bazaar usable. [→ Full report](articles/2026-07-verification-findings.md)
 
 ---
 

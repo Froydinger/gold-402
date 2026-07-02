@@ -6,6 +6,20 @@ Selection criteria are documented in [CONTRIBUTING.md](CONTRIBUTING.md#24k-featu
 
 ---
 
+## July 2026 — 24K Labs Verification Report
+
+> [**Three-Quarters of the x402 Bazaar Is Dead**](articles/2026-07-verification-findings.md) by [24K Labs](https://24klabs.ai)
+
+[![24K Featured](https://img.shields.io/badge/24K_Featured-2026--07-C0C0C0?style=plastic)](CONTRIBUTING.md#24k-featured-tier)
+
+The first Featured pick that is our own work, chosen because it states the thesis better than anything external could. We probed all 22,545 x402 services listed in the CDP Bazaar. 5,792 returned a valid 402 Payment Required response; the other 16,753 were gone, misconfigured, or unreachable — a 74% dead rate.
+
+Verification is the product, and presence is the verdict. A raw listing reflects everything ever submitted; it cannot distinguish a live endpoint from a dead one. This report does, with a reproducible methodology and real 30-day payer counts that no listing can fake. It is both July's editorial sample and the seed of 24K Labs' Stage-1 ecosystem reporting.
+
+[**→ Read the full report**](articles/2026-07-verification-findings.md)
+
+---
+
 ## June 2026 — Fireblocks Agentic Payments Suite
 
 > [**Fireblocks Agentic Payments Suite**](https://www.fireblocks.com/products/agentic-payments) by [Fireblocks](https://www.fireblocks.com)
