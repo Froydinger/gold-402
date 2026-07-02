@@ -10,7 +10,7 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 - [x402-ai-starter](https://github.com/vercel-labs/x402-ai-starter) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/vercel-labs/x402-ai-starter) — Vercel's official x402 AI starter template. Next.js + x402 + AI SDK. High-discoverability starting point for Vercel deployments. 74★
 - [5-Minute Quickstart for Sellers](https://docs.cdp.coinbase.com/x402/quickstart-for-sellers) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — Official Coinbase guide. Accept your first x402 payment in minutes.
 - [Buyer/Client Setup](https://docs.cdp.coinbase.com/x402/quickstart-buyers) — Official guide for making automated x402 payments.
-- [One-Line Integration](https://github.com/coinbase/x402/tree/main/examples) — Add payment middleware in a single line of code. Official examples repo.
+- [One-Line Integration](https://github.com/x402-foundation/x402/tree/main/examples) — Add payment middleware in a single line of code. Official examples repo.
 - [Base Sepolia Testnet Setup](https://docs.cdp.coinbase.com/x402/network-support) — Get test USDC and start testing without real money.
 - [Solana x402 Developer Guide](https://solana.com/developers/guides/getstarted/intro-to-x402) — Official Solana guide for getting started with x402 payments.
 
@@ -77,7 +77,7 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 
 ## Reference Documentation
 
-- [x402 Protocol Specification](https://github.com/coinbase/x402) — Official open-source protocol implementation by Coinbase.
+- [x402 Protocol Specification](https://github.com/x402-foundation/x402) — Official open-source protocol implementation by Coinbase.
 - [Coinbase Developer Platform Docs](https://docs.cdp.coinbase.com/x402) — Complete implementation guide and API reference.
 - [x402 Whitepaper](https://x402.org/x402-whitepaper.pdf) — Technical deep dive into protocol architecture.
 - [EIP-3009 TransferWithAuthorization](https://eips.ethereum.org/EIPS/eip-3009) — Gasless transfer standard used by x402.

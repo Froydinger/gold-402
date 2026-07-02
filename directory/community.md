@@ -7,7 +7,7 @@ Where x402 builders hang out, get help, and find work.
 ## Official Channels
 
 - [x402 Foundation Discord](https://discord.gg/x402) — Official community server. Best place for protocol questions and ecosystem announcements.
-- [GitHub Issues — coinbase/x402](https://github.com/coinbase/x402/issues) — Technical Q&A, bug reports, and feature requests for the core protocol.
+- [GitHub Issues — x402-foundation/x402](https://github.com/x402-foundation/x402/issues) — Technical Q&A, bug reports, and feature requests for the core protocol.
 - [Twitter @x402org](https://twitter.com/x402org) — Official updates and announcements.
 
 ---
