@@ -2,7 +2,7 @@
 
 > 24K Labs Verification Report -- July 2026
 >
-> 22,545 endpoints probed. 5,793 live. 74% unreachable.
+> 22,545 endpoints probed. 5,792 live. 74% unreachable.
 
 ---
 
@@ -12,7 +12,7 @@ The CDP Bazaar is the largest index of x402-enabled services. It is not curated.
 
 We probed all of them.
 
-**74.3% did not return a valid 402 response.** The endpoint was gone, the server returned the wrong status, or the payment details were malformed. We verified 5,793 services as live -- meaning they responded with a proper 402 Payment Required header, valid payment metadata, and a reachable payment endpoint. The rest: dead.
+**74.3% did not return a valid 402 response.** The endpoint was gone, the server returned the wrong status, or the payment details were malformed. We verified 5,792 services as live -- meaning they responded with a proper 402 Payment Required header, valid payment metadata, and a reachable payment endpoint. The rest: dead.
 
 This is not a critique of x402. It is a characteristic of any open listing ecosystem at velocity. Developers ship, pivot, take services down, iterate. The Bazaar reflects everything that has ever been listed. It cannot reflect what is actually running right now.
 
@@ -28,6 +28,8 @@ A service is **verified** if it returns HTTP 402 with a well-formed `X-Payment-R
 
 A service is **failed** if it returns any other status (200, 404, 500, connection refused, DNS failure). A service is **timeout** if it does not respond within 10 seconds.
 
+A service that fails two consecutive probes is **delisted** -- its status is set inactive and it drops out of the active catalog. Delisting is a lifecycle flag on failed services, not a separate outcome: the 2,068 services delisted to date are counted within the 16,686 failed, not alongside them.
+
 We make no attempt to actually pay. Verification is a probe, not a transaction. The probe can be reproduced: the full crawler is open source at `scripts/verify.py`.
 
 Run date: July 1, 2026. Total probed: 22,545.
@@ -38,20 +40,20 @@ Run date: July 1, 2026. Total probed: 22,545.
 
 | Status | Count | Share |
 |--------|-------|-------|
-| Verified live | 5,793 | 25.7% |
+| Verified live | 5,792 | 25.7% |
 | Failed | 16,686 | 74.0% |
 | Timeout | 67 | 0.3% |
 | **Total probed** | **22,545** | |
 
 Three in four x402 endpoints in the CDP Bazaar are unreachable. One in four is actually live.
 
-The failure rate is not evenly distributed across categories. Developer tooling dominates the verified set -- 2,170 of the 5,793 verified services are developer tools, which skews toward production infrastructure with stable uptime. Agent automation (926 verified), Finance / DeFi (572), and Data (432) follow. The long tail includes security, compliance, identity, and gaming services.
+The failure rate is not evenly distributed across categories. Developer tooling dominates the verified set -- 2,170 of the 5,792 verified services are developer tools, which skews toward production infrastructure with stable uptime. Agent automation (926 verified), Finance / DeFi (572), and Data (432) follow. The long tail includes security, compliance, identity, and gaming services.
 
 ---
 
 ## What is actually live
 
-The 5,793 verified services span a meaningful cross-section of the x402 economy.
+The 5,792 verified services span a meaningful cross-section of the x402 economy.
 
 **Pricing.** Verified services range from free tier (0 USDC, typically for discovery or trial endpoints) to $100 per call for specialized professional data. The average is $0.51 per call. The majority cluster in the $0.001--$0.05 range: micropayments for data retrieval, on-chain queries, AI inference tokens.
 
@@ -85,7 +87,7 @@ The monthly probe run refreshes this answer on the 1st of every month. The open-
 
 Verification is necessary but not sufficient for quality. A service can return 402 correctly and still offer little value: thin data, redundant endpoints, missing documentation, unclear pricing.
 
-gold-402 maintains a separate editorial layer -- the README and the curated directory pages -- for services that have cleared the verification bar and earned a place in the hand-curated picks. That layer is smaller: roughly 300 entries out of 5,793 verified, selected for clarity, usefulness, and signal.
+gold-402 maintains a separate editorial layer -- the README and the curated directory pages -- for services that have cleared the verification bar and earned a place in the hand-curated picks. That layer is smaller: roughly 300 entries out of 5,792 verified, selected for clarity, usefulness, and signal.
 
 The full verified catalog is available via the gold-402 API (`gold-402-api-production.up.railway.app`). The editorial picks are in the README.
 
@@ -93,7 +95,7 @@ The full verified catalog is available via the gold-402 API (`gold-402-api-produ
 
 ## The finding in one sentence
 
-Of 22,545 x402 services listed in the CDP Bazaar, 5,793 are live as of July 1, 2026. The other 16,752 are not. Knowing the difference is what the verified catalog is for.
+Of 22,545 x402 services listed in the CDP Bazaar, 5,792 are live as of July 1, 2026. The other 16,753 are not. Knowing the difference is what the verified catalog is for.
 
 ---
 
