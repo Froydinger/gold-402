@@ -32,6 +32,12 @@ This is the controls layer the protocol was missing. Facilitators verify that a 
 
 ## What's New
 
+> **July 2026** — 22,545 x402 endpoints probed. 74% are dead. Here's what's actually live.
+
+- [**24K Labs Verification Report**](articles/2026-07-verification-findings.md) — We probed every x402 service in the CDP Bazaar. 5,793 verified live (25.7%). 16,686 failed (74%). The verified catalog is what makes the Bazaar usable. [→ Full report](articles/2026-07-verification-findings.md)
+
+---
+
 > **June 2026** — Enterprise infrastructure arrives: Fireblocks, Arbitrum, and 169M+ transactions.
 
 - [**Fireblocks Agentic Payments Suite**](https://www.fireblocks.com/products/agentic-payments) — Full-lifecycle agentic payment infrastructure from the $14T digital asset custody platform. MPC agentic wallets with delegation rules, merchant Gateway for stablecoin acceptance, and a security extension to the x402 spec (request integrity + spend governance). Joined the x402 Foundation May 20, 2026. [★ June Featured Pick →](articles/2026-06-fireblocks-agentic-payments.md)
