@@ -1,0 +1,74 @@
+# README Guard.
+#
+# The hole this closes (found 2026-07-17, directory-wire session): submit.yml -- the
+# submission gate -- only triggers on `paths: directory/**`. Three contributors
+# (JMT, Vindex, Isocast, via PRs #25/#29) added their entries to README.md instead,
+# so the gate never fired AND the site (which renders directory/*.md via the editorial
+# wire) never showed them. They sat stranded for weeks, "welcomed" but invisible.
+#
+# This guard fails any PR that adds a listing-shaped line (a bullet or table row whose
+# first content is a markdown link to http(s)) to README.md, and comments the redirect
+# to directory/. Single responsibility, so it can't race submit.yml's comments:
+# submit.yml validates directory/ submissions; this rejects README ones. Entries have
+# ONE home -- directory/ -- and the site is generated from it (the ONESOURCE rule).
+#
+# STAGED on branch `harden-submit-gate` for Sean/Claude review -- not merged. It changes
+# what outside contributors see (a rejection comment), so it's a public-facing gate
+# change, not an unattended ship.
+
+name: README Guard
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'README.md'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Reject listings added to README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              per_page: 100,
+            });
+            const readme = files.find(f => f.filename.toLowerCase() === 'readme.md');
+            // A listing-shaped addition: an added line that is a bullet or table cell
+            // whose first content is a markdown link to http(s). Tight on purpose so a
+            // prose link or a badge/count edit does not trip it.
+            const listingRe = /^\+\s*[-|]\s*\[[^\]]+\]\(https?:\/\//;
+            const addedListing = readme && readme.patch &&
+              readme.patch.split('\n').some((l) => listingRe.test(l));
+            if (!addedListing) {
+              core.info('No listing-shaped additions to README.md — nothing to guard.');
+              return;
+            }
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: [
+                '**Submission rejected: listings go in `directory/`, not `README.md`.**',
+                '',
+                'The site renders `directory/*.md` through the editorial wire. An entry added to',
+                '`README.md` passes no verification gate and never reaches the product — that is exactly',
+                'how three services were stranded in July 2026: welcomed in the README, invisible on the site.',
+                '',
+                'Move your entry into the right section file under `directory/` (for an API, that is',
+                '`directory/apis.md`; for an MCP server, `directory/mcp-servers.md`), put your endpoint URL',
+                'in the PR body, and re-open. The submission gate will verify it returns HTTP 402. See',
+                'CONTRIBUTING.md.',
+              ].join('\n'),
+            });
+            core.setFailed('Listing added to README.md — submissions must live in directory/.');
