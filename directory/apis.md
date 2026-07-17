@@ -34,6 +34,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Fly Labs Agentic Market](https://flylabs.fun/agents) — YouTube data APIs for AI agents. Transcribe ($0.03) and engagement analytics ($0.02) with structured JSON payloads. USDC on Base.
 - [GigSoul AI Research Agent](https://gig-x402-api.jayson-be1.workers.dev) — 23-endpoint AI research API: SEC filings, earnings calls, competitor analysis, market research, document intelligence. $0.01 USDC per call on Base.
 - [x402 Entity-ID Resolver](https://entityresolver.xyz) — Resolves a company or crypto name or ticker into ranked entities with verified canonical IDs across registries: SEC CIK + ticker, GLEIF LEI, Wikidata QID, CoinGecko slug. $0.005 USDC per call on Base. ([OpenAPI](https://entityresolver.xyz/openapi.json))
+| [_done](https://underscoredone.com) | Suite of x402 micropayment-gated utility APIs for AI agents (Web lookups, site analysis, data and more). Pay-per-call, no API keys or subscriptions — agents discover and pay per request via x402. Base + Solana mainnet payment support.
 
 - [PulseNetwork](https://pulsenetwork.theaslangroupllc.com) — 66 vertical intelligence APIs / 826 pay-per-call endpoints: OFAC sanctions screening, EU VAT validation (VIES), SEC XBRL fundamentals, token safety scans, tax data for 195 countries, climate, health, sports. $0.01–$2 USDC on Base; OpenAPI + llms.txt on every origin; MPP (Tempo) via [gateway](https://mpp.theaslangroupllc.com).
 
