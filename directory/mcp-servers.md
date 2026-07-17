@@ -23,6 +23,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 - [AskClaude MCP](https://www.npmjs.com/package/askclaude-mcp) — Pay-per-query Claude AI. 9 x402 endpoints: Haiku/Sonnet/Opus chat, streaming, summarization, code review, translation, sentiment, crypto analysis. $0.01-$0.10 USDC on Base. `npx askclaude-mcp`. ([GitHub](https://github.com/pvega23/askclaude-mcp))
 - [JubJub MCP](https://api.jubjubapp.com/v2/mcp) — 65-tool MCP server for media publishing, cross-platform analytics, automated on-chain royalty splits.
 - [Human Pages MCP](https://github.com/human-pages-ai/humanpages) — 31-tool MCP for the open directory AI agents use to hire humans for real-world tasks. x402 pay-per-use on Base.
+- [vindex-mcp](https://www.npmjs.com/package/vindex-mcp) — Vehicle data over x402: VIN decode with warranty terms, recalls, reliability, and US/Canada purchase-cost estimates. USDC on Base. `npx vindex-mcp`.
 
 ---
 
@@ -36,6 +37,8 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 - [Harvey Budget](https://budget.rugslayer.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/meltingpixelsai/harvey-budget) — Agent spending management: budget tracking, ROI analysis, spend approval. 6 tools on Solana.
 - [SOLx402 MCP](https://github.com/0xMetatime/solx402-mcp-server) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/0xMetatime/solx402-mcp-server) — Interact with x402 on Solana. Discover/consume services, manage USDC, query protocol docs.
 - [SolSigs MCP](https://solsigs.com) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/gra-kir/solsigs-py) — 16-tool Solana blockchain intelligence MCP server: DEX prices, arbitrage, wallet scoring, token launches, NFT intel, whale tracking, smart money, staking, Polymarket predictions, social sentiment, RPC relay, price feeds, dev activity, alerts, on-chain summarizer, trending tokens. $0.001-$0.010 USDC on Solana.
+- [isocast-mcp](https://www.npmjs.com/package/isocast-mcp) — Per-signal Polymarket weather-market data across 37 cities, with market URLs and live bucket odds. USDC on Base. `npx isocast-mcp`.
+- [moltalyzer-mcp](https://www.npmjs.com/package/moltalyzer-mcp) — Polymarket and AI-agent-community intelligence: order-book microstructure movers, whale hold-to-resolution calibration, and multi-source digests. USDC on Base. `npx moltalyzer-mcp`.
 
 ---
 

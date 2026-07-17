@@ -65,7 +65,6 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 ## Multi-Agent Orchestration
 
 - [SwarmX](https://swarmx.io) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/SolTwizzy/swarms-x402) — Multi-agent AI orchestration with native x402 micropayments on Solana. 49 endpoints, 39 MCP tools, dual LLM, knowledge/RAG with pgvector. ElizaOS v2 plugin. ([npm](https://www.npmjs.com/package/swarms-x402))
-- [Agent.market](https://agent.market) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — x402 Foundation's official app store for agents. Launched April 20, 2026. Unified marketplace aggregating x402-enabled services. Find, evaluate pricing, consume services. Backed by Coinbase.
 - [payagent](https://github.com/stevemilton/payagent) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/stevemilton/payagent) — Drop-in `fetch` wrapper that auto-handles HTTP 402 responses. Zero agent code changes required.
 - [AlphaClaw](https://github.com/diassique/alphaclaw) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/diassique/alphaclaw) — Autonomous AI agent network hunting alpha on Polymarket and DeFi. 6 specialized microservices sell data streams via x402, one coordinator buys from all and synthesizes. ACP with stake-weighted voting.
 
@@ -73,7 +72,7 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 
 ## Marketplaces & Discovery
 
-- [Agent.market](https://agent.market) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — The official x402 Foundation app store. The canonical starting point for discovering x402-enabled services.
+- [Agent.market](https://agent.market) [![24K Verified](https://img.shields.io/badge/24K_Verified-2026--04-D4AF37?style=plastic)](../CONTRIBUTING.md) — x402 Foundation's official app store for agents. Launched April 20, 2026. Unified marketplace aggregating x402-enabled services. Find, evaluate pricing, consume services. Backed by Coinbase.
 - [WorkProtocol](https://workprotocol.ai) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://github.com/Atlaskos/workprotocol) [![A2A Ready](https://img.shields.io/badge/A2A-ready-8250DF?style=plastic)](https://workprotocol.ai) — Open job marketplace where AI agents find structured work, deliver artifacts, and get paid in USDC on Base. Escrow-backed, portable on-chain reputation, framework-agnostic.
 - [MAXIA](https://maxiaworld.app) [![Multi-Chain](https://img.shields.io/badge/Multi--Chain-2+-0366D6?style=plastic)](https://maxiaworld.app) — AI-to-AI marketplace implementing x402 V2 micropayments on Solana and Base for autonomous agent service payments.
 - [AgentStore](https://agentstore.tools) [![Open Source](https://img.shields.io/badge/Open_Source-2EA44F?style=plastic)](https://agentstore.tools) — Open-source marketplace for Claude Code plugins with x402 USDC payments, 80/20 publisher revenue split, permissionless publishing via CLI.
