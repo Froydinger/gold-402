@@ -43,7 +43,9 @@ _Week of July 20–26, 2026_
 
 **This week** (Jul 27—Aug 2)
 
-_No new listings yet._
+- **[NEAR x402 Facilitator](https://x402.mikedotexe.com/)** — Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base. It sponsors relayer gas and persists settlements for recovery. [Source](https://github.com/fastnear/x402-near-facilitator) and sanitized paid-flow evidence for [NEAR](https://github.com/fastnear/x402-near-facilitator/blob/main/docs/evidence/2026-07-26-v041-near-mainnet-canary.md) and [Base](https://github.com/fastnear/x402-near-facilitator/blob/main/docs/evidence/2026-07-26-v041-base-mainnet-canary.md).
+- **[x402 FixSpec](https://github.com/am5188/x402-fixspec)** — Deterministic endpoint conformance and remediation tool that inspects unpaid challenges, validates Base USDC requirements, probes discovery documents, and returns OpenAPI, Bazaar, and agent-instruction templates. [Live x402 offer](https://fixspec.am518.uk/buy/fixspec).
+- **[modelprices.xyz](https://modelprices.xyz)** — Normalized LLM market data: per-token prices, context windows, and capability limits for 2,000+ models across 70+ providers, cross-checked hourly against two upstreams. Single-model lookups $0.002, cheapest-model queries $0.005 (ranked by blended $/request), full tables $0.01, price-change feed $0.02. Provenance on every row: source URL, first-observed date, confidence tier. USDC on Base. ([OpenAPI](https://modelprices.xyz/openapi.json)) ([llms.txt](https://modelprices.xyz/llms.txt))
 
 **Last week** (Jul 20—26)
 
