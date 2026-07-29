@@ -8,7 +8,7 @@
 
 The x402 ecosystem passed 50M transactions in March 2026. 300+ projects across 8 chains. 10,000%+ year-over-year growth. The community awesome-list accepts everything — that's its job.
 
-gold-402 doesn't. Every entry in the README earned its place. The full catalog lives in [`directory/`](directory/).
+gold-402 doesn't. Every entry earned its place. The full curated directory lives in [`directory/`](directory/).
 
 This is the editorial layer: curated picks with context, backed by an exhaustive reference directory. Two layers, one repo.
 
@@ -22,7 +22,7 @@ This is the editorial layer: curated picks with context, backed by an exhaustive
 
 We probed all 22,545 x402 services in the CDP Bazaar. 5,792 returned a valid 402 Payment Required response. The other 16,753 were gone, misconfigured, or unreachable — a 74% dead rate.
 
-That number is the whole argument for a verified catalog. The Bazaar reflects everything ever listed; it cannot tell you what is running right now. This report can: the headline finding, a reproducible methodology, and the verified services framed as "the ones that actually work" — including real payer counts that no listing can fake. It is the most direct statement of what gold-402 is for.
+That number is the whole argument for a verified catalog. The Bazaar reflects everything ever listed; it cannot tell you what is running right now. This report can: the headline finding, the methodology laid out step by step, and the verified services framed as "the ones that actually work" — including real payer counts that no listing can fake. It is the most direct statement of what gold-402 is for.
 
 [Read the full report →](articles/2026-07-verification-findings.md) · [Past features →](FEATURED.md)
 

@@ -30,7 +30,7 @@ A service is **failed** if it returns any other status (200, 404, 500, connectio
 
 A service that fails two consecutive probes is **delisted** -- its status is set inactive and it drops out of the active catalog. Delisting is a lifecycle flag on failed services, not a separate outcome: the 2,068 services delisted to date are counted within the 16,686 failed, not alongside them.
 
-We make no attempt to actually pay. Verification is a probe, not a transaction. The probe can be reproduced: the full crawler is open source at `scripts/verify.py`.
+We make no attempt to actually pay. Verification is a probe, not a transaction. The probe is fully specified below — an HTTP GET, a 10-second timeout, and a valid 402 with payment metadata required for a pass — and can be reproduced from that description with any HTTP client.
 
 Run date: July 1, 2026. Total probed: 22,545.
 
@@ -79,7 +79,7 @@ An agent that trusts the raw CDP Bazaar list will attempt to pay endpoints that 
 
 gold-402's verified catalog is a filter on top of the open listing layer. It does not replace the Bazaar. It answers a different question: of everything listed, what is actually working right now?
 
-The monthly probe run refreshes this answer on the 1st of every month. The open-source crawler (`scripts/verify.py`) can be run on demand against any snapshot. The verification methodology is documented and reproducible.
+The monthly probe run refreshes this answer on the 1st of every month. The verification methodology is documented in this report and reproducible from it.
 
 ---
 
@@ -99,6 +99,6 @@ Of 22,545 x402 services listed in the CDP Bazaar, 5,792 are live as of July 1, 2
 
 ---
 
-*Methodology: HTTP GET probe, 10-second timeout, valid 402 response with payment metadata required for verified status. Full probe source at `scripts/verify.py`. Refreshed monthly via GitHub Actions. Data current as of July 1, 2026.*
+*Methodology: HTTP GET probe, 10-second timeout, valid 402 response with payment metadata required for verified status. Refreshed monthly. Data current as of July 1, 2026.*
 
 *gold-402 is curated by [24K Labs](https://24klabs.ai). Verification report by Nox.*
