@@ -7,6 +7,8 @@
 
 import ipaddress
 import json
+import os
+import re
 import socket
 import sys
 import urllib.error
@@ -15,7 +17,6 @@ import urllib.request
 
 USER_AGENT    = "Gold-402-Verifier/1.0 (https://24klabs.ai/gold-402)"
 PROBE_TIMEOUT = 10
-SERVICES_PATH = "directory/services.json"
 
 PRIVATE_RANGES = [
     ipaddress.ip_network("10.0.0.0/8"),
@@ -60,27 +61,24 @@ def is_private_ip(hostname):
 
 
 def check_already_listed(resource_url):
-    """Return True if this exact endpoint URL is already listed.
-    Matches on full URL (scheme+host+path), not just the base host.
-    Same host with a different path = different service = not a duplicate.
+    """Return True if this exact endpoint URL is already in the curated
+    directory (directory/*.md). Matches on host+path, not just host --
+    same host with a different path = different service = not a duplicate.
     """
     try:
-        with open(SERVICES_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        services = data.get("services", [])
-        parsed  = urllib.parse.urlparse(resource_url)
+        parsed = urllib.parse.urlparse(resource_url)
         low_host = parsed.netloc.lower().lstrip("www.")
         low_path = parsed.path.lower().rstrip("/")
-        for s in services:
-            # Build full URL from stored fields for comparison
-            base = (s.get("api_base_url") or "").lower().rstrip("/")
-            path = (s.get("endpoint_path") or "").lower().rstrip("/")
-            stored_parsed = urllib.parse.urlparse(base)
-            stored_host   = stored_parsed.netloc.lower().lstrip("www.")
-            stored_path   = path or stored_parsed.path.lower().rstrip("/")
-            # Exact match on host + path
-            if stored_host == low_host and stored_path == low_path:
-                return True, s.get("source", "unknown")
+        md_url_re = re.compile(r"\((https?://[^)\s]+)\)")
+        for name in os.listdir("directory"):
+            if not name.endswith(".md"):
+                continue
+            with open(os.path.join("directory", name), "r", encoding="utf-8") as f:
+                for m in md_url_re.finditer(f.read()):
+                    sp = urllib.parse.urlparse(m.group(1))
+                    if sp.netloc.lower().lstrip("www.") == low_host and \
+                       sp.path.lower().rstrip("/") == low_path:
+                        return True, name
         return False, None
     except Exception:
         return False, None
