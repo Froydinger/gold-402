@@ -1,12 +1,12 @@
 ﻿# gold-402
 
-> The gold standard for x402 resources. Facilitators, SDKs, APIs, MCP servers, tools, and ecosystem data — curated by 24K Labs. No filler. No dead links. Updated weekly.
+> The gold standard for x402 resources. 425 curated entries — facilitators, SDKs, APIs, MCP servers, tools, and ecosystem data. No filler. No dead links. Updated weekly.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
 [![Curated by 24K Labs](https://img.shields.io/badge/Curated_by-24K_Labs-gold)](https://24klabs.ai)
 
-The x402 ecosystem passed 50M transactions in March 2026. 300+ projects across 8 chains. 10,000%+ year-over-year growth. The community awesome-list accepts everything — that's its job.
+The x402 ecosystem is moving ~$24M across 75M transactions a month (July 2026), with 425 curated projects listed here across 8 chains. The community awesome-list accepts everything — that's its job.
 
 gold-402 doesn't. Every entry earned its place. The full curated directory lives in [`directory/`](directory/).
 
