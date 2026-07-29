@@ -2,7 +2,9 @@
 
 Payment verification and settlement services for x402. A facilitator verifies payment signatures and settles USDC on-chain so your server doesn't have to run blockchain infrastructure.
 
-> **gold-402 note:** For most builders, start with Coinbase CDP. For European deployments, AsterPay is the only MiCA-compliant option. For edge/global scale, Cloudflare.
+> **gold-402 note:** For most builders, start with Coinbase CDP. For European deployments, AsterPay is the only MiCA-compliant option. For edge/global scale, Cloudflare. This is the shelf where trust actually settles — every x402 payment clears through one of these.
+>
+> **This month (July 2026):** the first NEAR facilitator landed ([NEAR x402 Facilitator](https://x402.mikedotexe.com/), open source, with published paid-flow evidence for both NEAR and Base). Chain breadth keeps widening — XRPL, Bitcoin relays, and Solana settlement all now have working facilitators on this shelf.
 
 ---
 

@@ -4,12 +4,16 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 
 > Sorted by category. For discovery tooling that indexes these services, see [ecosystem.md](ecosystem.md).
 
+> **gold-402 note:** The deepest shelf in the directory, and the one that answers the only question that matters: what can an agent actually buy today? Every entry was probed for a live 402 before it was listed. Prices here run from a tenth of a cent to a few dollars — the card-network-impossible range the protocol exists for.
+>
+> **This month (July 2026):** this shelf crossed a line — its first services built and operated end-to-end by autonomous AI agents ([Fabler Labs](https://fablerlabs.com/x402/), [Base tx-decision](https://x402-mcp.onrender.com/base/tx-decision)) arrived through the same intake as everyone else, probed and listed on the same bar. The buyers were always going to be machines; now some of the sellers are too.
+
 ---
 
 ## AI Services
 
 - [Venice AI](https://venice.ai) — Official Venice AI client for x402 micropayments. Pay-per-request AI inference with privacy-first LLMs. No account required — wallet is auth. 8★
-- [24K Labs](https://24klabs.ai) — 6 AI code analysis services: explain, debug, review, security audit, automation scripts, MCP blueprints. $0.50-$50.00 per request. USDC on Base. [Live API](https://api.24klabs.ai)
+- [24K Labs Chronographer](https://24klabs.ai/products/chronographer) — Temporal context for AI agents: 15+ time systems (lunar, solar, market sessions, circadian, ISO/Julian) plus an AI temporal-reasoning endpoint. $0.001–$0.05 USDC per call on Base. [Live API](https://time.24klabs.ai)
 - [tx402.ai](https://tx402.ai) — Agent-native LLM inference gateway. 20+ EU-hosted models (DeepSeek, Qwen, Llama, Mixtral) via x402 USDC on Base. OpenAI-compatible, SSE streaming, GDPR-compliant, zero data retention. No API keys — wallet is auth. [Models](https://tx402.ai/v1/models)
 - [AskClaude](https://askclaude.shop) — Pay-per-query Claude API. 9 endpoints: Haiku ($0.01), Sonnet ($0.03), Opus ($0.10), plus summarization, code review, translation, sentiment, crypto analysis. USDC on Base.
 - [x402engine](https://x402engine.app) — 74 pay-per-call API tools: 44 LLMs, image/video generation, crypto data, web search, code execution, TTS, travel, IPFS. Multi-chain: Base, MegaETH, Solana. ([GitHub](https://github.com/agentc22/x402-engine))
