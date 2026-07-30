@@ -100,9 +100,9 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 [![24K Featured](https://img.shields.io/badge/24K_Featured-2026--07-C0C0C0?style=plastic)](FEATURED.md)
 
-We probed all 22,545 x402 services in the CDP Bazaar. 5,792 returned a valid 402 Payment Required response. The other 16,753 were gone, misconfigured, or unreachable — a 74% dead rate.
+We probed all 22,545 x402 services in the CDP Bazaar. 5,792 answered. The rest were gone, misconfigured, or unreachable — 74% dead.
 
-That number is the whole argument for a verified catalog. The Bazaar reflects everything ever listed; it cannot tell you what is running right now. This report can: the headline finding, the methodology laid out step by step, and the verified services framed as "the ones that actually work" — including real payer counts that no listing can fake. It is the most direct statement of what gold-402 is for.
+The Bazaar records everything ever listed; it can't tell you what runs today. That gap is the whole argument for a checked catalog.
 
 [Read the full report →](articles/2026-07-verification-findings.md) · [Past features →](FEATURED.md)
 
