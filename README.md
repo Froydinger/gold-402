@@ -1,6 +1,6 @@
 # gold-402
 
-> The gold standard for x402 resources. **456 curated entries** — every one checked by hand before it was listed. No filler. No dead links.
+> The gold standard for x402 resources. **458 curated entries** — every one checked by hand before it was listed. No filler. No dead links.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
@@ -14,7 +14,7 @@ gold-402 is the other thing. Smaller on purpose. A person checked every entry, w
 
 ## The Directory
 
-The product. 456 entries across 12 shelves, in [`directory/`](directory/).
+The product. 458 entries across 12 shelves, in [`directory/`](directory/).
 
 | Shelf | What's on it |
 |---|---|

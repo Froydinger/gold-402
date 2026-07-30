@@ -32,7 +32,6 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 
 ## Crypto & DeFi Intelligence
 
-- [Moltalyzer API](https://api.moltalyzer.xyz) — Agent-community intelligence API (v5.0.0 reported at its root). Probed live 2026-07-30.
 - [Cerebrus Pulse MCP](https://cerebruspulse.xyz) — Real-time crypto intelligence: technical analysis (RSI, EMAs, Bollinger Bands), sentiment, funding rates for 30+ Hyperliquid perpetuals. x402 USDC on Base.
 - [BotIndex MCP](https://github.com/Cyberweasel777/botindex-mcp-server) — 17-tool signal intelligence: sports odds, crypto correlations, token graduations (Zora/Hyperliquid/Metaplex Genesis), DFS optimization, arbitrage detection. 50 free requests/wallet then x402 on Base. `npx botindex-mcp-server`. ([npm](https://npmjs.com/package/botindex-mcp-server))
 - [Harvey Intel](https://agents.rugslayer.com) — Solana token rug pull detection (DrainBrain ML ensemble), trading signals, social intelligence. 8 tools, $0.005-$0.05 USDC on Solana. ([npm](https://www.npmjs.com/package/@meltingpixels/harvey-intel))
