@@ -346,6 +346,7 @@ The README is the curated magazine — handpicked entries with context and tags.
 - [Learning Resources](directory/learning.md) — quickstarts, tutorials, articles, news, and migration guides.
 - [Community](directory/community.md) — channels, newsletters, jobs, and events.
 - [Market Data](directory/market-data.md) — on-chain analytics, dashboards, enterprise adoption, and growth timeline.
+- [The Global Agent Economy](directory/global.md) — agent infrastructure and machine-payment rails outside the US and Europe: China, India, Korea.
 
 ---
 
