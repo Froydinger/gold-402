@@ -64,6 +64,8 @@ Development tools, CLI utilities, monitoring, analytics, and CI/CD integrations 
 
 ## Discovery & Search
 
+- [Agent Café](https://api.402.coffee/docs) — x402 developer service with published API docs. Probed live 2026-07-30.
+- [Arch Tools](https://archtools.io) — x402 tooling. Probed live 2026-07-30; payment path returned 402 without settling on our test, so treat the buy flow as unconfirmed.
 - [x402 Service Discovery API](https://x402-discovery-api.onrender.com) — Enriched directory of 251+ x402-payable services. Trust signals, uptime, latency, health scores. Auto-scans x402.org/ecosystem every 6h. 6-tool MCP server.
 - [x402 RouteNet](https://x402-routenet.onrender.com) — Smart routing layer for x402-enabled services. Selects optimal endpoint from 251+ services based on price, latency, health, or composite trust. Four strategies: `best`, `cheapest`, `fastest`, `most_trusted`.
 - [OpenClaw Discovery Index](https://x402search.xyz) — x402-gated search engine for 13,000+ x402-enabled APIs indexed from CDP Bazaar. $0.01 USDC per search on Base.

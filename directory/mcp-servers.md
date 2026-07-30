@@ -8,6 +8,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 
 ## General Utility
 
+- [Fry x402 MCP](https://github.com/Fry-Foundation/fry-x402-mcp) — MCP server for the fry.farm x402 API. Repo live 2026-07-30; storefront at [fry.farm/x402](https://fry.farm/x402/).
 - [blockrun-mcp](https://blockrun.ai) — Live data MCP for AI agents: search, research, markets, crypto, X/Twitter. Pay-per-use USDC on Base and Solana via x402. 31+ AI models, 600+ services indexed. 471★
 - [MetaMask MCP x402](https://github.com/metamask/mcp-x402) — Official MetaMask MCP server with x402 payment integration. Creates x402 payment headers using MetaMask wallet. 4★
 - [x402-mcp](https://www.npmjs.com/package/x402-mcp) — Vercel's `paidTool` primitive — add an x402 paywall to any MCP tool with one wrapper. The foundational MCP payment SDK. ([Blog](https://vercel.com/blog/introducing-x402-mcp-open-protocol-payments-for-mcp-tools)) ([Starter Template](https://vercel.com/templates/next.js/x402-ai-starter))
@@ -31,6 +32,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 
 ## Crypto & DeFi Intelligence
 
+- [Moltalyzer API](https://api.moltalyzer.xyz) — Agent-community intelligence API (v5.0.0 reported at its root). Probed live 2026-07-30.
 - [Cerebrus Pulse MCP](https://cerebruspulse.xyz) — Real-time crypto intelligence: technical analysis (RSI, EMAs, Bollinger Bands), sentiment, funding rates for 30+ Hyperliquid perpetuals. x402 USDC on Base.
 - [BotIndex MCP](https://github.com/Cyberweasel777/botindex-mcp-server) — 17-tool signal intelligence: sports odds, crypto correlations, token graduations (Zora/Hyperliquid/Metaplex Genesis), DFS optimization, arbitrage detection. 50 free requests/wallet then x402 on Base. `npx botindex-mcp-server`. ([npm](https://npmjs.com/package/botindex-mcp-server))
 - [Harvey Intel](https://agents.rugslayer.com) — Solana token rug pull detection (DrainBrain ML ensemble), trading signals, social intelligence. 8 tools, $0.005-$0.05 USDC on Solana. ([npm](https://www.npmjs.com/package/@meltingpixels/harvey-intel))
