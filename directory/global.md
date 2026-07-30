@@ -8,7 +8,7 @@ Agent infrastructure and machine-payment rails outside the US and Europe — Chi
 >
 > x402 is a US-governed rail: USDC, Base, dollar-denominated, crypto-native. It is not the only answer to machine-to-machine payment, and outside the West it is not the answer being used. China solved delegated agent authorization on existing rails. India solved it with regulated, human-signed mandates that agents execute inside a cap. Neither needed a blockchain, and both were running at scale while the x402 Foundation was weeks old.
 >
-> The entries below are the parts of that world we could actually reach and read. Several major surfaces we could not — Zhihu and NPCI disallow crawlers, CSDN and DeepSeek's platform returned blocks, and Alipay's agent-payment documentation sits behind a JavaScript wall. Where we haven't looked, we say so rather than leaving the gap invisible.
+> The entries below are the parts of that world we could actually reach and read. Several major surfaces we could not — Zhihu and NPCI disallow crawlers, and CSDN and DeepSeek's platform returned blocks. Alipay's agent-payment documentation, JavaScript-walled on the first pass, has since been read in full — including "AI收", its own HTTP-402 payment rail for agents. Where we haven't looked, we say so rather than leaving the gap invisible.
 >
 > One thing worth stating plainly: **x402 is also the only genuinely open rail we found anywhere.** China's ACT protocol claims openness and publishes no specification. India's rail is human-anchored by regulation, by design. That makes x402 regional — and uniquely permissionless. Both things are true.
 
