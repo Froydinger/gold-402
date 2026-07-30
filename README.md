@@ -1,12 +1,12 @@
 ﻿# gold-402
 
-> The gold standard for x402 resources. 425 curated entries — facilitators, SDKs, APIs, MCP servers, tools, and ecosystem data. No filler. No dead links. Updated weekly.
+> The gold standard for x402 resources. 456 curated entries — facilitators, SDKs, APIs, MCP servers, tools, and ecosystem data. No filler. No dead links. Updated weekly.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
 [![Curated by 24K Labs](https://img.shields.io/badge/Curated_by-24K_Labs-gold)](https://24klabs.ai)
 
-The x402 ecosystem is moving ~$24M across 75M transactions a month (July 2026), with 425 curated projects listed here across 8 chains. The community awesome-list accepts everything — that's its job.
+The x402 ecosystem is moving ~$24M across 75M transactions a month (July 2026), with 456 curated projects listed here across 8 chains. The community awesome-list accepts everything — that's its job.
 
 gold-402 doesn't. Every entry earned its place. The full curated directory lives in [`directory/`](directory/).
 
@@ -25,6 +25,53 @@ We probed all 22,545 x402 services in the CDP Bazaar. 5,792 returned a valid 402
 That number is the whole argument for a verified catalog. The Bazaar reflects everything ever listed; it cannot tell you what is running right now. This report can: the headline finding, the methodology laid out step by step, and the verified services framed as "the ones that actually work" — including real payer counts that no listing can fake. It is the most direct statement of what gold-402 is for.
 
 [Read the full report →](articles/2026-07-verification-findings.md) · [Past features →](FEATURED.md)
+
+---
+
+## Ecosystem Data
+
+Numbers we measured ourselves, each with its date, sample size and method. Where measurements disagree, both are shown — they were taken on different days by different methods, and blending them into one tidy figure would be the kind of thing this directory exists to argue against.
+
+### How much of the ecosystem is alive
+
+| Measured | Population | Live | Dead | Method |
+|---|---|---|---|---|
+| 2026-07 | 22,545 CDP Bazaar services | 5,792 | **74%** | full probe crawl, valid 402 required |
+| 2026-07-10 | 25,614 catalog services | 5,344 | **79%** | catalog snapshot, verify-state carried forward |
+| 2026-07-29 | 24,583 catalog services | — | **~67%** | earlier full crawl, cited in the liveness study |
+
+Three runs, three numbers, one direction: **the large free-listing catalogs are majority dead, and have been all month.** Anyone quoting a single decimal-point figure for this is quoting a moment, not a fact.
+
+### Liveness is predicted by listing friction
+
+Across four independent registries — 204,500 registered agents and services — the dead share tracks one variable: what it costs to get listed.
+
+| Registry | Entry cost | Dead |
+|---|---|---|
+| CDP Bazaar | free | ~67–79% |
+| ERC-8004 on-chain identity | gas only | 85–97% |
+| Glama MCP registry | curation + scoring | 47% unhealthy _(their own published figure)_ |
+
+**Free entry selects for abandonment.** Full method, limits, and an open invitation to refute it: [The Liveness Law →](articles/2026-07-the-liveness-law.md)
+
+### Buying is harder than finding
+
+In July 2026 we ran the first paid delivery check across our own shelf — actually buying services and recording what came back.
+
+- **16** of 126 listed services were purchasable by a machine at a discoverable address
+- **8** delivered exactly what they advertised
+- **0** took payment and returned nothing
+- **$0.054** spent, every transaction reconciled on-chain
+
+The friction in this economy sits **before** the payment, not after it. Most services are fine; most front doors are not. A larger sample is in progress before we make a claim of it.
+
+### Coverage beyond the West
+
+x402 is a US-governed rail. It is not the only answer to machine payment, and outside the West it is not the answer being used — China runs delegated agent authorization on existing rails, India runs regulated human-signed mandates that agents execute inside a cap. Both were operating at scale before the x402 Foundation was a month old.
+
+We index that world too, including surfaces no English-language directory carries: [The Global Agent Economy →](directory/global.md)
+
+_All figures above are ours and reproducible. Where we could not reach something, we say so rather than leaving the gap invisible._
 
 ---
 
