@@ -39,14 +39,22 @@ For a **service** — an API, MCP server, facilitator, or anything with a live e
 - **It settles on a supported chain.** Base is the norm; other chains are fine as long as the x402 flow is real.
 - **It's not a duplicate service** (see the one-entry-per-service rule below).
 - **The description is one factual line.** No marketing language.
+- **An agent can actually reach it.** Give us the URL where the 402 lives — the endpoint itself, or a `/.well-known/x402` manifest that points at it. Not a homepage that a person has to read their way out of.
+- **A working example request**, if your endpoint needs parameters. A method and a minimal body is plenty: `POST /v1/quote  {"symbol":"BTC"}`. If a caller has to guess the shape, they can't buy from you.
 
 For a **library, framework, or learning/community resource** with no payable endpoint of its own: it must be publicly accessible (live URL or public repo), demonstrably x402-specific, active within roughly the last twelve months, and described in one factual line.
 
 We probe every submitted endpoint before merging. Anything that fails gets a friendly note explaining what to fix — never a silent rejection. Fix it and resubmit.
 
+**Why we ask for the last two.** We buy things now. In July 2026 we ran the first paid delivery check across our own shelf and found that of 126 listed services, only 16 could be purchased by a machine at a findable address — and four of those still failed because the request shape wasn't documented anywhere a caller could find it. The services were fine. The front doors weren't.
+
+That's not a complaint about anyone's product. It's the single biggest thing standing between a working service and an agent that would have paid for it. So we ask for the door, and the shape of the knock.
+
 ## What "verified" means
 
-gold-402 is one tier: **listed = verified.** There are no bronze/silver/gold levels. If an entry is on the list, the maintainers confirmed its endpoint was live and answered an x402 request correctly at the time of review, and re-check it periodically. That is the whole claim — a liveness-and-protocol check. It is **not** an audit of the provider, a guarantee of uptime, or a confirmation of any particular on-chain settlement. Curation is the bar; the list is the certificate.
+gold-402 is one tier: **listed = verified.** There are no bronze/silver/gold levels. If an entry is on the list, the maintainers confirmed its endpoint was live and answered an x402 request correctly at the time of review, and re-check it periodically. That is the whole claim — a liveness-and-protocol check. It is **not** an audit of the provider, a guarantee of uptime, or a promise that any given call will succeed. Curation is the bar; the list is the certificate.
+
+**Some entries carry more than that.** Where we have paid for a service and confirmed what came back, we say so and we keep the receipt — what we sent, what it cost, the transaction, and what arrived. That's a stronger claim than liveness and we only make it about services we actually bought. Most of the list hasn't been through that yet.
 
 ## One entry per service (multiple services welcome)
 

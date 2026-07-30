@@ -74,9 +74,11 @@ The mechanism is economic rather than geographic, so we'd expect it to hold. Exp
 
 We run a directory. It has 456 entries, which is small by every comparison on this page, and that's deliberate — everything on it was checked by a person before it landed.
 
-We are also on the wrong side of our own finding in one specific way, and it would be dishonest to publish this without saying it: **we have never bought a service and confirmed what came back.** Not once. Every liveness number here — ours included — measures whether an endpoint *answers*, not whether it delivers what it charges for. Those are different questions, and the second one is harder and matters more.
+We were also, when this was first published, on the wrong side of our own finding: we had never bought a service and confirmed what came back. Not once. Every liveness number here — ours included — measures whether an endpoint *answers*, not whether it delivers what it charges for. Those are different questions, and the second one is harder and matters more.
 
-We're building that. It isn't built yet. When it is, we'll publish those numbers the same way — method first, gaps drawn on the map.
+**Updated 30 July 2026.** That's no longer true. We ran the first paid delivery check across our own shelf: sixteen services bought, eight delivered exactly what they advertised, five and a half cents spent, every transaction reconciled against the chain. Nothing took money and returned nothing — a real zero, and we checked it the hard way after our own classifier tried to hand us a more interesting answer.
+
+The finding that came out of it isn't the one we expected, and it's about us more than about anyone else: of 126 listed services, only sixteen could be bought by a machine at a discoverable address. The rest required a human to read documentation first. **The friction in this economy sits before the payment, not after it.** We're gathering more before we make a law out of that — sixteen is a small number and we've just spent a page arguing against exactly that kind of overreach.
 
 ---
 
