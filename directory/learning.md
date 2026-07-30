@@ -55,6 +55,7 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 
 ## News Coverage
 
+- [The Agent Times](https://theagenttimes.com) — Independent news for the agent economy, published with citations and confidence scores and queryable by agents directly. Built for the moment before an agent installs something, rather than for humans reading after the fact.
 - [x402 Joins the Linux Foundation](https://www.prnewswire.com/news-releases/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol-302732803.html) — PR Newswire, April 2, 2026. Protocol becomes a neutral open standard with 22+ institutional founding members.
 - [Bankless: x402's Big Week](https://www.bankless.com/x402-big-week) — Recap of the April 2, 2026 Linux Foundation launch and Bankr x402 Cloud.
 - [x402 Sees 10,000% Growth](https://finance.yahoo.com/news/coinbase-x402-ai-payments-protocol-130700006.html) — Yahoo Finance.
@@ -77,6 +78,7 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 
 ## Reference Documentation
 
+- [Agent Skills](https://agentskills.io) — The open Skills format (CC-BY-4.0) with roughly 44 adopter clients including Codex, Gemini CLI and ByteDance TRAE. One artifact, every harness — the portability story MCP made for tools, applied to instructions.
 - [x402 Protocol Specification](https://github.com/x402-foundation/x402) — Official open-source protocol implementation by Coinbase.
 - [Coinbase Developer Platform Docs](https://docs.cdp.coinbase.com/x402) — Complete implementation guide and API reference.
 - [x402 Whitepaper](https://x402.org/x402-whitepaper.pdf) — Technical deep dive into protocol architecture.
