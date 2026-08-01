@@ -4,6 +4,9 @@ Server-side integrations for accepting x402 payments. Drop into your existing st
 
 ---
 
+> ★ **Featured — August 2026: [machi](https://github.com/qntx/machi)**
+> Agent behavior that compiles — an execution framework with x402 payment primitives baked in rather than bolted on. Payment as a language feature, not an afterthought.
+
 ## Node.js / TypeScript
 
 ### Multi-Framework

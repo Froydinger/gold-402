@@ -89,12 +89,12 @@ To suggest an entry without writing the PR yourself, open an [issue](https://git
 
 ## Featured
 
-Now and then the maintainers spotlight one entry as **Featured** in the README, archived in [FEATURED.md](FEATURED.md). Featured is an editorial pick — a judgment that something is well-built, actively used, and worth a second look, with a preference for excellent work that hasn't already had wide coverage. It is the one editorial mark gold-402 carries, and it is always awarded by the maintainers, never requested onto your own entry.
+On the 1st of each month the maintainers select one **Featured** pick per shelf, shown at the top of each shelf and indexed in the README, with past slates archived in [FEATURED.md](FEATURED.md). Featured is an editorial pick — a judgment that something is well-built, actively used, and worth a second look, with a preference for excellent work that hasn't already had wide coverage. A shelf with no entry that clears the bar runs empty that month; the empty slot is also a verdict. Featured is the one editorial mark gold-402 carries, and it is always awarded by the maintainers, never requested onto your own entry.
 
 ## Maintenance
 
 - **Weekly** — refresh **This Week in x402** (ecosystem developments) and **New This Week** (the week's additions).
-- **Monthly** — rotate the Featured pick and archive the previous one to `FEATURED.md`.
+- **Monthly** — rotate the Featured slate (one pick per shelf) and archive the previous month to `FEATURED.md`.
 - **Ongoing** — probe listed endpoints for liveness, remove or fix dead links, and scan the ecosystem for new entries worth adding.
 
 ---

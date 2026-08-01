@@ -1,8 +1,50 @@
 # Past Featured Picks
 
-gold-402 spotlights one service, SDK, or tool each month. The [Featured This Month](README.md#featured-this-month) section in the main README rotates on the 1st of every month. Past picks are archived here with their original write-up.
+gold-402 features one pick per shelf each month (one pick per shelf since August 2026; a single monthly pick before that). The [Featured This Month](README.md#featured-this-month) section in the main README rotates on the 1st of every month. Past picks are archived here with their original write-up.
 
 Selection criteria are documented in [CONTRIBUTING.md](CONTRIBUTING.md#24k-featured-tier).
+
+---
+
+## August 2026 — The Slate
+
+One pick per shelf. Aggregators & Proxies ran empty.
+
+**APIs & Services — [The Bot Wire](https://thebotwire.com)**
+Fifty-seven primary-source data wires — SEC EDGAR, Federal Register, federal courts, Fed and ECB, CISA, arXiv — behind one x402 gate at $0.005–$0.01 a call, with a free three-result preview on every wire. Agents get the source document, not a scrape of someone's summary of it. Manifest, OpenAPI, and a routing table published side by side.
+
+**MCP Servers — [Razorpay MCP Server](https://github.com/razorpay/razorpay-mcp-server)**
+One of India's largest payment processors, shipping an official MCP server and doing the unglamorous part right: its AGENTS.md sets explicit conventions for agent-authored tools, including a money-unit safety rule. Worth reading even if you never route a payment through it.
+
+**SDKs & Libraries — [ra2a](https://github.com/qntx/ra2a)**
+A Rust SDK for the Agent2Agent protocol with x402 integration built in — the two halves of agent commerce, discovery and payment, in one typed crate.
+
+**Facilitators — [Primev FastRPC](https://facilitator.primev.xyz)**
+A fee-free facilitator on Ethereum mainnet with sub-200ms settlement, done with mev-commit preconfirmations rather than a sidechain. Most facilitators route around mainnet latency; this one engineers through it.
+
+**Frameworks — [machi](https://github.com/qntx/machi)**
+Agent behavior that compiles — an execution framework with x402 payment primitives baked in rather than bolted on. Payment as a language feature, not an afterthought.
+
+**Tools — [portal-tunnel](https://github.com/gosuda/portal-tunnel)**
+Publishes localhost services to the agentic web through self-hostable, trustless tunnels with x402 gating on the way in. The missing on-ramp for anyone whose service runs on a machine at home.
+
+**Security — [Hermes Plant Action Safety](https://hermesplant.com/api/agent-services/action-safety/quick)**
+A deterministic pre-execution gate for agent shell, Git, SQL, and deployment actions: $0.01 for a quick verdict, $0.25 for a signed-receipt workflow. One of the few paid x402 services with repeat buyers visible on-chain.
+
+**Ecosystem — [Glama](https://glama.ai/mcp/servers)**
+An MCP registry indexing 64,000+ servers — and the only one publishing both its scoring rubric and its health data. In a space full of unexplained ranks, you can see what it checked and how it decided.
+
+**The Global Agent Economy — [ONDC](https://ondc.org)**
+India's government-backed open commerce network: an operating, population-scale version of what open agent commerce is trying to become, built on a different foundation. If you study one non-Western rail, study this one.
+
+**Learning — [Tangle Network: x402 Production Runway](https://dev.to/tangle_network/series/37294)**
+A multi-part engineering series that takes x402 seriously as production software: the Rust implementation, the facilitator trust problem, what decentralized verification would actually require. Written by people running the code, not summarizing it.
+
+**Community — [WorkProtocol](https://workprotocol.ai)**
+An open job marketplace where AI agents take structured work, deliver artifacts, and get paid in USDC on Base — escrow-backed, with portable reputation. The rare community surface where participation is a transaction, not a post.
+
+**Market Data — [Valoria](https://x402.valoria.net)**
+Revenue rankings, service analysis, and pricing data across 90,000+ indexed services and $148M+ in tracked on-chain volume — their published figures. Most dashboards count transactions; this one tries to answer what anything earns.
 
 ---
 

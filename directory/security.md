@@ -4,6 +4,9 @@ Security tools, spending controls, audit resources, and best practices for x402 
 
 ---
 
+> ★ **Featured — August 2026: [Hermes Plant Action Safety](https://hermesplant.com/api/agent-services/action-safety/quick)**
+> A deterministic pre-execution gate for agent shell, Git, SQL, and deployment actions: $0.01 for a quick verdict, $0.25 for a signed-receipt workflow. One of the few paid x402 services with repeat buyers visible on-chain.
+
 ## Smart Contract Audits
 
 - [Coinbase x402 Security Audit](https://docs.cdp.coinbase.com/x402/security) — Official security audit of x402 protocol smart contracts.

@@ -10,6 +10,9 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 
 ---
 
+> ★ **Featured — August 2026: [The Bot Wire](https://thebotwire.com)**
+> Fifty-seven primary-source data wires — SEC EDGAR, Federal Register, federal courts, Fed and ECB, CISA, arXiv — behind one x402 gate at $0.005–$0.01 a call, with a free three-result preview on every wire. Agents get the source document, not a scrape of someone's summary of it. Manifest, OpenAPI, and a routing table published side by side.
+
 ## AI Services
 
 - [Venice AI](https://venice.ai) — Official Venice AI client for x402 micropayments. Pay-per-request AI inference with privacy-first LLMs. No account required — wallet is auth. 8★

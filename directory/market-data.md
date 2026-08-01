@@ -4,6 +4,9 @@ On-chain analytics, live metrics, and growth timeline for the x402 ecosystem.
 
 ---
 
+> ★ **Featured — August 2026: [Valoria](https://x402.valoria.net)**
+> Revenue rankings, service analysis, and pricing data across 90,000+ indexed services and $148M+ in tracked on-chain volume — their published figures. Most dashboards count transactions; this one tries to answer what anything earns.
+
 ## Market Overview (April 2026)
 
 | Metric               | Value         | Source                         |

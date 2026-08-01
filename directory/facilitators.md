@@ -8,6 +8,9 @@ Payment verification and settlement services for x402. A facilitator verifies pa
 
 ---
 
+> ★ **Featured — August 2026: [Primev FastRPC](https://facilitator.primev.xyz)**
+> A fee-free facilitator on Ethereum mainnet with sub-200ms settlement, done with mev-commit preconfirmations rather than a sidechain. Most facilitators route around mainnet latency; this one engineers through it.
+
 ## Hosted Facilitators
 
 - [Coinbase CDP](https://docs.cdp.coinbase.com/x402) — Official facilitator on Base and Base Sepolia. Instant settlement, supports all ERC-20 tokens (not just USDC). Most widely used in the ecosystem.

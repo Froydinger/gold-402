@@ -14,6 +14,9 @@ Client and server-side libraries for building with x402. Start with the official
 
 ---
 
+> ★ **Featured — August 2026: [ra2a](https://github.com/qntx/ra2a)**
+> A Rust SDK for the Agent2Agent protocol with x402 integration built in — the two halves of agent commerce, discovery and payment, in one typed crate.
+
 ## TypeScript / JavaScript
 
 ### Official

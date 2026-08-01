@@ -4,6 +4,9 @@ Agent infrastructure and machine-payment rails outside the US and Europe — Chi
 
 ---
 
+> ★ **Featured — August 2026: [ONDC](https://ondc.org)**
+> India's government-backed open commerce network: an operating, population-scale version of what open agent commerce is trying to become, built on a different foundation. If you study one non-Western rail, study this one.
+
 > **gold-402 note:** This shelf exists because we checked and found our own map was drawn in one language.
 >
 > x402 is a US-governed rail: USDC, Base, dollar-denominated, crypto-native. It is not the only answer to machine-to-machine payment, and outside the West it is not the answer being used. China solved delegated agent authorization on existing rails. India solved it with regulated, human-signed mandates that agents execute inside a cap. Neither needed a blockchain, and both were running at scale while the x402 Foundation was weeks old.

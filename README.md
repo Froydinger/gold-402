@@ -97,15 +97,27 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ## Featured This Month
 
-> ★ **July 2026** — [**24K Labs Verification Report: Three-Quarters of the x402 Bazaar Is Dead**](articles/2026-07-verification-findings.md) by [24K Labs](https://24klabs.ai)
+[![24K Featured](https://img.shields.io/badge/24K_Featured-2026--08-C0C0C0?style=plastic)](FEATURED.md)
 
-[![24K Featured](https://img.shields.io/badge/24K_Featured-2026--07-C0C0C0?style=plastic)](FEATURED.md)
+**August 2026 — one pick per shelf.** Each shelf opens with its pick and the write-up. Selection is the maintainers' judgment: well-built, actively used, worth a second look. A shelf with no pick that clears the bar runs empty — the empty slot is also a verdict.
 
-We probed all 22,545 x402 services in the CDP Bazaar. 5,792 answered. The rest were gone, misconfigured, or unreachable — 74% dead.
+| Shelf | August pick |
+|---|---|
+| APIs & Services | [The Bot Wire](https://thebotwire.com) |
+| MCP Servers | [Razorpay MCP Server](https://github.com/razorpay/razorpay-mcp-server) |
+| SDKs & Libraries | [ra2a](https://github.com/qntx/ra2a) |
+| Facilitators | [Primev FastRPC](https://facilitator.primev.xyz) |
+| Frameworks | [machi](https://github.com/qntx/machi) |
+| Tools | [portal-tunnel](https://github.com/gosuda/portal-tunnel) |
+| Security | [Hermes Plant Action Safety](https://hermesplant.com/api/agent-services/action-safety/quick) |
+| Ecosystem | [Glama](https://glama.ai/mcp/servers) |
+| The Global Agent Economy | [ONDC](https://ondc.org) |
+| Learning | [Tangle Network: x402 Production Runway](https://dev.to/tangle_network/series/37294) |
+| Community | [WorkProtocol](https://workprotocol.ai) |
+| Market Data | [Valoria](https://x402.valoria.net) |
+| Aggregators & Proxies | — |
 
-The Bazaar records everything ever listed; it can't tell you what runs today. That gap is the whole argument for a checked catalog.
-
-[Read the full report →](articles/2026-07-verification-findings.md) · [Past features →](FEATURED.md)
+[Past features →](FEATURED.md)
 
 ---
 

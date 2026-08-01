@@ -4,6 +4,9 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 
 ---
 
+> ★ **Featured — August 2026: [Tangle Network: x402 Production Runway](https://dev.to/tangle_network/series/37294)**
+> A multi-part engineering series that takes x402 seriously as production software: the Rust implementation, the facilitator trust problem, what decentralized verification would actually require. Written by people running the code, not summarizing it.
+
 ## Quick Start Guides
 
 - [x402-starter-kit](https://github.com/dabit3/x402-starter-kit) — Widely-referenced x402 starter kit by Nader Dabit. Full end-to-end example for getting a payment-gated API running quickly. 181★

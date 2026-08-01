@@ -4,6 +4,9 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 
 ---
 
+> ★ **Featured — August 2026: [Glama](https://glama.ai/mcp/servers)**
+> An MCP registry indexing 64,000+ servers — and the only one publishing both its scoring rubric and its health data. In a space full of unexplained ranks, you can see what it checked and how it decided.
+
 ## Foundation & Protocol
 
 - [x402](https://github.com/x402-foundation/x402) — The canonical x402 protocol repository maintained by the x402 Foundation under the Linux Foundation. Reference implementations, official SDKs, spec documentation. The source of truth for the protocol. 6,147★

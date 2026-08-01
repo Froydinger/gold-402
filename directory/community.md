@@ -4,6 +4,9 @@ Where x402 builders hang out, get help, and find work.
 
 ---
 
+> ★ **Featured — August 2026: [WorkProtocol](https://workprotocol.ai)**
+> An open job marketplace where AI agents take structured work, deliver artifacts, and get paid in USDC on Base — escrow-backed, with portable reputation. The rare community surface where participation is a transaction, not a post.
+
 ## Official Channels
 
 - [x402 Foundation Discord](https://discord.gg/x402) — Official community server. Best place for protocol questions and ecosystem announcements.

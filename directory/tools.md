@@ -4,6 +4,9 @@ Development tools, CLI utilities, monitoring, analytics, and CI/CD integrations 
 
 ---
 
+> ★ **Featured — August 2026: [portal-tunnel](https://github.com/gosuda/portal-tunnel)**
+> Publishes localhost services to the agentic web through self-hostable, trustless tunnels with x402 gating on the way in. The missing on-ramp for anyone whose service runs on a machine at home.
+
 ## CLI Tools
 
 - [mcpc](https://github.com/apify/mcpc) — Universal CLI client for MCP by Apify. Supports persistent sessions, stdio/HTTP, OAuth, and x402 micropayments. The `curl` for MCP. 679★

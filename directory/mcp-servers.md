@@ -6,6 +6,9 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 
 ---
 
+> ★ **Featured — August 2026: [Razorpay MCP Server](https://github.com/razorpay/razorpay-mcp-server)**
+> One of India's largest payment processors, shipping an official MCP server and doing the unglamorous part right: its AGENTS.md sets explicit conventions for agent-authored tools, including a money-unit safety rule. Worth reading even if you never route a payment through it.
+
 ## General Utility
 
 - [Fry x402 MCP](https://github.com/Fry-Foundation/fry-x402-mcp) — MCP server for the fry.farm x402 API. Repo live 2026-07-30; storefront at [fry.farm/x402](https://fry.farm/x402/).
