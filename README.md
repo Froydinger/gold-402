@@ -14,7 +14,7 @@ gold-402 is the other thing. Smaller on purpose. A person checked every entry, w
 
 ## The Directory
 
-The product. 464 entries across 12 shelves, in [`directory/`](directory/).
+The product. 464 entries across 13 shelves, in [`directory/`](directory/).
 
 | Shelf | What's on it |
 |---|---|
@@ -26,6 +26,7 @@ The product. 464 entries across 12 shelves, in [`directory/`](directory/).
 | [Tools](directory/tools.md) | CLIs, CI, monitoring, spend controls, testing, discovery. |
 | [Security](directory/security.md) | Audit, risk scoring, pre-execution gates, compliance. |
 | [Ecosystem](directory/ecosystem.md) | Protocol, infrastructure, wallets, orchestration, marketplaces. |
+| [Aggregators & Proxies](directory/aggregators.md) | One integration, many upstreams — services that unify or resell access to other providers' APIs and data. |
 | [**The Global Agent Economy**](directory/global.md) | **China, India, Korea — infrastructure no English-language directory indexes.** |
 | [Learning](directory/learning.md) | Quickstarts, tutorials, reference docs, news. |
 | [Community](directory/community.md) | Channels, newsletters, jobs, events. |
