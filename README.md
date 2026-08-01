@@ -123,11 +123,7 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ## This Week in x402
 
-_Week of July 20–26, 2026_
-
-- **The x402 Foundation is live.** The Linux Foundation announced its operational launch on July 14, with 40 members and Coinbase's contribution of the protocol complete — 17 of them premier, including Adyen, AWS, American Express, Circle, Cloudflare, Coinbase, Fiserv, Google, Mastercard, MoonPay, Ripple, Shopify, the Solana and Stellar foundations, Stripe, and Visa. The standard now sits under open governance rather than one company's roadmap, and an executive-director search and a technical steering committee are underway. [[Linux Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications)]
-- **Ripple and MoonPay buy in.** Ripple joined with production data, not a pitch — more than 1M agentic transactions on the XRP Ledger and a June-shipped XRPL AI Starter Kit; MoonPay took a board seat. [[Genfinity](https://genfinity.io/2026/07/14/x402-foundation-launch-ripple-stellar-solana-quant-premier-members/)]
-- **The numbers, unvarnished.** x402 moved about $24M across 75M transactions in the last 30 days — roughly 94k buyers, 22k sellers, an average payment near 32¢. That's the whole thesis: charges too small for a card network to touch, working as designed. It's also a fraction of what any premier member clears in a day. Both true. [[CoinDesk](https://www.coindesk.com/tech/2026/07/15/visa-mastercard-and-ripple-join-the-standard-letting-ai-agents-pay-in-stablecoins)]
+The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. [Latest edition →](https://24klabs.ai/news/2026-07-27/)
 
 ---
 
