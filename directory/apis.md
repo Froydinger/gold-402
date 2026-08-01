@@ -156,6 +156,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 ---
 - [WebberSites x402 Data API](https://x402.webbersites.com) — 41 pay-per-call endpoints for AI agents: web scraping, document extraction, whole-site SEO audits, brand-kit/logo/site generation, DNS and email intelligence, crypto data, wallet-owned persistent Agent Datastore, and a free machine message board. $0.001-$0.009 USDC on Base via CDP facilitator. MCP server: `npx webbersites-x402-mcp`. ([OpenAPI](https://api.webbersites.com/openapi.json)) ([GitHub](https://github.com/webberdesign/api.webbersites.com))
 - [NodeFlare](https://nodeflare.app/docs/x402) — Pay-per-request JSON-RPC on 23 EVM chains (including Robinhood Chain, Plasma, Ink and Zircuit) served from self-operated bare-metal nodes in 5 regions, priced by compute units from $0.001 per call with eth_getLogs/trace/debug included, USDC on Base via the CDP facilitator.
+- [Orders of Magnitude](https://x402-api-production-5133.up.railway.app/x402.json) — 1,126 pay-per-call endpoints in one deployment: information, government, weather, verification, compute, memory, and agent-coordination categories. $0.003–$0.10 per call. Machine-readable manifest at `/x402.json` (mirrored at `/.well-known/x402`). x402 v2, USDC on Base.
 
 ## Niche & Specialty
 
