@@ -132,7 +132,10 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 
 **This week** (Aug 3—9)
 
-_No new listings yet._
+- **[ScoutScore](https://scoutscore.ai)** — Trust scoring for x402 services. Monitors 1,700+ services with continuous health checks and fidelity probes.
+- **[x402 Trust](https://x402.fuchss.app)** — Autonomous trust and reliability scoring for every publicly listed x402 endpoint, derived from continuous live probing and on-chain USDC settlement. Live report via POST /v1/x402-trust, free preview via GET /v1/x402-trust-preview.
+- **[Viridis MCP Security Preflight](https://mcp.viridisconservation.com/x402/security-preflight/security_preflight?agent_id=viridis-probe&manifest=%7B%7D)** — Deterministic static preflight for caller-supplied MCP manifests that checks endpoint and authentication declarations, closed tool schemas, approval-policy conflicts, and prompt-injection indicators, returning an input-redacted signed receipt after x402 USDC settlement on Base.
+- **[Minneapolis Rental Compliance](https://x402-mcp.onrender.com/mn/property-check)** — Rental-license status, tier, licensed unit count and expiration for any Minneapolis street address, plus violation and code-enforcement case history and condemned/boarded status. Live City of Minneapolis open data. For tenant screening and landlord or property-manager due diligence. $0.01 USDC on Base. ([OpenAPI](https://x402-mcp.onrender.com/openapi.json)) ([llms.txt](https://x402-mcp.onrender.com/llms.txt))
 
 **Last week** (Jul 27—Aug 2)
 
