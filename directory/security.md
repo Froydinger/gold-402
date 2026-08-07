@@ -33,6 +33,7 @@ Security tools, spending controls, audit resources, and best practices for x402 
 - [x402 Notary](https://github.com/x402notary/notary) — Enterprise-grade audit and compliance platform. Full visibility into agent spending, policy enforcement, cryptographic audit trails.
 - [Sentinel/Valeo](https://sentinel.valeocash.com) — Enterprise audit layer. Budget enforcement, structured audit trails, real-time dashboard, public payment explorer. SDK: `@x402sentinel/x402`.
 - [Viridis MCP Security Preflight](https://mcp.viridisconservation.com/x402/security-preflight/security_preflight?agent_id=viridis-probe&manifest=%7B%7D) — Deterministic static preflight for caller-supplied MCP manifests that checks endpoint and authentication declarations, closed tool schemas, approval-policy conflicts, and prompt-injection indicators, returning an input-redacted signed receipt after x402 USDC settlement on Base.
+- [x402 Manifest Check](https://github.com/ruizmr/x402-api-readiness-review) — Zero-dependency Python CLI that statically checks local JSON or HTTPS x402 manifests for missing or mismatched network, recipient, asset, and amount bindings; it does not validate runtime enforcement or settlement.
 
 ---
 
