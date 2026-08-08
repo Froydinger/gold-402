@@ -56,6 +56,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 
 ---
 - [The Bot Wire](https://thebotwire.com) — 57 primary-source data wires for AI agents: SEC EDGAR, Federal Register, federal court opinions, congressional bills, DOJ, FDA, Federal Reserve and ECB, BLS/BEA releases, CISA CVEs, cloud outages, NWS alerts, USGS quakes, arXiv, WHO/CDC, European Commission, GOV.UK, NASA, EIA, plus 40 curated news sources. $0.005–$0.01 USDC on Base, free 3-result preview on every wire. Example: `GET /fed/latest?src=fomc&since=30d`. ([Manifest](https://thebotwire.com/.well-known/x402)) ([OpenAPI](https://thebotwire.com/openapi.json)) ([Routing table](https://thebotwire.com/llms-full.txt))
+- [Data Quality Gate](https://www.aidatatools.dev/api) — Deterministic dataset-quality verdict (RELIABLE/USABLE_WITH_CLEANING/UNRELIABLE) with per-check facts on completeness, nulls, types, impossible values, duplicates, and outliers, plus optional cross-source price-divergence detection for financial/trading data, for $0.01 USDC per call on Base or Solana.
 
 ## Crypto & DeFi Data
 
