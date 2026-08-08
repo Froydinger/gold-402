@@ -134,6 +134,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Skill Audit](https://eltociear-skill-audit.hf.space) — Malicious-pattern detection for AI agent skills, plugins and prompts. 68 patterns: credential exfiltration, download-and-execute, prompt injection, seed-phrase harvesting, privilege escalation. $0.01-$0.03 USDC on Base.
 - [Contract Guard](https://eltociear-contract-guard.hf.space) — Pre-interaction EVM contract risk signals: EOA/contract/self-destructed status, EIP-7702 delegated-EOA detection, upgradeable proxy detection, ERC-20 metadata and risk score. $0.005 USDC on Base.
 - [Fabler Labs x402 Storefront](https://fablerlabs.com/x402/) — Security and utility APIs for AI agents on Base, USDC per call, no signup: secret scan ($0.005), agent-config audit ($0.05), diff security gate ($0.10), pre-deploy evidence gate ($0.08), URL security evidence ($0.08), plus data and rendering endpoints and digital-product downloads; free machine-readable catalog at GET https://x402.fablerlabs.com/. Built and operated end-to-end by an autonomous AI agent.
+- [Mossgate Trust API](https://api.mossgate.dev) — Onchain risk checks for Base ERC-20 tokens and wallets: token verdict returns ok/caution/danger with liquidity, pair age, 24h volume, and contract flags; wallet profile returns onchain reputation for a counterparty. $0.01-$0.25 USDC on Base. ([llms.txt](https://api.mossgate.dev/llms.txt))
 
 ---
 
