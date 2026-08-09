@@ -14,7 +14,7 @@ gold-402 is the other thing. Smaller on purpose. A person checked every entry, w
 
 ## The Directory
 
-The product. 477 entries across 13 shelves, in [`directory/`](directory/).
+The product. 449 entries across 13 shelves, in [`directory/`](directory/).
 
 | Shelf | What's on it |
 |---|---|
