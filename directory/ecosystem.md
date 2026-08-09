@@ -42,13 +42,11 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 ## Agent Frameworks
 
 - [Franklin](https://github.com/blockrunai/franklin) — The AI agent with a wallet — spends USDC autonomously to get real work done. Agentic payment-native framework by BlockRun. 636★
-- [Daydreams](https://daydreams.ai) — Tools for building agents for commerce. x402-native agent framework with built-in payment primitives. 606★
 - [Lucid Agents](https://github.com/daydreamsai/lucid-agents) — Commerce SDK by Daydreams. Bootstrap AI agents in 60 seconds that can pay, sell, and transact autonomously via x402. 188★
 - [Agenti](https://github.com/nirholas/agenti) — Give any AI agent a crypto wallet. Agents pay x402 APIs with USDC on Base. Simple drop-in wallet integration. 68★
 - [Faremeter](https://faremeter.io) — Universal framework for transparent API cost integration into agent workflows. Agents discover, negotiate, and pay for services via x402. 66★
 - [mcpay](https://github.com/microchipgnu/mcpay) — Open-source infrastructure for MCP and x402. Payment primitives for building monetized MCP servers. 90★
 - [use-agently](https://github.com/agentlyhq/use-agently) — Routing and settlement layer for AI agents. x402-native payment coordination for multi-agent workflows. 69★
-- [ProwlFi](https://prowlfi.com) — Private rails for the agentic economy on Solana. Stealth addresses + x402 payments. 324★
 - [Vault-0](https://github.com/0-Vault/Vault-0) — Encrypted secret vault, agent monitor, and x402 wallet for OpenClaw. Handles 402 detection, EIP-3009 signing, policy-gated auto-settlement.
 - [Nevermined](https://nevermined.ai/blog/building-agentic-payments-with-nevermined-x402-a2a-and-ap2) — Integrated Visa Intelligent Commerce + x402 for autonomous AI agent commerce (April 9, 2026). Agents get delegated credit card spending authority with budget limits, per-purchase caps, merchant restrictions, time windows.
 - [Phidata Agents](https://github.com/phidatahq/phidata) — Multi-modal agents with x402 integration.
@@ -64,7 +62,6 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 - [Skyfire](https://docs.skyfire.xyz) — Agent identity and payment credentials as ES256 JWTs with a public JWKS endpoint. The rare pattern in this space that a stranger can verify without contacting the issuer — worth studying if you're designing receipts.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) — Agent commerce protocol. Python and TypeScript implementations. Payment-required, payment-submitted, payment-completed flow. Multi-agent payment orchestration.
 - [Revettr](https://revettr.com) — Counterparty risk scoring API for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for agent-to-agent payment safety.
-- [OpSpawn A2A x402 Gateway](https://a2a.opspawn.com) — Multi-chain A2A gateway with x402 payments. Google A2A protocol, Base/SKALE/Arbitrum support.
 
 ---
 
@@ -85,7 +82,6 @@ Infrastructure, agent frameworks, A2A protocols, multi-agent orchestration, and 
 - [MAXIA](https://maxiaworld.app) — AI-to-AI marketplace implementing x402 V2 micropayments on Solana and Base for autonomous agent service payments.
 - [AgentStore](https://agentstore.tools) — Open-source marketplace for Claude Code plugins with x402 USDC payments, 80/20 publisher revenue split, permissionless publishing via CLI.
 - [x402 Bazaar](https://x402bazaar.org) — Decentralized API marketplace with 69 native x402-payable endpoints. Multi-chain USDC on Base and SKALE. MCP server via `npx x402-bazaar init`. 505 passing tests.
-- [Orbis API Marketplace](https://orbisapi.com) — x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
 - [Satring](https://satring.com) — Curated L402 + x402 API directory with human ratings, health monitoring, MCP server. Dual-protocol (Lightning + USDC on Base).
 - [minia2a.uk](https://minia2a.uk) — Open M2M micropayment marketplace. 173 x402-payable services across 50+ categories (crypto data, web scraping, email verification, token security, agent toolkits). 34 registered agents. 5% fee, USDC settlement on Base. MCP registry, CLI, and 5-minute hands-on tutorial.
 

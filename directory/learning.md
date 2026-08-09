@@ -34,9 +34,6 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 - [Polygon: Agentic Payments Infrastructure](https://polygon.technology/payments/agentic-payments) — Polygon's dedicated x402 agentic payments page.
 
 ### 24K Labs
-- [How to Pay for AI Services with USDC in One HTTP Call](https://24klabs.ai/blog/how-to-pay-for-ai-services-with-usdc) — Walkthrough of x402 payment flow for AI code analysis.
-- [x402 Explained: The HTTP Status Code That Took 35 Years to Ship](https://24klabs.ai/blog/x402-explained) — History and technical breakdown of HTTP 402.
-- [Code Review API: Pay Per PR, Not Per Seat](https://24klabs.ai/blog/code-review-api-pay-per-pr) — Why per-request pricing beats SaaS subscriptions.
 
 ### Technical Deep Dives
 - [AWS Industries: x402 and Agentic Commerce](https://aws.amazon.com/blogs/industries/x402-and-agentic-commerce-redefining-autonomous-payments-in-financial-services/) — AWS deep-dive covering AgentCore + CloudFront + Lambda@Edge as a full x402 stack. With reference implementation.

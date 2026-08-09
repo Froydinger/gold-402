@@ -49,7 +49,6 @@ Development tools, CLI utilities, monitoring, analytics, and CI/CD integrations 
 - [PolicyLayer](https://policylayer.com) — Non-custodial spending controls for AI agents. Daily spending limits, per-transaction caps, recipient whitelists, rate limiting — without holding private keys.
 - [ICME Labs](https://docs.icme.io) — Formal verification for AI agent actions. Natural language policies compile to SMT-LIB formal logic, checked by SMT solver. Wrapped in zero knowledge proofs for sub-1s verification. $0.10 USDC on Base.
 - [PaySentry](https://github.com/mkmkkkkk/paysentry) — Control plane for AI agent payments. Spending limits, circuit breakers, anomaly detection, audit trails for x402. npm: `@paysentry/x402`.
-- [x402 Notary](https://github.com/x402notary/notary) — Enterprise-grade audit and compliance platform for x402. Full visibility into agent spending, policy enforcement, cryptographic audit trails.
 - [Decision Anchor](https://api.decision-anchor.com) — External anchoring layer for agent payments and delegation. Records what was authorized, when, at what scope — before x402 payment execution. Content-blind.
 
 ---
@@ -61,7 +60,6 @@ Development tools, CLI utilities, monitoring, analytics, and CI/CD integrations 
 - [Base Sepolia Testnet](https://docs.base.org/docs/network-information) — Primary testnet for x402 development.
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) — Get test USDC for development.
 - [Base Sepolia Bridge](https://bridge.base.org/) — Bridge test ETH to Base Sepolia.
-- [x402 FixSpec](https://github.com/am5188/x402-fixspec) — Deterministic endpoint conformance and remediation tool that inspects unpaid challenges, validates Base USDC requirements, probes discovery documents, and returns OpenAPI, Bazaar, and agent-instruction templates. [Live x402 offer](https://fixspec.am518.uk/buy/fixspec).
 
 ---
 

@@ -30,7 +30,6 @@ Security tools, spending controls, audit resources, and best practices for x402 
 - [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) — Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned.
 - [KaelAi](https://kaelai.io) — Wallet trust scoring API for the agentic economy. Scores wallets 0-100 across 10 chains with behavioural analysis. Built for x402 servers to vet incoming/outgoing payment wallets before serving or initiating requests.
 - [PaySentry](https://github.com/mkmkkkkk/paysentry) — Control plane for AI agent payments. Spending limits, circuit breakers, anomaly detection, audit trails. npm: `@paysentry/x402`.
-- [x402 Notary](https://github.com/x402notary/notary) — Enterprise-grade audit and compliance platform. Full visibility into agent spending, policy enforcement, cryptographic audit trails.
 - [Sentinel/Valeo](https://sentinel.valeocash.com) — Enterprise audit layer. Budget enforcement, structured audit trails, real-time dashboard, public payment explorer. SDK: `@x402sentinel/x402`.
 - [Viridis MCP Security Preflight](https://mcp.viridisconservation.com/x402/security-preflight/security_preflight?agent_id=viridis-probe&manifest=%7B%7D) — Deterministic static preflight for caller-supplied MCP manifests that checks endpoint and authentication declarations, closed tool schemas, approval-policy conflicts, and prompt-injection indicators, returning an input-redacted signed receipt after x402 USDC settlement on Base.
 - [x402 Manifest Check](https://github.com/ruizmr/x402-api-readiness-review) — Zero-dependency Python CLI and live x402-paid API for static manifest checks covering network, recipient, asset, and amount bindings; neither validates runtime enforcement or settlement.
@@ -51,7 +50,6 @@ Security tools, spending controls, audit resources, and best practices for x402 
 
 - [Revettr](https://revettr.com) — Counterparty risk scoring for x402 agentic commerce. Scores wallet addresses, domains, IPs, and companies 0-100 for payment safety.
 - [MoltGuard](https://api.moltrust.ch/guard/) — Agent trust scoring (0-100), Sybil detection with funding cluster analysis, Polymarket integrity, Ed25519 Verifiable Credentials. 7 MCP tools. $0.005-$0.05 USDC on Base.
-- [DJD AgentScore](https://github.com/djd-agent-score/djd-agent-score) — On-chain reputation scoring for AI agent wallets. 0-100 trust score across 5 dimensions (identity, behavior, reliability, viability, capability) from x402 settlement history on Base. Free tier.
 
 ---
 
