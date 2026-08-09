@@ -12,7 +12,7 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 - [x402-starter-kit](https://github.com/dabit3/x402-starter-kit) — Widely-referenced x402 starter kit by Nader Dabit. Full end-to-end example for getting a payment-gated API running quickly. 181★
 - [x402-ai-starter](https://github.com/vercel-labs/x402-ai-starter) — Vercel's official x402 AI starter template. Next.js + x402 + AI SDK. High-discoverability starting point for Vercel deployments. 74★
 - [5-Minute Quickstart for Sellers](https://docs.cdp.coinbase.com/x402/quickstart-for-sellers) — Official Coinbase guide. Accept your first x402 payment in minutes.
-- [Buyer/Client Setup](https://docs.cdp.coinbase.com/x402/quickstart-buyers) — Official guide for making automated x402 payments.
+- [Buyer/Client Setup](https://docs.cdp.coinbase.com/x402/quickstart-for-buyers) — Official guide for making automated x402 payments.
 - [One-Line Integration](https://github.com/x402-foundation/x402/tree/main/examples) — Add payment middleware in a single line of code. Official examples repo.
 - [Base Sepolia Testnet Setup](https://docs.cdp.coinbase.com/x402/network-support) — Get test USDC and start testing without real money.
 - [Solana x402 Developer Guide](https://solana.com/developers/guides/getstarted/intro-to-x402) — Official Solana guide for getting started with x402 payments.
@@ -69,9 +69,6 @@ Tutorials, videos, articles, blog posts, and interactive learning tools for x402
 
 ## Migration Guides
 
-- [From Stripe to x402](https://docs.cdp.coinbase.com/x402/migrate/stripe) — Migrate subscription and one-time payments from Stripe to x402.
-- [From API Keys to x402 Payments](https://docs.cdp.coinbase.com/x402/migrate/api-keys) — Replace API key-based access control with payment-per-use.
-- [From Subscription to Pay-Per-Use](https://docs.cdp.coinbase.com/x402/migrate/subscriptions) — Transform monthly subscriptions into granular pay-as-you-go.
 - [x402 V2 Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide) — Official Coinbase guide from x402 v1 to v2.
 
 ---

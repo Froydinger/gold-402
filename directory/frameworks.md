@@ -69,4 +69,4 @@ Server-side integrations for accepting x402 payments. Drop into your existing st
 
 ## Cloudflare Workers
 
-- [Cloudflare Agents SDK v0.4.0](https://developers.cloudflare.com/changelog/post/2026-02-09-agents-sdk-v040/) — x402 v2 migration support: `ClientEvmSigner` type, auto-selection from payment requirements, dual-header support (v2 `PAYMENT-SIGNATURE` + v1 `X-PAYMENT`), lazy facilitator initialization.
+- [Cloudflare Agents SDK v0.4.0](https://developers.cloudflare.com/agents/) — x402 v2 migration support: `ClientEvmSigner` type, auto-selection from payment requirements, dual-header support (v2 `PAYMENT-SIGNATURE` + v1 `X-PAYMENT`), lazy facilitator initialization.
