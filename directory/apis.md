@@ -107,6 +107,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [ECB FX Reference](https://official-fx-reference.vercel.app/api/v1/convert) — Converts amounts across ECB-supported currencies from the European Central Bank's daily euro reference observations, returning source rates, publication date, cross-rate math, and attribution for $0.0015 USDC per call on Base. ([OpenAPI](https://official-fx-reference.vercel.app/openapi.json)) ([GitHub](https://github.com/ArgonautWorks/ecb-fx-reference))
 
 ---
+- [IBANforge](https://ibanforge.com) — Pre-payout IBAN screening: validation + issuing-bank identification against 6 national bank registers (CH/LI, DE, AT, BE, FI), Swiss clearing incl. QR-IID resolution, bank-level sanctions, SEPA + VoP reachability. 121k+ BICs, 89 IBAN countries. $0.002-$0.02 USDC on Base (CDP facilitator). MCP: `npx -y ibanforge-mcp`. ([OpenAPI](https://api.ibanforge.com/openapi.json), [x402 discovery](https://api.ibanforge.com/.well-known/x402))
 
 ## Web & Geospatial
 
