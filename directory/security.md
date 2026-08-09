@@ -42,7 +42,7 @@ Security tools, spending controls, audit resources, and best practices for x402 
 - [Paybound](https://github.com/pando-b/paybound) — Open-source governance proxy for x402 agent payments. Per-agent budgets, time-windowed limits, circuit breakers, full audit trail. MIT licensed.
 - [PolicyLayer](https://policylayer.com) — Non-custodial spending controls for AI agents. Daily limits, per-transaction caps, recipient whitelists, rate limiting. No private key custody.
 - [ICME Labs](https://docs.icme.io) — Formal verification for AI agent actions. Natural language policies compile to SMT-LIB logic, checked by SMT solver. Wrapped in zero knowledge proofs. $0.10 USDC on Base.
-- [Decision Anchor](https://api.decision-anchor.com) — External accountability proof before x402 payment execution. Records what was authorized, when, and at what scope. Non-judgmental.
+- [Decision Anchor](https://api.decision-anchor.com) — External anchoring layer for accountability before x402 payment execution. Records what was authorized, when, and at what scope. Content-blind. Non-judgmental.
 - [Hermes Plant Action Safety](https://hermesplant.com/api/agent-services/action-safety/quick) — Deterministic pre-execution gate for agent shell, Git, SQL, infrastructure, and deployment actions, with a $0.01 quick check and a $0.25 signed-receipt workflow on Base.
 
 ---
