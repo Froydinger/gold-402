@@ -1,6 +1,6 @@
 # gold-402
 
-> The gold standard for x402 resources. **464 curated entries** — every one checked by hand before it was listed. No filler. No dead links.
+> The gold standard for x402 resources. **442 curated entries** — every one checked by hand before it was listed. No filler. No dead links.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
@@ -242,6 +242,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the curation standard, badge system, 
 <p align="center">
   <b>Curated by <a href="https://24klabs.ai">24K Labs</a></b><br>
   <sub>If this saved you time, star the repo.</sub><br><br>
+  <a href="https://24klabs.ai">24klabs.ai</a> •
   <a href="https://x402.org">x402.org</a> •
   <a href="https://github.com/coinbase/x402">Protocol Spec</a> •
   <a href="https://docs.cdp.coinbase.com/x402">Coinbase Docs</a> •
