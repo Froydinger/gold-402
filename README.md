@@ -130,7 +130,11 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 <!-- NEW-THIS-WEEK:START -->
 ## New This Week
 
-**This week** (Aug 3—9)
+**This week** (Aug 10—16)
+
+_No new listings yet._
+
+**Last week** (Aug 3—9)
 
 - **[ScoutScore](https://scoutscore.ai)** — Trust scoring for x402 services. Monitors 1,700+ services with continuous health checks and fidelity probes.
 - **[x402 Trust](https://x402.fuchss.app)** — Autonomous trust and reliability scoring for every publicly listed x402 endpoint, derived from continuous live probing and on-chain USDC settlement. Live report via POST /v1/x402-trust, free preview via GET /v1/x402-trust-preview.
@@ -147,18 +151,6 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 - **[Rue Render API](https://rue.mossgate.dev)** — Renders a URL or raw HTML to PDF, PNG, or JPEG via headless Chromium, SSRF-guarded. $0.003 USDC on Base via x402.
 - **[Mossgate Trust API](https://api.mossgate.dev)** — Onchain risk checks for Base ERC-20 tokens and wallets: token verdict returns ok/caution/danger with liquidity, pair age, 24h volume, and contract flags; wallet profile returns onchain reputation for a counterparty. $0.01-$0.25 USDC on Base. ([llms.txt](https://api.mossgate.dev/llms.txt))
 - **[Decision Anchor](https://api.decision-anchor.com)** — External anchoring layer for accountability before x402 payment execution. Records what was authorized, when, and at what scope. Content-blind. Non-judgmental.
-
-**Last week** (Jul 27—Aug 2)
-
-- **[NEAR x402 Facilitator](https://x402.mikedotexe.com/)** — Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base. It sponsors relayer gas and persists settlements for recovery. [Source](https://github.com/fastnear/x402-near-facilitator) and sanitized paid-flow evidence for [NEAR](https://github.com/fastnear/x402-near-facilitator/blob/main/docs/evidence/2026-07-26-v041-near-mainnet-canary.md) and [Base](https://github.com/fastnear/x402-near-facilitator/blob/main/docs/evidence/2026-07-26-v041-base-mainnet-canary.md).
-- **[x402 FixSpec](https://github.com/am5188/x402-fixspec)** — Deterministic endpoint conformance and remediation tool that inspects unpaid challenges, validates Base USDC requirements, probes discovery documents, and returns OpenAPI, Bazaar, and agent-instruction templates. [Live x402 offer](https://fixspec.am518.uk/buy/fixspec).
-- **[modelprices.xyz](https://modelprices.xyz)** — Normalized LLM market data: per-token prices, context windows, and capability limits for 2,000+ models across 70+ providers, cross-checked hourly against two upstreams. Single-model lookups $0.002, cheapest-model queries $0.005 (ranked by blended $/request), full tables $0.01, price-change feed $0.02. Provenance on every row: source URL, first-observed date, confidence tier. USDC on Base. ([OpenAPI](https://modelprices.xyz/openapi.json)) ([llms.txt](https://modelprices.xyz/llms.txt))
-- **[Hermes Plant Action Safety](https://hermesplant.com/api/agent-services/action-safety/quick)** — Deterministic pre-execution gate for agent shell, Git, SQL, infrastructure, and deployment actions, with a $0.01 quick check and a $0.25 signed-receipt workflow on Base.
-- **[Zugabot Image Generation](https://zugabot.ai/x402)** — Text-to-image generation via x402: FLUX Schnell ($0.15) or FLUX 2 Pro ($0.50). USDC on Base.
-- **[GBLIN Protocol](https://gblin.digital/agents)** — Treasury and risk data for a NAV-backed basket token on Base (cbBTC/WETH/USDC) with an automated on-chain crash-response policy. 7 endpoints: NAV and basket state, market risk regime attestation, MEV-safe swap quotes, wallet treasury health, and just-in-time redemption calldata to convert holdings to USDC when an invoice arrives. $0.001-$0.005 USDC on Base via the Coinbase CDP facilitator. ([x402](https://gblin.digital/.well-known/x402)) ([MCP](https://www.npmjs.com/package/@gblin-protocol/mcp-server))
-- **[ArisPay](https://facilitator.arispay.app)** — Free, public x402 facilitator on Base mainnet with USDC and EURC settlement. Open /verify and /settle, no API key or signup. Machine-readable fee policy and discovery at [/supported](https://facilitator.arispay.app/supported) and [/facilitator](https://facilitator.arispay.app/facilitator).
-- **[The Bot Wire](https://thebotwire.com)** — 57 primary-source data wires for AI agents: SEC EDGAR, Federal Register, federal court opinions, congressional bills, DOJ, FDA, Federal Reserve and ECB, BLS/BEA releases, CISA CVEs, cloud outages, NWS alerts, USGS quakes, arXiv, WHO/CDC, European Commission, GOV.UK, NASA, EIA, plus 40 curated news sources. $0.005–$0.01 USDC on Base, free 3-result preview on every wire. Example: `GET /fed/latest?src=fomc&since=30d`. ([Manifest](https://thebotwire.com/.well-known/x402)) ([OpenAPI](https://thebotwire.com/openapi.json)) ([Routing table](https://thebotwire.com/llms-full.txt))
-- **[botwire-mcp](https://www.npmjs.com/package/botwire-mcp)** — The Bot Wire as MCP tools: 57 real-time primary-source wires (SEC EDGAR, Federal Register, federal courts, DOJ, FDA, Fed/ECB, BLS/BEA, CISA, NWS, USGS, arXiv) paid per call in USDC on Base. Free preview tier works with no wallet configured. Remote endpoint at [thebotwire.com/mcp](https://thebotwire.com/mcp) or `npx botwire-mcp`. ([GitHub](https://github.com/ArasPasha/botwire-mcp))
 <!-- NEW-THIS-WEEK:END -->
 
 ---
