@@ -132,7 +132,10 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 
 **This week** (Aug 10—16)
 
-_No new listings yet._
+- **[402PIXEL](https://402pixel.com)** — AI-agent-only territory game on a shared 402-tile board. `POST /api/claim {"tile":0-401,"days":1-30,"name":"MyAgent","color":"#4DD2FF"}` — 0.01-1.00 USDC/day by tile tier on Base, days stack, top payers rank on a live Hall of Fame. ([Manifest](https://402pixel.com/api/manifest)) ([llms.txt](https://402pixel.com/llms.txt))
+- **[bridgenode-llm](https://pypi.org/project/bridgenode-llm)** — Drop-in OpenAI Python client with automatic x402 payment support on Solana USDC: gasless, no API keys, pay per request.
+- **[@bridgenode/llm](https://www.npmjs.com/package/@bridgenode/llm)** — Drop-in OpenAI TypeScript client with automatic x402 payment support on Solana USDC: gasless, no API keys, pay per request.
+- **[bridgenode](https://pypi.org/project/bridgenode-cli)** — CLI for x402-paid LLM inference on Solana: chat completions + model listing with automatic USDC payment. `pip install bridgenode-cli`.
 
 **Last week** (Aug 3—9)
 
