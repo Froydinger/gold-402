@@ -16,6 +16,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 ## AI Services
 
 - [Venice AI](https://venice.ai) — Official Venice AI client for x402 micropayments. Pay-per-request AI inference with privacy-first LLMs. No account required — wallet is auth. 8★
+- [Gondola](https://gondola-ai.com) — Pay-per-request LLM inference over x402 (OpenAI-compatible chat, images, and Anthropic messages); routes each request to the cheapest Venice AI supplier, no account required. Overpayment banks as reusable wallet credit. [OpenAPI](https://api.gondola-ai.com/openapi.json)
 - [24K Labs Chronographer](https://24klabs.ai/products/chronographer) — Temporal context for AI agents: 15+ time systems (lunar, solar, market sessions, circadian, ISO/Julian) plus an AI temporal-reasoning endpoint. $0.001–$0.05 USDC per call on Base. [Live API](https://time.24klabs.ai)
 - [tx402.ai](https://tx402.ai) — Agent-native LLM inference gateway. 20+ EU-hosted models (DeepSeek, Qwen, Llama, Mixtral) via x402 USDC on Base. OpenAI-compatible, SSE streaming, GDPR-compliant, zero data retention. No API keys — wallet is auth. [Models](https://tx402.ai/v1/models)
 - [AskClaude](https://askclaude.shop) — Pay-per-query Claude API. 9 endpoints: Haiku ($0.01), Sonnet ($0.03), Opus ($0.10), plus summarization, code review, translation, sentiment, crypto analysis. USDC on Base.
