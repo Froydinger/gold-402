@@ -112,7 +112,6 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 
 ## Web & Geospatial
 
-- [Firecrawl x402](https://api.firecrawl.dev/v1/x402/search) — Web scraping and search API with x402-gated endpoints and automatic on-chain USDC settlement. Featured in Coinbase CDP case studies as a reference x402 integration.
 - [Visual API](https://visual.hugen.tokyo) — Screenshot and PDF capture API. Full-page scroll capture, CSS element targeting, mobile device emulation (iPhone 15, Pixel 7, iPad Pro), dark mode, ad/cookie banner blocking. $0.01 USDC on Base.
 - [geo-gateway](https://nj4epne560.execute-api.us-west-2.amazonaws.com) — Pay-per-call Mapbox geospatial proxy. 6 endpoints: directions, isochrones, geocoding (forward + reverse), map matching, route optimization, distance matrices. $0.002-$0.0635 USDC on Base.
 - [PortsideLabs Places API](https://portsidelabs-x402-places-536698811508.us-west1.run.app) — Google Places API v1 proxy. Place detail lookup and full-text search. $0.001 USDC on Base and Solana.
@@ -146,7 +145,6 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Intel API](https://intel.hugen.tokyo) — AI-synthesized token due diligence. Aggregates 4 GoPlus security checks + CoinGecko market data into risk-scored verdicts. One call replaces 5+ separate APIs. $0.50 USDC on Base.
 - [PayAPI Market](https://payapi.market) — First marketplace for x402-powered APIs. 65 endpoints: UK property data, email verification, company enrichment, postcode lookup, currency/crypto rates, screenshots, DNS intelligence, web scraping, IP geolocation, QR codes. $0.001-$0.01 USDC on Base.
 - [Kerdos Market Intelligence](https://nonvisceral-eloisa-mousily.ngrok-free.dev) — AI market intelligence for agents and traders. 8 endpoints: live crypto sentiment, BTC/ETH regime direction, Hyperliquid funding rates, gold/oil signals, whale alerts, liquidation cascade risk. $0.01-$0.05 USDC on Base.
-- [Bincrease Operations APIs](https://bincrease.vercel.app/developers) — Live no-spend USDC work shortlisting with risk and payout-evidence filters ($0.05 USDC), deterministic CSV deduplication ($0.10 USDC), commercial waste-bill analysis ($0.25 USDC), and bounded OpenAPI contract extraction ($0.50 USDC) over x402 v2, settled in native USDC on Base with OpenAPI and `llms.txt` discovery.
 
 ---
 
