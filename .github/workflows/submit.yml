@@ -49,9 +49,32 @@ jobs:
           echo "Format: URL: https://your-service.com/api/endpoint"
           exit 1
 
+      - name: Extract example request body from PR body (optional)
+        id: extract_example
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          # Optional `Example: {json}` line -- endpoints that validate request
+          # parameters BEFORE the 402 challenge (e.g. OpenAI-compatible APIs)
+          # cannot answer an empty-body probe with 402. When present, the gate
+          # probes with this body instead of {}.
+          EXAMPLE=$(echo "$PR_BODY" | \
+            grep -oP '(?i)example\s*:\s*\K\{.*\}' | head -1)
+          echo "example=$EXAMPLE" >> "$GITHUB_OUTPUT"
+          if [ -n "$EXAMPLE" ]; then
+            echo "Extracted example request body: ${EXAMPLE:0:120}"
+          else
+            echo "No example request body -- empty-body probe will be used"
+          fi
+
       - name: Run submission check
         id: check
-        run: python scripts/submit_check.py "${{ steps.extract_url.outputs.url }}"
+        env:
+          # PR-derived values reach the shell as environment variables only --
+          # never spliced into the command line as expression text.
+          SUBMIT_URL: ${{ steps.extract_url.outputs.url }}
+          EXAMPLE_BODY: ${{ steps.extract_example.outputs.example }}
+        run: python scripts/submit_check.py "$SUBMIT_URL" "$EXAMPLE_BODY"
 
       - name: Read check result
         id: result
@@ -70,8 +93,13 @@ jobs:
       - name: Comment on PR -- pass
         if: steps.result.outputs.result == 'pass'
         uses: actions/github-script@v7
+        env:
+          SUBMIT_URL: ${{ steps.extract_url.outputs.url }}
+          CHECK_REASON: ${{ steps.result.outputs.reason }}
         with:
           script: |
+            const url = process.env.SUBMIT_URL || '';
+            const reason = process.env.CHECK_REASON || '';
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
@@ -79,8 +107,8 @@ jobs:
               body: [
                 "**Gold-402 Verification: PASSED**",
                 "",
-                "Service URL: `${{ steps.extract_url.outputs.url }}`",
-                "Result: ${{ steps.result.outputs.reason }}",
+                "Service URL: `" + url + "`",
+                "Result: " + reason,
                 "",
                 "This PR has been approved for merge. A maintainer will review and merge shortly.",
                 "",
@@ -93,8 +121,13 @@ jobs:
       - name: Comment on PR -- fail
         if: steps.result.outputs.result != 'pass'
         uses: actions/github-script@v7
+        env:
+          SUBMIT_URL: ${{ steps.extract_url.outputs.url }}
+          CHECK_REASON: ${{ steps.result.outputs.reason }}
         with:
           script: |
+            const url = process.env.SUBMIT_URL || '';
+            const reason = process.env.CHECK_REASON || '';
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
@@ -102,8 +135,8 @@ jobs:
               body: [
                 "**Gold-402 Verification: FAILED**",
                 "",
-                "Service URL: `${{ steps.extract_url.outputs.url }}`",
-                "Reason: ${{ steps.result.outputs.reason }}",
+                "Service URL: `" + url + "`",
+                "Reason: " + reason,
                 "",
                 "This PR cannot be merged until the issue is resolved.",
                 "Fix the issue and push a new commit to re-run verification.",
