@@ -136,6 +136,8 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 - **[bridgenode-llm](https://pypi.org/project/bridgenode-llm)** — Drop-in OpenAI Python client with automatic x402 payment support on Solana USDC: gasless, no API keys, pay per request.
 - **[@bridgenode/llm](https://www.npmjs.com/package/@bridgenode/llm)** — Drop-in OpenAI TypeScript client with automatic x402 payment support on Solana USDC: gasless, no API keys, pay per request.
 - **[bridgenode](https://pypi.org/project/bridgenode-cli)** — CLI for x402-paid LLM inference on Solana: chat completions + model listing with automatic USDC payment. `pip install bridgenode-cli`.
+- **[Gondola](https://gondola-ai.com)** — Pay-per-request LLM inference over x402 (OpenAI-compatible chat, images, and Anthropic messages); routes each request to the cheapest Venice AI supplier, no account required. Overpayment banks as reusable wallet credit. [OpenAPI](https://api.gondola-ai.com/openapi.json)
+- **[BlinkCodes](https://blinkcodes.com/api/v1)** — Storefront selling real-world digital goods to agents: gift card codes (Steam, Razer Gold, PSN, Apple), game top-ups, and travel eSIMs. `POST /api/v1/buy {"email":"you@example.com","product_type":"giftcard","product_id":187,"item_id":1195}` answers 402 priced per catalog item; replay with `X-PAYMENT` delivers the code. From $0.10 USDC on Base via CDP facilitator. ([llms.txt](https://blinkcodes.com/llms.txt)) ([OpenAPI](https://blinkcodes.com/openapi.json))
 
 **Last week** (Aug 3—9)
 
