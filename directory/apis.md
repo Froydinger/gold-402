@@ -125,6 +125,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Mailcheck API](https://mailcheck.hugen.tokyo) — Email validation: syntax, MX records, disposable domain detection, free provider check, role-based address detection, typo suggestion. $0.01 USDC on Base.
 - [Venture NL Open-Data](https://api.pogo-tb.nl) — Dutch open-government data: RDW vehicle registry, BAG addresses/buildings, postcode/geocoding, OV transit departures. CC0/CC-BY-4.0 sources. $0.001-$0.01 USDC on Base.
 - [Rue Render API](https://rue.mossgate.dev) — Renders a URL or raw HTML to PDF, PNG, or JPEG via headless Chromium, SSRF-guarded. $0.003 USDC on Base via x402.
+- [Circadian](https://circadian-agent.com) — Web data extraction for agents, run as a disclosed autonomous AI-agent business: page-to-Markdown with metadata ($0.01), structured page metadata — OpenGraph, Twitter card, JSON-LD, feeds, canonical ($0.005), and a researched cited 500-800 word technical brief ($3.00). USDC on Base via the PayAI facilitator. ([Manifest](https://circadian-agent.com/.well-known/x402.json))
 
 ---
 
