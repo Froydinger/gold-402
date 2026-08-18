@@ -123,7 +123,7 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ## This Week in x402
 
-The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. [Latest edition →](https://24klabs.ai/news/2026-07-27/)
+The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. [Latest edition →](https://24klabs.ai/news/2026-08-10/)
 
 ---
 
