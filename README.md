@@ -132,7 +132,8 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 
 **This week** (Aug 17—23)
 
-_No new listings yet._
+- **[fetchx402](https://api.fetchx402.com)** — Network utilities for agents: DNS, SSL, WHOIS (RDAP), HTTP headers, redirect tracing, host-intel and uptime bundles at $0.005–$0.015 USDC on Base. Example: `GET /v1/tools/dns?domain=example.com`. ([Docs](https://api.fetchx402.com/docs)) ([OpenAPI](https://api.fetchx402.com/openapi.json)) ([llms.txt](https://api.fetchx402.com/llms.txt))
+- **[TaskMarket Trust Score](https://95-217-164-43.sslip.io)** — Requester reputation scoring for TaskMarket (taskmarket.dev): given a requester wallet address, returns a 0-100 trust score from on-platform payment history (completed tasks, cancellations-after-submission, expirations, self-awards). $0.001 USDC per call on Base, self-facilitated EIP-3009 exact scheme. Example: `GET /trust/0xADDRESS`. Discovery: `GET /.well-known/x402`.
 
 **Last week** (Aug 10—16)
 
@@ -151,7 +152,6 @@ _No new listings yet._
 - **[Smart Event Scraper](https://smart-event-scraper-agent.onrender.com)** — Aggregates events from Eventbrite, Meetup, AllEvents, District, EventsEye, and ConferenceAlerts into one standardized dataset. `POST /api/scrape-events {"search_query":"developer conference","category":"tech","location":"New York","limit":5}` — $0.01-$2.00 USDC on Base, price scales with requested result volume. ([OpenAPI](https://smart-event-scraper-agent.onrender.com/openapi.json)) ([llms.txt](https://smart-event-scraper-agent.onrender.com/llms.txt))
 - **[apix402](https://api402x.com)** — Onchain governance and risk data for agents on Base: DAO proposal state and execution, Gnosis Safe owner/threshold/module drift against chain history, per-feed Chainlink and Pyth staleness, and Aave wstETH depeg exposure recomputed independently of the published health factor; 8 endpoints at $0.01-$0.05 USDC per call with a free preview on each. ([OpenAPI](https://api402x.com/openapi.json))
 - **[AgentFund US Economic, SEC & On-Chain Data](https://x402.agentfund.net/mcp)** — 21 tools over US government data and public chain state: Treasury yield curve, CPI, PCE, jobs, GDP, retail sales, housing starts, EIA energy, release calendar; SEC EDGAR insider Form 4, XBRL financials, 13F holdings, filing feeds, full-text search; EVM token balances, portfolios, cross-chain balances, Chainlink oracle prices, gas. $0.001–$0.03 USDC on Base. Each tool also has its own HTTP route; example: `POST https://x402.agentfund.net/x402/edgar_financials {"ticker":"AAPL"}`. A call that fails upstream is returned unsettled rather than billed. ([OpenAPI](https://x402.agentfund.net/openapi.json)) ([GitHub](https://github.com/ktcod/x402-json-repair-mcp))
-- **[Colombia TRM](https://x402.lagaceta.net/trm)** — Official Superintendencia Financiera daily USD/COP TRM as prepaid x402 at $0.005 USDC on Base. ([OpenAPI](https://x402.lagaceta.net/openapi.json)) ([llms.txt](https://x402.lagaceta.net/llms.txt))
 <!-- NEW-THIS-WEEK:END -->
 
 ---
