@@ -49,6 +49,24 @@ jobs:
           echo "Format: URL: https://your-service.com/api/endpoint"
           exit 1
 
+      - name: Note whether a contact was supplied (does NOT block)
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          # Deliberately non-blocking. A missing contact is a thing a maintainer
+          # asks for in a warm comment, never a red X on a stranger's first PR.
+          # Introduced 2026-08-26: we need a way to tell an operator their
+          # endpoint died instead of silently delisting them.
+          CONTACT=$(echo "$PR_BODY" | grep -oP '(?i)^\s*contact:\s*\K\S.*' | head -1)
+          if [ -z "$CONTACT" ]; then
+            echo "::notice::No 'Contact:' line found in the PR description."
+            echo "::notice::Not a failure. A maintainer may ask for one so we can"
+            echo "::notice::warn you before delisting if your endpoint stops answering."
+            echo "::notice::See CONTRIBUTING.md -> Your contact."
+          else
+            echo "::notice::Contact supplied. Kept out of the directory, per CONTRIBUTING.md -> Your contact."
+          fi
+
       - name: Extract example request body from PR body (optional)
         id: extract_example
         env:
