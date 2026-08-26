@@ -41,7 +41,6 @@ For a **service** — an API, MCP server, facilitator, or anything with a live e
 - **The description is one factual line.** No marketing language.
 - **An agent can actually reach it.** Give us the URL where the 402 lives — the endpoint itself, or a `/.well-known/x402` manifest that points at it. Not a homepage that a person has to read their way out of.
 - **A working example request**, if your endpoint needs parameters. A method and a minimal body is plenty: `POST /v1/quote  {"symbol":"BTC"}`. If a caller has to guess the shape, they can't buy from you.
-- **A contact we can reach you at.** Put it in the PR description, not in the entry — `Contact: you@example.com`. An email is easiest; an X or Telegram handle, or a link to your repo's issues, works just as well. See [Your contact](#your-contact) below for exactly what we use it for and what we never do with it.
 
 For a **library, framework, or learning/community resource** with no payable endpoint of its own: it must be publicly accessible (live URL or public repo), demonstrably x402-specific, active within roughly the last twelve months, and described in one factual line.
 
@@ -51,11 +50,19 @@ We probe every submitted endpoint before merging. Anything that fails gets a fri
 
 That's not a complaint about anyone's product. It's the single biggest thing standing between a working service and an agent that would have paid for it. So we ask for the door, and the shape of the knock.
 
-## Your contact
+## How we reach you
 
-**Why we ask.** Listings go stale. An endpoint that answered last month returns a 502 today, a domain lapses, a tunnel drops. When that happens our choice is either to quietly delist you or to tell you. We would rather tell you — most of what we find is a five-minute fix on your end, and nobody wants to lose a listing over a cert that expired while they were asleep.
+**Our default is your repo.** If something goes wrong with your listing, we open an issue on the repository your entry links to. No signup, no address to hand over, and the message lands somewhere you already look. That's the standard and it needs nothing from you.
 
-**What we use it for. This is the whole list:**
+**If you'd rather be reached somewhere else, tell us.** Add a line to the pull request description:
+
+```
+Contact: you@example.com
+```
+
+Anything you like goes there — an email, an X or Telegram handle, a Discord, a link to a different repo's issues, a contact form. Whatever actually reaches you. It's an ask, not a requirement: **no entry is ever rejected for leaving it out**, and we'll fall back to your repo.
+
+**What we'd use it for. This is the whole list:**
 
 - Your endpoint stopped answering our liveness knock, and you're about to be delisted.
 - Something in your entry is wrong and we want to fix it correctly rather than guess.
@@ -63,9 +70,9 @@ That's not a complaint about anyone's product. It's the single biggest thing sta
 
 **What we never do with it:** no newsletter, no announcements, no marketing, no "we thought you'd be interested in", no selling it, no sharing it, no passing it to anyone else for any reason. It is not a mailing list and it will never become one.
 
-**Where it lives.** In the pull request description — **not in the directory entry.** Public markdown gets scraped by address harvesters within days, and we're not going to be the reason your inbox fills up. We keep it privately and only for as long as your entry is listed. Ask us to delete it and we will, and your listing is unaffected.
+**Where it lives.** In the pull request description — **not in your directory entry.** Public markdown gets scraped by address harvesters within days, and we're not going to be the reason your inbox fills up. We keep it privately and only while your entry is listed. Ask us to delete it and we will, and your listing is unaffected.
 
-**If you'd rather not.** Give us anything that reaches you — a repo where we can open an issue is fine. If you genuinely want no contact at all, say so in the PR and we'll still review the entry on its merits; you're just accepting that a dead endpoint gets delisted without a heads-up. For a library, a tutorial, or a community resource we don't ask at all — those don't go down at 3am.
+**Where this breaks, honestly.** Two thirds of the current directory doesn't link a repo at all — a lot of entries are a bare endpoint and nothing else. For those we have no way to reach anyone, and a dead endpoint just gets delisted. That's the gap this line exists to close, one entry at a time.
 
 ## What "verified" means
 
@@ -109,13 +116,13 @@ The unit of a listing is the **service**, not the provider.
 
    Endpoints without an `Example:` line are probed with `{}` (existing behavior).
 
-6. **Add a `Contact:` line to the PR description** if you're submitting a service with a live endpoint:
+6. **Optionally, tell us how to reach you** — add a `Contact:` line to the PR description:
 
    ```
    Contact: you@example.com
    ```
 
-   Email, X handle, Telegram, or a link to your repo's issues — whatever reaches you. It stays in the PR description and out of the directory. [What we use it for](#your-contact).
+   Email, X, Telegram, a Discord, a contact form, anything. Entirely optional; leave it out and we'll open an issue on your repo instead. [What we'd use it for](#how-we-reach-you).
 
 To suggest an entry without writing the PR yourself, open an [issue](https://github.com/Haustorium12/gold-402/issues) with the name, URL, and a one-sentence description — we'll take it from there.
 
