@@ -64,7 +64,7 @@ x402-enabled MCP servers. AI agents (Claude, Cursor, any MCP client) can call th
 
 ## Code & Development
 
-- [24K Labs MCP](https://api.24klabs.ai) — 6 AI code analysis tools: explain, debug, review, security audit, automation scripts, MCP blueprints. $0.50-$50.00 USDC on Base.
+- [24K Labs MCP](https://api.24klabs.ai) — 6 AI code analysis tools: explain, debug, review, security audit, automation scripts, MCP blueprints. $0.01-$3.00 USDC on Base (live manifest, knocked 2026-08-29).
 - [Stack AI x402](https://x402.stacks-ai.app) — Platform for monetizing MCP servers. Tool calls execute inline with payment prompts.
 - [PYTHIA Oracle](https://github.com/eyloni/pythia-oracle) — Oracle MCP server. One tool (`consult_oracle`), one reading. 3 free per agent, then $0.025 USDC on Base via x402. [Smithery](https://smithery.ai/servers/dexigo/pythia)
 
