@@ -19,6 +19,11 @@ gold-402 is the other thing. Smaller on purpose. A person checked every entry, w
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/directory-dark.svg">
+  <img src="assets/sections/directory-light.svg" alt="Section: The Directory" width="680">
+</picture>
+
 ## The Directory
 
 The product. <!--COUNT:START-->506<!--COUNT:END--> entries across <!--SHELVES:START-->13<!--SHELVES:END--> shelves, in [`directory/`](directory/).
@@ -41,6 +46,11 @@ The product. <!--COUNT:START-->506<!--COUNT:END--> entries across <!--SHELVES:ST
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/verified-dark.svg">
+  <img src="assets/sections/verified-light.svg" alt="Section: What verified means here" width="680">
+</picture>
+
 ## What "verified" means here
 
 One tier: **listed = verified.** No bronze, silver, gold.
@@ -54,6 +64,11 @@ sweep re-knocks every entry on every shelf and writes a dated result. That is th
 **Some entries carry more.** Where we have paid for a service and confirmed what came back, we say so and keep the receipt — what we sent, what it cost, the transaction hash, what arrived. That's a stronger claim and we only make it about services we actually bought. Most of the list hasn't been through that yet, and we'd rather say so than imply otherwise.
 
 ---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/ecosystem-dark.svg">
+  <img src="assets/sections/ecosystem-light.svg" alt="Section: Ecosystem Data" width="680">
+</picture>
 
 ## Ecosystem Data
 
@@ -104,6 +119,11 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/featured-dark.svg">
+  <img src="assets/sections/featured-light.svg" alt="Section: Featured This Month" width="680">
+</picture>
+
 ## Featured This Month
 
 [![24K Featured](https://img.shields.io/badge/24K_Featured-2026--08-C0C0C0?style=plastic)](FEATURED.md)
@@ -130,6 +150,11 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/wire-dark.svg">
+  <img src="assets/sections/wire-light.svg" alt="Section: This Week in x402" width="680">
+</picture>
+
 ## This Week in x402
 
 The wire lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. Four editions so far; the most recent is [2026-08-10](https://24klabs.ai/news/2026-08-10/). It is not on a schedule.
@@ -137,6 +162,11 @@ The wire lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editi
 ---
 
 <!-- NEW-THIS-WEEK:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/new-dark.svg">
+  <img src="assets/sections/new-light.svg" alt="Section: New This Week" width="680">
+</picture>
+
 ## New This Week
 
 **This week** (Aug 24—30)
@@ -200,6 +230,11 @@ The wire lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editi
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/quickstart-dark.svg">
+  <img src="assets/sections/quickstart-light.svg" alt="Section: Quick Start" width="680">
+</picture>
+
 ## Quick Start
 
 > **New to x402?** Three steps to your first payment.
@@ -241,6 +276,11 @@ That's it. The middleware returns 402 with payment details, verifies the client'
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/howitworks-dark.svg">
+  <img src="assets/sections/howitworks-light.svg" alt="Section: How x402 Works" width="680">
+</picture>
+
 ## How x402 Works
 
 ```
@@ -260,6 +300,11 @@ No gas for the sender. No subscription. No API key. Payment IS authentication.
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/needmore-dark.svg">
+  <img src="assets/sections/needmore-light.svg" alt="Section: Need More?" width="680">
+</picture>
+
 ## Need More?
 
 This README is the front door. The full curated directory — every shelf, every entry — is in [`directory/`](directory/).
@@ -267,6 +312,11 @@ This README is the front door. The full curated directory — every shelf, every
 **Other lists worth knowing:** the community [awesome-x402](https://github.com/xpaysh/awesome-x402) accepts everything and is the right place for exhaustive coverage. [Glama](https://glama.ai/mcp/servers) indexes MCP servers at enormous scale and publishes its own health data, which is rarer than it should be. Different jobs. Use all three.
 
 ---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/contributing-dark.svg">
+  <img src="assets/sections/contributing-light.svg" alt="Section: Contributing" width="680">
+</picture>
 
 ## Contributing
 
