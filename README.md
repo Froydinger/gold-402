@@ -1,6 +1,6 @@
 # gold-402
 
-> The gold standard for x402 resources. **459 curated entries** — every one checked by hand before it was listed. No filler. No dead links.
+> The gold standard for x402 resources. **506 curated entries** — every one answered a live HTTP 402 before it was listed, and we knock the whole shelf again every night. No filler.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
@@ -14,7 +14,7 @@ gold-402 is the other thing. Smaller on purpose. A person checked every entry, w
 
 ## The Directory
 
-The product. 459 entries across 13 shelves, in [`directory/`](directory/).
+The product. 506 entries across 13 shelves, in [`directory/`](directory/).
 
 | Shelf | What's on it |
 |---|---|
@@ -38,7 +38,9 @@ The product. 459 entries across 13 shelves, in [`directory/`](directory/).
 
 One tier: **listed = verified.** No bronze, silver, gold.
 
-If an entry is on the list, a maintainer confirmed the endpoint was live and answered an x402 request correctly at review, and we re-check periodically. That is the whole claim.
+If an entry is on the list, its endpoint answered an x402 request correctly at review — checked
+by an automated gate on the submission, confirmed by a maintainer before the merge — and a nightly
+sweep re-knocks every entry on every shelf and writes a dated result. That is the whole claim.
 
 **It is not** an audit of the provider, a guarantee of uptime, or a promise any given call will succeed.
 
