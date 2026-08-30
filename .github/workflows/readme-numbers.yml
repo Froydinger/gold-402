@@ -1,0 +1,61 @@
+# Keeps the README's entry count equal to the shelf.
+#
+# WHY: on 2026-08-30 the headline said "459 curated entries" against 506 on the shelves.
+# Forty-seven out, on the first sentence a stranger reads. Nobody lied -- the number was
+# typed by hand once and every merge after that made it a little more wrong.
+#
+# WHAT IT OWNS: only what sits between the fence markers in README.md. Human prose is
+# never touched. See the header of scripts/readme_numbers.py for the full contract,
+# including the part this deliberately does NOT do (police the CLAIMS -- no cron would
+# have caught "No dead links", and that still needs a human read after every merge).
+#
+# FAILS CLOSED and files its own ticket. A wrong number written confidently by a machine
+# is worse than a stale one, because nobody re-checks a bot -- which is exactly how the
+# 24K Vault's monthly audit filed a passing report every month for four months while
+# checking nothing.
+name: README Numbers
+
+on:
+  push:
+    branches: [main]
+    paths: ['directory/**']     # a merge changed the shelf; the number follows it
+  schedule:
+    - cron: '45 9 * * *'        # daily backstop, 15 min after weekly-additions
+  workflow_dispatch:
+
+concurrency:
+  group: readme-numbers         # never two of these racing on the same file
+  cancel-in-progress: false
+
+permissions:
+  contents: write               # to write the count back into README.md
+  issues: write                 # to file its own ticket when it refuses to write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Recount the shelves and update the README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/readme_numbers.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "no change"
+          else
+            git config user.name "readme-numbers"
+            git config user.email "actions@github.com"
+            git add README.md
+            git commit -m "readme-numbers: entry count recounted from the shelves"
+            git push
+          fi
