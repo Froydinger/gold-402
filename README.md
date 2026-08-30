@@ -174,6 +174,7 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 - **[Citable](https://citable.run)** — SEO and AI-visibility data on 17 paid GET routes: keyword research, on-page audits, AI-citation checks across ChatGPT, Claude, Gemini and Perplexity, plus rank, SERP, domain and backlink data; $0.005–$0.30 USDC on Solana mainnet, no account or API key, and any 4xx/5xx cancels the payment instead of settling it.
 - **[Israel Company Verify](https://israel-counterparty-intelligence.vercel.app/v1/verify/mainnet)** — Verifies Israeli companies against structured public-registry data and returns evidence for $0.05 USDC per POST request on Base mainnet via x402 v2 and PayAI, with no account or API key. Example: `POST /v1/verify/mainnet {"company_number":"520036120","language":"en","depth":"basic"}`. ([OpenAPI](https://israel-counterparty-intelligence.vercel.app/openapi.json)) ([Manifest](https://israel-counterparty-intelligence.vercel.app/.well-known/x402)) ([llms.txt](https://israel-counterparty-intelligence.vercel.app/llms.txt))
 - **[SchemaLock](https://doc-extract-api.thestarboy9696-4ef.workers.dev)**
+- **[402Signal](https://402signal.com/route)** — Fail-closed live-endpoint x402 router. POST /route returns a currently-alive x402 URL or an honest miss. $0.01 USDC on Base, Solana, and Algorand. Example: POST {"need":"weather"}. ([OpenAPI](https://402signal.com/openapi.json)) ([MCP](https://402signal.com/mcp.json)) ([Manifest](https://402signal.com/.well-known/x402.json))
 
 **Last week** (Aug 17—23)
 
