@@ -1,15 +1,38 @@
 name: Submission Gate
 
+# WHY pull_request_target AND NOT pull_request  (fixed 2026-08-30)
+# --------------------------------------------------------------
+# Every submission we get is from a FORK. A `pull_request` event from a fork is
+# issued a READ-ONLY GITHUB_TOKEN no matter what `permissions:` below says. So the
+# final steps -- the verdict comment, the label -- could never succeed. This gate ran
+# 21 times and failed 21 times, always AFTER passing the endpoint, purely on the
+# comment write. No operator ever received the automated verdict; every warm comment
+# on this door was posted by hand, which is what hid the failure for four months.
+#
+# THE SAFETY PROPERTY THAT MAKES THIS SAFE -- DO NOT BREAK IT:
+#   This job NEVER checks out or executes code from the pull request.
+#   `actions/checkout` below is pinned to `ref: main`, and `scripts/submit_check.py`
+#   therefore always runs the version on main, never the submitter's version.
+#   PR-derived values (body, extracted URL, example body) reach the shell ONLY as
+#   environment variables -- never spliced into `run:` as expression text.
+#
+# IF YOU ARE ABOUT TO ADD `ref: ${{ github.event.pull_request.head.sha }}` OR ANY
+# OTHER CHECKOUT OF SUBMITTED CODE: STOP. That combination hands a write-scoped
+# token to a stranger's code. Split the job in two (untrusted job -> artifact ->
+# privileged `workflow_run` job) instead.
+
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
     paths:
       - 'directory/**'
       - 'README.md'
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read          # we only read main; nothing here writes to the repo
+  pull-requests: write    # update PR state / labels
+  issues: write           # PR comments go through the issues endpoint -- this is
+                          # the permission whose absence broke the gate
 
 jobs:
   validate:
@@ -168,17 +191,28 @@ jobs:
               ].join('\n')
             })
 
-      - name: Auto-close failing PRs
+      # DELIBERATELY NOT AUTO-CLOSING (2026-08-30).
+      # This step existed but had never once run -- the fail-comment step ahead of it
+      # died on the same permission bug, so the auto-close never fired in four months.
+      # Fixing the permission would have switched it on silently, and slamming a
+      # stranger's PR shut contradicts the door doctrine: a hold gets a warm comment
+      # and a route back in. A closed PR is not a route back in -- pushing a fix to a
+      # closed PR does not reopen it. So: label it, leave it open, let a hand look.
+      - name: Label failing PRs for a human look
         if: steps.result.outputs.result != 'pass'
         uses: actions/github-script@v7
         with:
           script: |
-            github.rest.pulls.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              state: 'closed'
-            })
+            try {
+              await github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['needs-work']
+              })
+            } catch(e) {
+              console.log('Label not found, skipping:', e.message)
+            }
 
       - name: Label passing PRs
         if: steps.result.outputs.result == 'pass'
@@ -186,7 +220,7 @@ jobs:
         with:
           script: |
             try {
-              github.rest.issues.addLabels({
+              await github.rest.issues.addLabels({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
