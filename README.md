@@ -1,6 +1,6 @@
 # gold-402
 
-> The gold standard for x402 resources. **<!--COUNT:START-->506<!--COUNT:END--> curated entries** — every one answered a live HTTP 402 before it was listed, and we knock the whole shelf again every night. No filler.
+> The gold standard for x402 resources. **<!--COUNT:START-->506<!--COUNT:END--> curated entries** — paid endpoints probed for a live 402 before listing, libraries and repos checked for real activity, and the whole shelf re-knocked every night with the result dated. No filler.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
@@ -125,7 +125,7 @@ _All figures above are ours and reproducible. Where we could not reach something
 
 ## This Week in x402
 
-The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. [Latest edition →](https://24klabs.ai/news/2026-08-10/)
+The wire lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editions with permanent links, every claim cited. Four editions so far; the most recent is [2026-08-10](https://24klabs.ai/news/2026-08-10/). It is not on a schedule.
 
 ---
 
@@ -209,14 +209,14 @@ The weekly wire now lives at **[24klabs.ai/news](https://24klabs.ai/news)** — 
 
 ```bash
 # TypeScript
-npm install @coinbase/x402-express
+npm install x402-express        # or the core package: @coinbase/x402
 
 # Python
 pip install x402
-
-# Rust
-cargo add x402
 ```
+
+_Checked 2026-08-30. There is no published `x402` crate on crates.io; if you are on Rust,
+call the HTTP flow directly — it is four steps and they are below._
 
 **3. Add payment middleware**
 
@@ -239,7 +239,8 @@ That's it. The middleware returns 402 with payment details, verifies the client'
 ```
 1. Client  →  GET /api/data                              (initial request)
 2. Server  ←  402 Payment Required                       (payment details in header)
-               X-Payment-Required: {amount, address, network}
+               payment-required: <base64 challenge>       (v2; v1 used X-Payment-Required
+                                                           and put the detail in the body)
 3. Client  →  EIP-3009 gasless USDC transfer             (client signs + submits)
 4. Client  →  GET /api/data  +  X-Payment: {signed tx}  (retry with payment)
 5. Facilitator  →  verify + settle on-chain              (~2 seconds)
@@ -256,7 +257,7 @@ No gas for the sender. No subscription. No API key. Payment IS authentication.
 
 This README is the front door. The full curated directory — every shelf, every entry — is in [`directory/`](directory/).
 
-**Other lists worth knowing:** the community [awesome-x402](https://github.com/x402-foundation/awesome-x402) accepts everything and is the right place for exhaustive coverage. [Glama](https://glama.ai/mcp/servers) indexes MCP servers at enormous scale and publishes its own health data, which is rarer than it should be. Different jobs. Use all three.
+**Other lists worth knowing:** the community [awesome-x402](https://github.com/xpaysh/awesome-x402) accepts everything and is the right place for exhaustive coverage. [Glama](https://glama.ai/mcp/servers) indexes MCP servers at enormous scale and publishes its own health data, which is rarer than it should be. Different jobs. Use all three.
 
 ---
 
