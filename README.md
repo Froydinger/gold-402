@@ -162,11 +162,6 @@ The wire lives at **[24klabs.ai/news](https://24klabs.ai/news)** — dated editi
 ---
 
 <!-- NEW-THIS-WEEK:START -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/new-dark.svg">
-  <img src="assets/sections/new-light.svg" alt="Section: New This Week" width="680">
-</picture>
-
 ## New This Week
 
 **This week** (Aug 24—30)
